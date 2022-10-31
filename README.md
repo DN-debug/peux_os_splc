@@ -15,4 +15,4 @@ If anyone would like to contribute to make it better, lets say from user-interfa
 Personal use or use in your own project as you want, but please make sure to give credit links to this repo.
 
 ## Licensing
-MIT
+![MIT](https://github.com/DN-debug/peux_os_splc/blob/main/LICENSE)
