@@ -9,6 +9,8 @@ Each layout is identified using the layout image. All you have to do is to click
 ## Where to go from here?
 Since the beginning of its release, this has always been marked as "Experimental". To be honest, this is not experimental from functionality perspective, because it does what it is meant for. Rather, it is experimental from user-interface perspective. 
 
+The action plan is to make its user-interface a bit more attractive. I have yet to think on that part.
+
 ## Contribution
 If anyone would like to contribute to make it better, lets say from user-interface perspective, then that'd be most welcomed, so feel free to drop in suggestions, queries, PRs.
 
