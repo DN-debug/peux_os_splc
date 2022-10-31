@@ -1,6 +1,8 @@
 # Simple Plasma Layout Changer [SPLC]
 SPLC was originally called Peux Plasma Layout Changer and is actively used in Peux OS KDE since version 21.03. The layout changer is very simple and its GUI is designed using FIGMA. 
 
+![splc](https://github.com/DN-debug/peux_os_splc/blob/main/splc.png)
+
 ## How it works?
 Each layout is identified using the layout image. All you have to do is to click on any specific image, and the backend script will trigger the changes automatically. The backend scripts are simple "bash" scripts and very easy to understand.
 
