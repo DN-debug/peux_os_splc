@@ -1,0 +1,61 @@
+#!/bin/bash
+
+#######################################################
+#                                                     #
+# Author: DN-debug                                    #
+# Description : Individual Theme script file - Modern #
+#                                                     #
+#######################################################
+
+# enable the global theme
+
+    plasma-apply-lookandfeel -a Simply-Circles-Cyan-Dark &
+    sleep 1
+
+# apply wallpaper and enable color
+    plasma-apply-wallpaperimage /usr/share/backgrounds/lukas-anomalyedit.jpg
+    plasma-apply-colorscheme ReversalDark &
+
+# enable icons
+    /usr/lib/plasma-changeicons "Rose-Pine-Moon"
+    sleep 2
+
+# enable kvantum theme
+    sleep 1
+    kvantummanager --set Reversal-dark &
+
+# let user select cursor type
+
+    notify-send "Select the cursor theme manually" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_cursortheme
+
+    # apply cursor theme uniformly
+    uniform_cursor
+
+# let user select GTK style
+    notify-send "Select 'Simply_Circles_Cyan_Dark_Envolved' from Configure GNOME/GTK Application Style" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_style
+
+# change the sddm theme
+
+    notify-send "Select the sddm theme manually" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_sddm
+
+# restart kde
+
+    kquitapp5 plasmashell && kstart5 plasmashell
+
+
+# enable latte and plasma theme:
+
+    killall latte-dock
+
+    sleep 2
+
+    latte-dock --layout Peux-Float &
+    plasma-apply-desktoptheme Simply-Circles-Colors &
+
+
+
+
+notify-send "Note: You might need to either re-apply the layout or logout/login if the themeing appears to be a bit off." -t 10000 -a "Peux OS Layout Changer".

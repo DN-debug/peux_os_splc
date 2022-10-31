@@ -1,0 +1,70 @@
+#!/bin/bash
+
+#######################################################
+#                                                     #
+# Author: DN-debug                                    #
+# Description : Individual Theme script file - Win11  #
+#                                                     #
+#######################################################
+
+# enable the global theme
+
+    plasma-apply-lookandfeel -a com.github.yeyushengfan258.Win11OS-dark &
+
+    sleep 1
+
+# enable colors
+
+    plasma-apply-colorscheme "Willow Dark Blur" &
+
+# apply wallpaper
+
+    plasma-apply-wallpaperimage /usr/share/backgrounds/win11.jpg
+
+# enable icons
+
+    /usr/lib/plasma-changeicons Win11-dark
+    sleep 2
+
+# let user select cursor type
+
+    notify-send "Select the cursor theme manually" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_cursortheme
+
+    # apply cursor theme uniformly
+    uniform_cursor
+
+# let user select GTK style
+    notify-send "Select 'Windows-10-Dark' from Configure GNOME/GTK Application Style" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_style
+
+# change the sddm theme
+
+    notify-send "Select the sddm theme manually" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_sddm
+
+# enable latte : will kill the dock now and after shell restart load it again
+
+    killall latte-dock
+
+    sleep 2
+
+
+# enable kvantum theme
+
+    sleep 1
+    kvantummanager --set Win11OS-dark &
+
+# restart kde
+
+    kquitapp5 plasmashell && kstart5 plasmashell
+
+    latte-dock --layout Win11OS &
+
+    sleep 2
+
+    plasma-apply-wallpaperimage /usr/share/backgrounds/win11.jpg
+
+
+
+notify-send "Note: You might need to either re-apply the layout or logout/login if the themeing appears to be a bit off." -t 10000 -a "Peux OS Layout Changer".

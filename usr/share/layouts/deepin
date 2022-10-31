@@ -1,0 +1,68 @@
+#!/bin/bash
+
+#######################################################
+#                                                     #
+# Author: DN-debug                                    #
+# Description : Individual Theme script file - Deepin #
+#                                                     #
+#######################################################
+
+# enable the global theme
+
+    plasma-apply-lookandfeel -a com.github.yeyushengfan258.DeepinV20-dark &
+
+    sleep 1
+
+# enable colors and desktop theme
+
+    plasma-apply-colorscheme "ReversalDark" &
+    plasma-apply-desktoptheme DeepinV20-dark &
+
+# enable cursor
+    plasma-apply-wallpaperimage /usr/share/backgrounds/deepin.jpg
+    plasma-apply-cursortheme DeppinDark-cursors &
+
+# enable icons
+
+    /usr/lib/plasma-changeicons "Uos-fulldistro-icons-Dark"
+
+    sleep 2
+
+# let user select cursor type
+
+    notify-send "Select the cursor theme manually" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_cursortheme
+
+    # apply cursor theme uniformly
+    uniform_cursor
+
+# let user select GTK style
+    notify-send "Select 'Deepin' from Configure GNOME/GTK Application Style" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_style
+
+# change the sddm theme
+
+    notify-send "Select the sddm theme manually" -t 10000 -a "Peux Layout Changer" &
+    kcmshell5 kcm_sddm
+
+# enable kvantum theme
+
+    sleep 1
+    kvantummanager --set DeepinV20-dark &
+
+
+# restart kde
+
+    kquitapp5 plasmashell && kstart5 plasmashell
+
+
+# enable latte :
+
+    killall latte-dock
+
+    sleep 2
+
+    latte-dock --layout DeepinV20-floating &
+
+
+notify-send "Note: You might need to either re-apply the layout or logout/login if the themeing appears to be a bit off." -t 10000 -a "Peux OS Layout Changer".

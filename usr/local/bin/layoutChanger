@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# =================================================================
+# Author: DN-debug                       
+# Description: Plasma Layout Changer (Experimental)
+# License: GPLv3 
+# =================================================================
+
+#launch the app
+
+zenity --info --width=400 --height=100 --text "Peux OS - Layout Changer : Click on the desired image to change the layout!"
+
+python3 /usr/share/layouts/build/gui.py
