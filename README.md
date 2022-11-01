@@ -6,6 +6,17 @@ SPLC was originally called Peux Plasma Layout Changer and is actively used in Pe
 ## How it works?
 Each layout is identified using the layout image. All you have to do is to click on any specific image, and the backend script will trigger the changes automatically. The backend scripts are simple "bash" scripts and very easy to understand.
 
+## How to install?
+Copy and paste the below code in your favorite terminal:
+
+```
+ git clone https://github.com/DN-debug/peux_os_splc.git splc
+ cd splc
+ sudo ./install.sh
+```
+
+The installation script will install latte-dock, move the necessary files and make the scripts executable. It is a simple-and-pretty-easy-to-understand script.
+
 ## Where to go from here?
 Since the beginning of its release, this has always been marked as "Experimental". To be honest, this is not experimental from functionality perspective, because it does what it is meant for. Rather, it is experimental from user-interface perspective. 
 
