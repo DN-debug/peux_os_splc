@@ -25,7 +25,9 @@ The action plan is to make its user-interface a bit more attractive. I have yet 
 ## Contribution
 If anyone would like to contribute to make it better, lets say from user-interface perspective, then that'd be most welcomed, so feel free to drop in suggestions, queries, PRs.
 
-Personal use or use in your own project as you want, but please make sure to give credit links to this repo.
+## Note
+This program comes with absolutely no warranty.
+This is free software, and you are welcome to redistribute and/or modify it as per the licensing conditions.
 
 ## Licensing
 ![MIT](https://github.com/DN-debug/peux_os_splc/blob/main/LICENSE)
