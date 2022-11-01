@@ -1,9 +1,12 @@
 #!/bin/bash
 # Run this script using sudo
 
+# Install latte dock
+pacman -S latte-dock
 
 # Move the files
-cp -r /usr/* /usr/
+cp -r .config/* ~/.config/
+cp -r usr/* /usr/
 
 # Make the scripts executable
 chmod +x /usr/local/bin/layoutChanger
@@ -15,3 +18,5 @@ chmod +x /usr/share/layouts/win11
 chmod +x /usr/share/layouts/chrome
 chmod +x /usr/share/layouts/unity
 chmod +x /usr/sbin/uniform_cursor
+
+Exit
