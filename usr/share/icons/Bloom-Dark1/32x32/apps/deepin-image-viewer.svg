@@ -1,0 +1,73 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-image-viewer-a" x="-28.1%" y="-13.3%" width="140.6%" height="140%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-image-viewer-b" x1="12.593" x2="12.593" y2="25.185" gradientTransform="scale(1.0746 .93062)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#D6D9ED" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-image-viewer-d" x1="10.23" x2="10.23" y1="20.417" y2=".45003" gradientTransform="scale(1.2065 .82886)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4B7BCF" offset="0"/>
+<stop stop-color="#3A2EC8" offset="1"/>
+</linearGradient>
+<rect id="deepin-image-viewer-c" x=".061" y=".048" width="24.563" height="16.875" rx="2"/>
+<linearGradient id="deepin-image-viewer-f" x1="8.021" x2="6.5738" y1="12.134" y2="17.751" gradientTransform="scale(1.332 .75074)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#40E2E8" offset="0"/>
+<stop stop-color="#2A7ECA" offset=".47667"/>
+<stop stop-color="#332075" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-image-viewer-g" x1="12.825" x2="12.825" y1="11.277" y2="24.6" gradientTransform="scale(1.3195 .75787)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#67CEFF" stop-opacity=".8" offset="0"/>
+<stop stop-color="#00CDFF" offset="1"/>
+</linearGradient>
+<filter id="deepin-image-viewer-h" x="-35.3%" y="-35.3%" width="164.7%" height="164.7%">
+<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0924666824   0 0 0 0 0.218528561   0 0 0 0 0.62647192  0 0 0 0.302474869 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<circle id="deepin-image-viewer-i" cx="6.255" cy="6.25" r="6.25"/>
+<radialGradient id="deepin-image-viewer-u" cx="8.125" cy="8.188" r="6.9634" gradientTransform="translate(.5 14.063)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01001F" stop-opacity=".036" offset="0"/>
+<stop stop-color="#000636" stop-opacity=".219" offset=".81152"/>
+<stop stop-color="#01003C" stop-opacity=".688" offset="1"/>
+</radialGradient>
+<circle id="deepin-image-viewer-t" cx="8.125" cy="8.188" r="6.25"/>
+<filter id="deepin-image-viewer-s" x="-36%" y="-36%" width="172%" height="172%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.279134909   0 0 0 0 0.446591113   0 0 0 0 1  0 0 0 1 0"/>
+</filter>
+<radialGradient id="deepin-image-viewer-v" cx="5.512" cy="10.577" r="6.6449" gradientTransform="scale(1.0523 .95033)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C0A8FF" stop-opacity=".515" offset=".00037"/>
+<stop stop-color="#B385FF" stop-opacity="0" offset="1"/>
+</radialGradient>
+<mask id="deepin-image-viewer-e" fill="#fff">
+<use width="100%" height="100%" xlink:href="#deepin-image-viewer-c"/>
+</mask>
+</defs>
+<g fill-rule="evenodd">
+<rect transform="rotate(-8 45.117 3.15)" width="27.063" height="23.438" rx="3" fill="url(#deepin-image-viewer-b)" filter="url(#deepin-image-viewer-a)"/>
+<use transform="rotate(-8 53.117 -5.9527)" width="100%" height="100%" fill="url(#deepin-image-viewer-d)" filter="url(#deepin-image-viewer-a)" xlink:href="#deepin-image-viewer-c"/>
+<circle transform="rotate(-8 53.117 -5.9527)" cx="20.831" cy="3.553" r="1.5" fill="#fff5d0" filter="url(#deepin-image-viewer-a)" mask="url(#deepin-image-viewer-e)"/>
+<path transform="rotate(-8 53.117 -5.9527)" d="m-0.62565 17.316 9.7757-11.998c0.87195-1.0702 2.2891-1.066 3.1576 0l9.7757 11.998z" fill="url(#deepin-image-viewer-f)" filter="url(#deepin-image-viewer-a)" mask="url(#deepin-image-viewer-e)"/>
+<path transform="rotate(-8 53.117 -5.9527)" d="m6.944 18.644 8.4301-10.652c0.85502-1.0804 2.2419-1.0797 3.0963 0l8.4301 10.652z" fill="url(#deepin-image-viewer-g)" fill-opacity=".65" filter="url(#deepin-image-viewer-a)" mask="url(#deepin-image-viewer-e)" style="mix-blend-mode:soft-light"/>
+<circle cx="8.625" cy="22.126" r="7.938" fill="#fff" filter="url(#deepin-image-viewer-h)"/>
+<use transform="translate(2.375,16.001)" width="100%" height="100%" fill="#ffffff" fill-opacity=".188" filter="url(#deepin-image-viewer-h)" xlink:href="#deepin-image-viewer-i"/>
+<use transform="translate(.5 14.063)" width="100%" height="100%" fill="#000000" filter="url(#deepin-image-viewer-s)" xlink:href="#deepin-image-viewer-t"/>
+<circle cx="8.625" cy="22.251" r="5.75" fill="url(#deepin-image-viewer-u)" filter="url(#deepin-image-viewer-h)" stroke="#000" stroke-linejoin="square" stroke-opacity=".3"/>
+<path transform="rotate(168 8.041 14.035)" d="m4.8231 2.7914c-0.065142-0.10928-0.01968 0.033992-0.09041 0.13923-1.5655 2.3293-0.97111 5.412 1.2332 7.1408 2.2043 1.7288 5.354 1.4306 7.2424-0.60505-1.1417-0.32557-2.2135-0.79671-3.2056-1.3909-2.1233-1.2716-3.8816-3.1067-5.1796-5.2841z" fill="url(#deepin-image-viewer-v)" filter="url(#deepin-image-viewer-h)" style="mix-blend-mode:lighten"/>
+</g>
+</svg>

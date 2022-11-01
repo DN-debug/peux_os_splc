@@ -1,0 +1,17 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="application-x-dgn-b" d="m4.0085 15c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059h-7.9829z"/>
+  <filter id="application-x-dgn-a" x="-16.7%" y="-7.1%" width="133.3%" height="128.6%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.262745098   0 0 0 0 0.71372549   0 0 0 0 0.607843137  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-deepinclone-dim-c" x1="6.4807" x2="6.4807" y2="12.961" gradientTransform="matrix(.92582 0 0 1.0801 2 1)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#327DFF" offset="0"/>
+   <stop stop-color="#1066FF" offset="1"/>
+  </linearGradient>
+ </defs>
+ <use width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#application-x-dgn-a)" xlink:href="#application-x-dgn-b"/>
+ <path d="m2 13v-10c0-1.1046 0.89543-2 2-2h8c1.1046 0 2 0.89543 2 2v10c0 1.1046-0.89543 2-2 2h-8c-1.1046 0-2-0.89543-2-2z" fill="url(#application-x-deepinclone-dim-c)" fill-rule="evenodd"/>
+ <path d="m6 8h-1v1h-2v1h2v1h1v2h1v-2h1v-1h4v-1h-4v-1h-1v-4h-1zm0 1h1v1h-1z" fill="#fff" fill-rule="evenodd"/>
+</svg>

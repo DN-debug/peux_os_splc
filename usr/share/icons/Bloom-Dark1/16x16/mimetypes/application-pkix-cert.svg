@@ -1,0 +1,21 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-vnd.nokia.xml.qt.resource-c" x1="8.641" x2="8.641" y1=".92582" y2="13.693" gradientTransform="scale(.92582 1.0801)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#7FCB10" offset="0"/>
+   <stop stop-color="#50A100" offset="1"/>
+  </linearGradient>
+  <path id="application-vnd.nokia.xml.qt.resource-b" d="m4.0085 15c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059h-7.9829z"/>
+  <filter id="application-vnd.nokia.xml.qt.resource-a" x="-16.7%" y="-7.1%" width="133.3%" height="128.6%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.46370117   0 0 0 0 0.679376132   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+ </defs>
+ <use width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#application-vnd.nokia.xml.qt.resource-a)" xlink:href="#application-vnd.nokia.xml.qt.resource-b"/>
+ <use width="100%" height="100%" fill="url(#application-vnd.nokia.xml.qt.resource-c)" fill-rule="evenodd" xlink:href="#application-vnd.nokia.xml.qt.resource-b"/>
+ <g transform="translate(0 1.0001)" fill="#fff">
+  <path d="m6.5 8.75v3l1.5-1 1.5 1v-3h-0.17969a2 2 0 0 1-1.3203 0.5 2 2 0 0 1-1.3223-0.5z"/>
+  <path d="m7.9492 4.25a3 3 0 0 0-2.9492 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-0.050781 0zm0.00195 1a2 2 0 0 1 0.048831 0 2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 1.9512-2z"/>
+  <circle cx="8" cy="7.25" r="1.5"/>
+ </g>
+</svg>

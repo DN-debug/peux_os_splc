@@ -1,0 +1,35 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="application-x-cd-image-a" x="-.219" y="-.125" width="1.438" height="1.35">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.505882353   0 0 0 0 0.741176471   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-cd-image-c" x1="8.9443" x2="8.9443" y2="17.889" gradientTransform="scale(.89443 1.118)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#B7EE43" offset="0"/>
+   <stop stop-color="#6AD500" offset="1"/>
+  </linearGradient>
+  <filter id="application-x-cd-image-d" x="-.364" y="-.177" width="1.727" height="1.709">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="linearGradient953" x1="13.419" x2="11.418" y1="2.785" y2="4.9302" gradientTransform="scale(.98742 1.0127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(4,2)" fill-rule="evenodd">
+  <path d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c0-1.2426 1.0074-2.25 2.25-2.25z" filter="url(#application-x-cd-image-a)"/>
+  <path d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c0-1.2426 1.0074-2.25 2.25-2.25z" fill="url(#application-x-cd-image-c)"/>
+  <path d="m10.5 0 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25z" filter="url(#application-x-cd-image-d)"/>
+  <path d="m10.5 0 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25z" fill="url(#linearGradient953)"/>
+ </g>
+ <g transform="translate(6,7)" fill="none" fill-rule="evenodd" stroke="#fff">
+  <polygon points="6 0.5 9 0.5 12 3.818 6 11.571 0 3.818 3 0.5"/>
+  <path d="m0.5 3.5h11"/>
+  <polyline points="3 3.5 6 11 9 3.5"/>
+  <polyline points="3 4 6 0.5 9 4" stroke-linejoin="round"/>
+ </g>
+</svg>

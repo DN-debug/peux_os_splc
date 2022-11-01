@@ -1,0 +1,30 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="image-gif-a" x="-.155" y="-.106" width="1.31" height="1.25">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.262745098   0 0 0 0 0.71372549   0 0 0 0 0.607843137  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="image-gif-c" x1="23.367" x2="23.367" y2="46.733" gradientTransform="matrix(.89872 0 0 1.1127 11 7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#28DCB1" offset="0"/>
+   <stop stop-color="#00AF9D" offset="1"/>
+  </linearGradient>
+  <filter id="image-gif-d" x="-.269" y="-.192" width="1.538" height="1.538">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="image-gif-f" x1="35.5" x2="30.364" y1="6.5" y2="11.855" gradientTransform="translate(11,7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g fill-rule="evenodd">
+  <path d="m40 7 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c0-2.4853 2.0147-4.5 4.5-4.5z" filter="url(#image-gif-a)"/>
+  <path d="m40 7 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c0-2.4853 2.0147-4.5 4.5-4.5z" fill="url(#image-gif-c)"/>
+  <path d="m40 7 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5z" filter="url(#image-gif-d)"/>
+  <path d="m40 7 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5z" fill="url(#image-gif-f)"/>
+ </g>
+ <path d="m38.05 44h-13.3s0.69725-0.81068 1.3026-1.6869c1.7339-2.5096 2.3808-5.1794 2.111-7.922-0.21259-2.1607-0.97837-4.2533-2.1203-6.2166-0.47404-0.81501-0.98179-1.5526-1.4902-2.2007 0 0.026185 15.947 0.026185 15.947 0.026185 0.27614 0 0.5-0.22386 0.5-0.5s-0.22386-0.5-0.5-0.5h-17c-0.4393 0-0.66507 0.52588-0.3625 0.84438 0.02814 0.02962 0.08516 0.09217 0.16692 0.18603 0.1388 0.15932 0.29414 0.34674 0.46189 0.5606 0.48119 0.61345 0.96302 1.3134 1.4126 2.0863 1.075 1.8482 1.7924 3.8088 1.9895 5.8118 0.24718 2.5123-0.34241 4.9454-1.9385 7.2556-0.3682 0.53292-0.78906 1.0574-1.2642 1.5728-0.0729-0.1859-0.25391-0.31754-0.46566-0.31754h-3c-0.27614 0-0.5 0.22386-0.5 0.5v3c0 0.27614 0.22386 0.5 0.5 0.5h3c0.27614 0 0.5-0.22386 0.5-0.5v-1.5h14.05c0.23164 1.1411 1.2405 2 2.45 2 1.3807 0 2.5-1.1193 2.5-2.5s-1.1193-2.5-2.5-2.5c-1.2095 0-2.2184 0.85888-2.45 2zm2.45 2c-0.82843 0-1.5-0.67157-1.5-1.5s0.67157-1.5 1.5-1.5 1.5 0.67157 1.5 1.5-0.67157 1.5-1.5 1.5zm-17.5 0h-2v-2h2z" fill="#fff" fill-rule="evenodd"/>
+</svg>

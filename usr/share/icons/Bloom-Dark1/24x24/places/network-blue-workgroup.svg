@@ -1,0 +1,40 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="network-workgroup-a" x="-11.4%" y="-13.9%" width="122.7%" height="127.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="network-workgroup-c" x1="9.9499" x2="9.9499" y1="-3.5349e-14" y2="7.5555" gradientTransform="scale(1.1055 .90453)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<path id="network-workgroup-b" d="m13 1c0.30643 0.61287 0.93283 1 1.618 1h4.7964c1.428 0 2.5856 1.1576 2.5856 2.5856v10.829c0 1.428-1.1576 2.5856-2.5856 2.5856h-16.829c-1.428 0-2.5856-1.1576-2.5856-2.5856v-12.829c-1.7488e-16 -1.428 1.1576-2.5856 2.5856-2.5856h8.7964c0.68521 5.9781e-16 1.3116 0.38713 1.618 1z"/>
+<radialGradient id="radialGradient888" cx="8.4558" cy=".89436" r="19.907" gradientTransform="matrix(1.3009 0 0 .76871 1 7.313)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<filter id="filter1010" x="-.0588" y="-.147" width="1.1176" height="1.294" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.49"/>
+</filter>
+<linearGradient id="linearGradient968" x1="-13" x2="-13" y1="16" y2="17" gradientTransform="translate(0,-6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+</defs>
+<use transform="translate(1,3)" width="100%" height="100%" fill="url(#network-workgroup-c)" fill-rule="evenodd" filter="url(#network-workgroup-a)" xlink:href="#network-workgroup-b"/>
+<g transform="translate(26.004 -4)" fill-rule="evenodd">
+<rect x="-24" y="10" width="20" height="8" rx="1.6573" ry="1.6573" fill-opacity=".2" filter="url(#filter1010)" style="paint-order:stroke fill markers"/>
+<rect x="-24" y="10" width="20" height="8" rx="1.6573" ry="1.6573" fill="url(#linearGradient968)" style="paint-order:stroke fill markers"/>
+<path d="m-22.342 10c-0.91812 0-1.6582 0.74008-1.6582 1.6582v1c0-0.91812 0.74008-1.6582 1.6582-1.6582h16.684c0.91812 0 1.6582 0.74008 1.6582 1.6582v-1c0-0.91812-0.74008-1.6582-1.6582-1.6582z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m1 8.0005h22v10.414c0 1.428-1.1576 2.5856-2.5856 2.5856h-16.829c-1.428 0-2.5856-1.1576-2.5856-2.5856z" fill="url(#radialGradient888)" fill-rule="evenodd" filter="url(#network-workgroup-a)"/>
+<path d="m12 16.5c2.4853 0 4.5-0.89543 4.5-2 0-1.1046-2.0147-2-4.5-2-2.4853 0-4.5 0.89543-4.5 2 0 1.1046 2.0147 2 4.5 2z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m13.565 15.299c1.4132-2.1642 1.858-4.2763 0.99346-4.7176-0.86449-0.4413-2.7109 0.95535-4.1241 3.1195-1.4132 2.1642-1.858 4.2763-0.99346 4.7176 0.86449 0.4413 2.7109-0.95535 4.1241-3.1195z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m13.565 13.701c1.4132 2.1642 1.858 4.2763 0.99346 4.7176-0.86449 0.4413-2.7109-0.95535-4.1241-3.1195-1.4132-2.1642-1.858-4.2763-0.99346-4.7176 0.86449-0.4413 2.7109 0.95535 4.1241 3.1195z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

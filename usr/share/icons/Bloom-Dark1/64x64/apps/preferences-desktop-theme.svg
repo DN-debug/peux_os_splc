@@ -1,0 +1,35 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-13.8%" y="-15.4%" width="127.6%" height="130.8%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-show-desktop-b" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g transform="translate(3 6)" fill="none" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)">
+<rect width="58" height="52" rx="6" fill="url(#deepin-show-desktop-b)"/>
+<g transform="translate(3 8)">
+<rect y="33" width="52" height="8" rx="3" fill="#A4FFCC" opacity=".7"/>
+<rect x="4" width="8" height="8" rx="1" fill="#FFF"/>
+<rect x="4" y="14" width="8" height="8" rx="1" fill="#FFF"/>
+</g>
+</g>
+<path d="m26 20v10.668c0 0.738 0.668 1.332 1.5 1.332h21c0.832 0 1.5-0.594 1.5-1.332v-10.668z" fill="#fff" filter="url(#a)"/>
+<path d="m27.5 16h21c0.832 0 1.5 0.594 1.5 1.334v2.666h-24v-2.667c0-0.738 0.669-1.333 1.5-1.333z" fill="#4f4f4f" filter="url(#a)" opacity=".75"/>
+</svg>

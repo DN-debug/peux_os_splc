@@ -1,0 +1,30 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="x-media-podcast-a" x="-.155" y="-.106" width="1.31" height="1.25">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-c" x1="23.367" x2="23.367" y2="46.733" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="x-media-podcast-d" x="-.269" y="-.192" width="1.538" height="1.538">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-f" x1="35.5" x2="30.364" y1="6.5" y2="11.855" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(11,7)" fill-rule="evenodd">
+  <path d="m29 0 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c0-2.4853 2.0147-4.5 4.5-4.5z" filter="url(#x-media-podcast-a)"/>
+  <path d="m29 0 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c0-2.4853 2.0147-4.5 4.5-4.5z" fill="url(#x-media-podcast-c)"/>
+  <path d="m29 0 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5z" filter="url(#x-media-podcast-d)"/>
+  <path d="m29 0 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5z" fill="url(#x-media-podcast-f)"/>
+ </g>
+ <polygon points="23 38 42 38 42 24 23 24 23 23 22 23 22 47 23 47" fill="#fff" fill-rule="evenodd"/>
+</svg>

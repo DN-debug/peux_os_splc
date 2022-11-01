@@ -1,0 +1,30 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter882" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.84"/>
+</filter>
+<linearGradient id="linearGradient847" x1="32.858" x2="32.257" y1="56.699" y2="7.7791" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46a926" offset="0"/>
+<stop stop-color="#7ec242" offset="1"/>
+</linearGradient>
+<filter id="a-3" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g stroke-width="1.4011">
+<circle cx="32" cy="32" r="28" fill="#ccc" filter="url(#filter882)"/>
+<circle cx="32" cy="32" r="28" fill="#fff"/>
+<circle cx="32" cy="32" r="24" fill="url(#linearGradient847)"/>
+</g>
+<g transform="matrix(.11607 0 0 .11538 9.7143 8)" enable-background="new" fill="#92b372">
+<path d="m80 104v144c0 35.157 28.843 64 64 64h96c35.157 0 64-28.843 64-64v-80c0-26.32-21.68-48-48-48-12.296 0-23.467 4.8602-32 12.586-8.5332-7.7257-19.704-12.586-32-12.586-26.32 0-48 21.68-48 48v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80c0 17.863-14.137 32-32 32h-96c-17.863 0-32-14.137-32-32v-144z" color="#000000" color-rendering="auto" dominant-baseline="auto" enable-background="accumulate" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</g>
+<g transform="translate(-2.8 -1.2)">
+<circle cx="48" cy="46" r="16" fill="#2196f3" filter="url(#a-3)"/>
+<path d="m45.928 38-0.176 2.107a6.286 6.286 0 0 0-1.838 1.063l-1.914-0.902-2 3.464 1.738 1.207a6.286 6.286 0 0 0-0.095 1.061 6.286 6.286 0 0 0 0.091 1.064l-1.734 1.206 2 3.462 1.91-0.898a6.286 6.286 0 0 0 1.842 1.055l0.176 2.111h4l0.177-2.105a6.286 6.286 0 0 0 1.836-1.065l1.916 0.902 2-3.462-1.74-1.209a6.286 6.286 0 0 0 0.098-1.061 6.286 6.286 0 0 0-0.092-1.064l1.734-1.204-2-3.462-1.912 0.898a6.286 6.286 0 0 0-1.84-1.055l-0.175-2.113h-4zm2.072 5a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3z" fill="#fff" filter="url(#a-3)"/>
+</g>
+</svg>

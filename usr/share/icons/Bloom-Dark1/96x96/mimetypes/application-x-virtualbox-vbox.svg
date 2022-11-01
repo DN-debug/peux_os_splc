@@ -1,0 +1,32 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="x-office-document-c" x1="35.327" x2="35.327" y2="70.091" gradientTransform="scale(.90582 1.104)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#616BFF" offset="0"/>
+   <stop stop-color="#5369CF" offset="1"/>
+  </linearGradient>
+  <path id="x-office-document-b" d="m42 0 22 22v47c0 4.9706-4.0294 9-9 9h-46c-4.9706 0-9-4.0294-9-9v-60c-6.0872e-16 -4.9706 4.0294-9 9-9l33-3.5527e-15z"/>
+  <filter id="x-office-document-a" x="-15.6%" y="-10.3%" width="131.2%" height="125.6%">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0156862745   0 0 0 0 0.0662056081   0 0 0 0 0.898039216  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-office-document-f" x1="53" x2="44.528" y1="11" y2="19.51" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="x-office-document-e" d="m42 0 22 22h-13c-4.9706 0-9-4.0294-9-9v-13z"/>
+  <filter id="x-office-document-d" x="-25%" y="-15.9%" width="150%" height="150%">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <g transform="translate(16,10)" fill-rule="evenodd">
+  <use width="100%" height="100%" fill="#000000" filter="url(#x-office-document-a)" xlink:href="#x-office-document-b"/>
+  <use width="100%" height="100%" fill="url(#x-office-document-c)" xlink:href="#x-office-document-b"/>
+  <use width="100%" height="100%" fill="#000000" filter="url(#x-office-document-d)" xlink:href="#x-office-document-e"/>
+  <use width="100%" height="100%" fill="url(#x-office-document-f)" xlink:href="#x-office-document-e"/>
+ </g>
+ <path d="m46 36-10 32-6.156-20h-13.844v6h10.124l9.876 28 10-32 6 20 8-22 6 22h14v-6h-10l-10-26-8 16z" fill="#fff" stroke-width="2"/>
+</svg>

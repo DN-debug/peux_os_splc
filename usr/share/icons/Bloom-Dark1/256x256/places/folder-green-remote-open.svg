@@ -1,0 +1,51 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="folder-remote-256px-j" x1="112.92" x2="112.92" y1="146.18" y2="231" gradientTransform="scale(1.1435 .87447)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="folder-remote-256px-i" d="m121.38 188.44c3.1549-3.1907 8.2698-3.2728 11.377-0.13059 3.0561 3.0908 2.9774 8.1072-0.12912 11.249-3.1549 3.1907-8.2698 3.2728-11.377 0.13059-3.0561-3.0908-2.9774-8.1072 0.12912-11.249zm5.4424-64.441c18.576 0 36.158 6.7 50.138 18.726 1.2561 1.0805 1.3984 2.9747 0.31786 4.2307-1.0805 1.2561-2.9747 1.3984-4.2307 0.31786-12.905-11.101-29.105-17.274-46.225-17.274-16.964 0-33.025 6.0599-45.876 16.976-1.2628 1.0726-3.156 0.9185-4.2286-0.34428-1.0726-1.2628-0.9185-3.156 0.34428-4.2286 13.922-11.826 31.355-18.403 49.761-18.403zm-0.065699 20c14.298 0 27.845 5.266 38.7 14.74 1.2483 1.0895 1.3771 2.9846 0.2876 4.2329s-2.9846 1.3771-4.2329 0.28759c-9.7806-8.5361-21.933-13.26-34.755-13.26-12.613 0-24.581 4.5713-34.285 12.855-1.2601 1.0757-3.1537 0.92624-4.2295-0.33391-1.0757-1.2601-0.92624-3.1537 0.33391-4.2295 10.772-9.1954 24.114-14.292 38.181-14.292zm0.15541 20c9.1505 0 17.853 3.0678 24.979 8.6361 1.3055 1.0202 1.5369 2.9055 0.5167 4.2111-1.0202 1.3055-2.9055 1.5369-4.2111 0.5167-6.0828-4.7532-13.489-7.3639-21.285-7.3639-7.7226 0-15.063 2.5616-21.115 7.2325-1.3117 1.0123-3.1956 0.76958-4.2079-0.54209-1.0123-1.3117-0.76958-3.1956 0.54209-4.2079 7.0908-5.4724 15.717-8.4825 24.781-8.4825z"/>
+<filter id="folder-remote-256px-h" x="-12.7%" y="-14.1%" width="125.5%" height="133.3%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="linearGradient884" x1="103.23" x2="103.23" y1="-3.0562e-14" y2="78.387" gradientTransform="matrix(1.0753 0 0 .92998 19 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-open-256px-a-7" x="-.122" y="-.141" width="1.243" height="1.281">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter934" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.5625"/>
+</filter>
+<linearGradient id="linearGradient916" x1="-105" x2="-105" y1="174" y2="242" gradientTransform="translate(-96,-96)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient888" cx="72.993" cy="0" r="172.65" gradientTransform="matrix(1.5207 0 0 .6576 19 141)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+</defs>
+<g transform="translate(-2)" fill-rule="evenodd">
+<path d="m143 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#linearGradient884)" filter="url(#folder-open-256px-a-7)"/>
+<g transform="translate(336)">
+<rect x="-307" y="79" width="202" height="83" rx="17.995" ry="17.995" fill-opacity=".2" filter="url(#filter934)" style="paint-order:stroke fill markers"/>
+<rect x="-307" y="77" width="202" height="83" rx="17.995" ry="17.995" fill="url(#linearGradient916)" style="paint-order:stroke fill markers"/>
+<path d="m-289 77c-9.9694 0-17.996 8.0267-17.996 17.996v2c0-9.9694 8.0267-17.996 17.996-17.996h166.01c9.9694 0 17.996 8.0267 17.996 17.996v-2c0-9.9694-8.0267-17.996-17.996-17.996z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m19 141h222v68c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28z" fill="url(#radialGradient888)" filter="url(#folder-open-256px-a-7)"/>
+</g>
+<path d="m121.38 188.44c3.1549-3.1907 8.2698-3.2728 11.377-0.13058 3.0561 3.0908 2.9774 8.1072-0.12912 11.249-3.1549 3.1907-8.2698 3.2728-11.377 0.13058-3.0561-3.0908-2.9774-8.1072 0.12912-11.249zm5.4424-64.441c18.576 0 36.158 6.7 50.138 18.726 1.256 1.0805 1.3984 2.9747 0.31786 4.2307-1.0805 1.256-2.9747 1.3984-4.2307 0.31786-12.905-11.101-29.105-17.274-46.225-17.274-16.964 0-33.025 6.0599-45.876 16.976-1.2628 1.0726-3.156 0.9185-4.2286-0.34428s-0.9185-3.156 0.34428-4.2286c13.922-11.826 31.355-18.403 49.761-18.403zm-0.0657 20c14.298 0 27.845 5.266 38.7 14.74 1.2483 1.0895 1.3771 2.9846 0.2876 4.2329s-2.9846 1.3771-4.2329 0.2876c-9.7806-8.5361-21.933-13.26-34.755-13.26-12.613 0-24.581 4.5713-34.285 12.855-1.2601 1.0757-3.1537 0.92624-4.2295-0.33391-1.0757-1.2601-0.92624-3.1537 0.33391-4.2295 10.772-9.1954 24.114-14.292 38.181-14.292zm0.15541 20c9.1505 0 17.853 3.0678 24.979 8.6361 1.3055 1.0202 1.5369 2.9055 0.5167 4.2111-1.0202 1.3055-2.9055 1.5369-4.2111 0.5167-6.0828-4.7532-13.489-7.3639-21.285-7.3639-7.7226 0-15.063 2.5616-21.115 7.2324-1.3117 1.0123-3.1956 0.76958-4.2079-0.54208-1.0123-1.3117-0.76957-3.1956 0.54209-4.2079 7.0908-5.4724 15.717-8.4825 24.781-8.4825z" fill="#32a2fb" fill-opacity=".5" fill-rule="evenodd"/>
+<use width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-remote-256px-h)" xlink:href="#folder-remote-256px-i"/>
+<use width="100%" height="100%" fill="url(#folder-remote-256px-j)" fill-rule="evenodd" xlink:href="#folder-remote-256px-i"/>
+</svg>

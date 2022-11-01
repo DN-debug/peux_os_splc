@@ -1,0 +1,52 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="network-server-128px-l" x1="22.917" x2="22.917" y1="2.1595" y2="44" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="network-server-128px-k" d="m4.4161 14.79c-0.91278 2.2234-1.4161 4.658-1.4161 7.2101 0 2.242 0.38844 4.3934 1.1017 6.3905 0.74072-2.3014 1.7865-4.6766 3.1927-7.0334-0.30046-0.52561-0.47222-1.1341-0.47222-1.7825 0-0.4712 0.090706-0.92135 0.2556-1.3339-0.99467-1.1273-1.8805-2.2851-2.6616-3.4507zm1.3483-2.6637c0.85491 1.4161 1.8784 2.8376 3.0779 4.2136 0.47676-0.23331 1.0126-0.36429 1.5788-0.36429 0.25259 0 0.49912 0.026064 0.73706 0.075647 1.9802-2.2517 4.2677-4.2729 6.8795-6.0295-0.023484-0.16599-0.035631-0.3356-0.035631-0.50804 0-0.43986 0.079039-0.86136 0.22368-1.2511-1.6179-1.2555-3.2708-2.3094-4.8977-3.1721-3.1229 1.605-5.7435 4.0497-7.5636 7.0357zm10.635-8.2871c1.1942 0.72669 2.3889 1.5482 3.5648 2.4688 0.49106-0.25135 1.0473-0.39317 1.6365-0.39317 0.8866 0 1.6987 0.32113 2.3261 0.85334 1.8151-0.81309 3.7478-1.5254 5.8015-2.1299-2.3612-1.0528-4.9767-1.6381-7.7287-1.6381-1.9492 0-3.8299 0.29361-5.6003 0.83901zm16.472 2.5777c-2.7919 0.67182-5.3579 1.5375-7.709 2.5803 0.024291 0.16873 0.036862 0.34124 0.036862 0.51666 0 0.51041-0.10643 0.99612-0.29829 1.4361 0.5886 0.66268 1.1633 1.3565 1.7209 2.0822 2.6441 3.4411 4.651 7.3054 5.91 11.607 1.2784 0.17116 2.345 1.0143 2.8326 2.162 1.6555-0.11943 3.3652-0.34324 5.1302-0.67636 0.019269-0.0036366 0.038516-0.0068073 0.05773-0.0095199 0.2926-1.325 0.44686-2.7018 0.44686-4.1147 0-6.4492-3.2142-12.149-8.1278-15.583zm6.8282 22.503c-1.4537 0.23695-2.8737 0.40247-4.2601 0.49902-0.29081 0.81176-0.86512 1.4889-1.6034 1.912 0.17989 1.7271 0.25303 3.5131 0.21405 5.3588 2.4924-2.0472 4.4547-4.7163 5.6495-7.7699zm-8.3477 9.6225c0.15194-2.3818 0.11211-4.6568-0.10729-6.828-0.53857-0.12331-1.0312-0.36756-1.4478-0.70262-0.077288 0.047807-0.15514 0.096178-0.23353 0.14511-2.3381 1.4594-4.6759 3.1116-6.8526 4.9195-1.7697 1.4699-3.3498 2.9758-4.6977 4.5052 1.2854 0.27447 2.6189 0.41892 3.9861 0.41892 3.4 0 6.5915-0.89332 9.3527-2.458zm-16.086 1.23c1.6079-1.9617 3.5554-3.868 5.7728-5.7096 2.1356-1.7738 4.4094-3.3969 6.6915-4.8448-5.1289-0.66227-9.7064-2.3927-13.748-5.0224-0.68617-0.44648-1.3452-0.91017-1.9776-1.3885-0.47805 0.23489-1.0157 0.36682-1.584 0.36682-0.37869 0-0.74377-0.058584-1.0867-0.16718-1.7658 3.0561-2.8864 6.1337-3.4972 8.9862 2.1863 3.5286 5.4959 6.2882 9.4291 7.7796zm28.734-17.772c0 12.149-9.8508 22-22 22-12.149 0-22-9.8508-22-22 0-12.149 9.8508-22 22-22 12.149 0 22 9.8508 22 22zm-15.222 4.7075c0.26808-0.58428 0.68805-1.0846 1.2093-1.4502-1.1701-3.9469-3.0181-7.4861-5.4441-10.643-0.48251-0.62795-0.97904-1.2305-1.4871-1.808-0.44501 0.19713-0.93737 0.30666-1.4552 0.30666-0.88392 0-1.6937-0.31918-2.3204-0.84851-2.2385 1.5349-4.2126 3.2791-5.9387 5.208 0.42671 0.59158 0.6782 1.3178 0.6782 2.1024 0 0.46422-0.088036 0.908-0.24831 1.3155 0.50674 0.37546 1.0315 0.74066 1.5746 1.094 3.9143 2.547 8.3771 4.1836 13.432 4.7234z"/>
+<filter id="network-server-128px-j" x="-29.5%" y="-25%" width="159.1%" height="159.1%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="linearGradient903" x1="51.614" x2="51.614" y1="-3.0562e-14" y2="39.194" gradientTransform="matrix(1.0753 0 0 .92998 9 22)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-128px-a" x="-.144" y="-.167" width="1.288" height="1.333">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter1016" x="-.03398" y="-.081714" width="1.068" height="1.1634" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.43"/>
+</filter>
+<linearGradient id="linearGradient964" x1="-70" x2="-70" y1="96.088" y2="103" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient907" cx="45.008" cy="0" r="105.85" gradientTransform="matrix(1.2331 0 0 .81096 9 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+</defs>
+<g fill-rule="evenodd">
+<path d="m71 28c1.5139 3.6333 5.0639 6 9 6h26c7.732 0 14 6.268 14 14v56c0 7.732-6.268 14-14 14h-83c-7.732 0-14-6.268-14-14v-68c0-7.732 6.268-14 14-14h39c3.9361 0 7.4861 2.3667 9 6z" fill="url(#linearGradient903)" filter="url(#folder-128px-a)"/>
+<g transform="translate(138,-58)">
+<rect x="-124" y="96" width="101" height="42" rx="9" ry="9" fill-opacity=".2" filter="url(#filter1016)" style="paint-order:stroke fill markers"/>
+<rect x="-124" y="96" width="101" height="42" rx="9" ry="9" fill="url(#linearGradient964)" style="paint-order:stroke fill markers"/>
+<path d="m-115 96c-4.986 0-9 4.014-9 9v1c0-4.986 4.014-9 9-9h83c4.986 0 9 4.014 9 9v-1c0-4.986-4.014-9-9-9z" opacity=".615" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m9 45h111v59c0 7.732-6.268 14-14 14h-83c-7.732 0-14-6.268-14-14z" fill="url(#radialGradient907)" filter="url(#folder-128px-a)"/>
+</g>
+<g transform="translate(42,59)" fill-rule="evenodd">
+<use width="100%" height="100%" fill="#000000" filter="url(#network-server-128px-j)" xlink:href="#network-server-128px-k"/>
+<use width="100%" height="100%" fill="url(#network-server-128px-l)" xlink:href="#network-server-128px-k"/>
+</g>
+</svg>

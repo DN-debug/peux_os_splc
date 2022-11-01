@@ -1,0 +1,50 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-remote-512px-a" x="-12.2%" y="-14.1%" width="124.3%" height="128.1%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-remote-512px-b" x1="206.46" x2="206.46" y1="-3.0562e-14" y2="156.77" gradientTransform="matrix(1.0753 0 0 .92998 34 90)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ba5638" offset="0"/>
+<stop stop-color="#870b3d" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-remote-512px-g" cx="180.03" cy="0" r="423.4" gradientTransform="matrix(1.2331 0 0 .81096 34 182)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ff774d" offset="0"/>
+<stop stop-color="#ba0e55" offset="1"/>
+</radialGradient>
+<linearGradient id="folder-remote-512px-j" x1="225.83" x2="225.83" y1="290.07" y2="459.7" gradientTransform="scale(1.1435 .87447)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="folder-remote-512px-i" d="m242.75 374.88c6.3098-6.3814 16.54-6.5457 22.754-0.26118 6.1122 6.1816 5.9547 16.214-0.25824 22.498-6.3098 6.3814-16.54 6.5457-22.754 0.26118-6.1122-6.1816-5.9547-16.214 0.25824-22.498zm10.885-128.88c37.151 0 72.317 13.4 100.28 37.451 2.5121 2.161 2.7967 5.9493 0.63571 8.4614s-5.9493 2.7967-8.4614 0.63571c-25.81-22.202-58.209-34.549-92.45-34.549-33.927 0-66.05 12.12-91.753 33.952-2.5256 2.1453-6.312 1.837-8.4573-0.68856-2.1453-2.5256-1.837-6.312 0.68856-8.4573 27.844-23.652 62.71-36.807 99.521-36.807zm-0.1314 40c28.597 0 55.69 10.532 77.4 29.48 2.4966 2.1789 2.7541 5.9692 0.57519 8.4658-2.1789 2.4966-5.9692 2.7541-8.4658 0.57519-19.561-17.072-43.866-26.52-69.509-26.52-25.227 0-49.163 9.1427-68.57 25.71-2.5203 2.1515-6.3075 1.8525-8.459-0.66782-2.1515-2.5203-1.8525-6.3075 0.66782-8.459 21.544-18.391 48.227-28.583 76.361-28.583zm0.31082 40c18.301 0 35.706 6.1355 49.958 17.272 2.6111 2.0403 3.0737 5.811 1.0334 8.4221s-5.811 3.0737-8.4221 1.0334c-12.166-9.5064-26.977-14.728-42.569-14.728-15.445 0-30.126 5.1231-42.231 14.465-2.6233 2.0246-6.3912 1.5392-8.4157-1.0842s-1.5392-6.3912 1.0842-8.4157c14.182-10.945 31.433-16.965 49.562-16.965z"/>
+<filter id="folder-remote-512px-h" x="-12.7%" y="-14.1%" width="125.5%" height="133.3%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<filter id="filter992" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="7.125"/>
+</filter>
+<linearGradient id="linearGradient966" x1="-260" x2="-260" y1="372" y2="392" gradientTransform="translate(532,-212)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#fff8a3" offset="1"/>
+</linearGradient>
+<filter id="filter920" x="-.02455" y="-.032103" width="1.0491" height="1.0642" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="2.0867271"/>
+</filter>
+</defs>
+<path d="m282 113c6.0723 13.966 19.851 23 35.08 23h104.92c30.928 0 56 25.072 56 56v226c0 30.928-25.072 56-56 56h-332c-30.928 0-56-25.072-56-56v-272c0-30.928 25.072-56 56-56h156.92c15.229 0 29.008 9.0338 35.08 23z" fill="url(#folder-remote-512px-b)" fill-rule="evenodd" filter="url(#folder-remote-512px-a)"/>
+<rect x="54" y="156" width="404" height="166" rx="36" ry="36" fill-opacity=".2" fill-rule="evenodd" filter="url(#filter992)" style="paint-order:stroke fill markers"/>
+<rect x="54" y="154" width="404" height="166" rx="36" ry="36" fill="url(#linearGradient966)" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+<path d="m90 154c-19.944 0-36 16.056-36 36v4c0-19.944 16.056-36 36-36h332c19.944 0 36 16.056 36 36v-4c0-19.944-16.056-36-36-36z" fill-rule="evenodd" opacity=".5" style="paint-order:stroke fill markers"/>
+<path d="m34 182h444v236c0 30.928-25.072 56-56 56h-332c-30.928 0-56-25.072-56-56z" fill="url(#folder-remote-512px-g)" fill-rule="evenodd" filter="url(#folder-remote-512px-a)"/>
+<path d="m242.75 378.88c6.3098-6.3814 16.54-6.5457 22.754-0.26118 6.1122 6.1816 5.9547 16.214-0.25824 22.498-6.3098 6.3814-16.54 6.5457-22.754 0.26118-6.1122-6.1816-5.9547-16.214 0.25824-22.498zm10.885-128.88c37.151 0 72.317 13.4 100.28 37.451 2.5121 2.161 2.7967 5.9493 0.63571 8.4614-2.161 2.5121-5.9493 2.7967-8.4614 0.63571-25.81-22.202-58.209-34.549-92.45-34.549-33.927 0-66.05 12.12-91.753 33.952-2.5256 2.1453-6.312 1.837-8.4573-0.68856s-1.837-6.312 0.68856-8.4573c27.844-23.652 62.71-36.807 99.521-36.807zm-0.1314 40c28.597 0 55.69 10.532 77.4 29.48 2.4966 2.1789 2.7541 5.9692 0.57519 8.4658s-5.9692 2.7541-8.4658 0.57519c-19.561-17.072-43.866-26.52-69.509-26.52-25.227 0-49.163 9.1427-68.57 25.71-2.5203 2.1515-6.3075 1.8525-8.459-0.66782-2.1515-2.5203-1.8525-6.3075 0.66782-8.459 21.544-18.391 48.227-28.583 76.361-28.583zm0.31082 40c18.301 0 35.706 6.1355 49.958 17.272 2.6111 2.0403 3.0737 5.811 1.0334 8.4221s-5.811 3.0737-8.4221 1.0334c-12.166-9.5064-26.977-14.728-42.569-14.728-15.445 0-30.126 5.1232-42.231 14.465-2.6233 2.0246-6.3912 1.5392-8.4157-1.0842-2.0246-2.6233-1.5392-6.3912 1.0842-8.4157 14.182-10.945 31.433-16.965 49.562-16.965z" fill="#32a2fb" fill-opacity=".5" fill-rule="evenodd" filter="url(#filter920)" opacity=".5"/>
+<use width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-remote-512px-h)" xlink:href="#folder-remote-512px-i"/>
+<use width="100%" height="100%" fill="url(#folder-remote-512px-j)" fill-rule="evenodd" xlink:href="#folder-remote-512px-i"/>
+</svg>

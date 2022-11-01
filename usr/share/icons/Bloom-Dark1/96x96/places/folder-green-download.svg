@@ -1,0 +1,60 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<circle id="folder-downloads-k" cx="19" cy="19" r="19"/>
+<linearGradient id="linearGradient919" x1="38.151" x2="38.151" y1="-2.959e-14" y2="28.97" gradientTransform="matrix(1.0747 0 0 .93051 7 18)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-96px-a" x="-.146" y="-.169" width="1.293" height="1.338">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter973" x="-.034054" y="-.08129" width="1.0681" height="1.1626" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.05"/>
+</filter>
+<linearGradient id="linearGradient955" x1="-85" x2="-85" y1="73.782" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient923" cx="33.268" cy="0" r="78.239" gradientTransform="matrix(1.2324 0 0 .81142 7 35.01)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+<filter id="folder-downloads-j-7" x="-.132" y="-.105" width="1.263" height="1.263">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-downloads-l-0" x1="19" x2="19" y2="38" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-downloads-m-9" x1="21.016" x2="21.016" y1="7.2326" y2="28.43" gradientTransform="matrix(.90408 0 0 1.1061 29 42)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF3D3D" offset="0"/>
+<stop stop-color="#E3FF00" offset=".19361"/>
+<stop stop-color="#7fcb10" offset=".48269"/>
+<stop stop-color="#00b160" offset="1"/>
+</linearGradient>
+</defs>
+<g fill-rule="evenodd">
+<path d="m53 22.5c1.2162 2.7365 3.9299 4.5 6.9244 4.5h18.733c5.7119 0 10.342 4.6304 10.342 10.342v41.315c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342v-50.315c0-5.7119 4.6304-10.342 10.342-10.342h28.733c2.9946 0 5.7082 1.7635 6.9244 4.5z" fill="url(#linearGradient919)" filter="url(#folder-96px-a)"/>
+<g transform="translate(134,-44)">
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill-opacity=".2" filter="url(#filter973)" style="paint-order:stroke fill markers"/>
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill="url(#linearGradient955)" style="paint-order:stroke fill markers"/>
+<path d="m-116.38 74c-3.6658 0-6.6172 2.9514-6.6172 6.6172v1c0-3.6658 2.9514-6.6172 6.6172-6.6172h60.766c3.6658 0 6.6172 2.9514 6.6172 6.6172v-1c0-3.6658-2.9514-6.6172-6.6172-6.6172z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m7 35.01h82v43.647c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342z" fill="url(#radialGradient923)" filter="url(#folder-96px-a)"/>
+</g>
+<g transform="translate(9.2e-5,4.6e-5)">
+<use transform="translate(29,42)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-downloads-j-7)" xlink:href="#folder-downloads-k"/>
+<use transform="translate(29,42)" width="100%" height="100%" fill="url(#folder-downloads-l-0)" fill-rule="evenodd" xlink:href="#folder-downloads-k"/>
+<path d="m53 51c0 0.55228-0.45364 1-0.83333 1h-8.3333c-0.3797 0-0.83333-0.44772-0.83333-1s0.45364-1 0.83333-1h8.3333c0.3797 0 0.83333 0.44772 0.83333 1zm-10 3.8v-0.6c0-0.6 0.55556-1.2 1.1111-1.2h7.7778c0.55556 0 1.1111 0.6 1.1111 1.2v0.6c0 0.6-0.55556 1.2-1.1111 1.2h-7.7778c-0.55556 0-1.1111-0.6-1.1111-1.2zm0.25516 5.2742v-0.95958c0-0.55733 0.54296-1.1147 1.0859-1.1147h7.6004c0.54296 0 1.0859 0.55733 1.0859 1.1147v0.95958c1e-6 1.6624 1.3448 3.0045 3.0038 3.0045h-0.03499c1.6634 0 2.0832 0.97422 0.94766 2.176l-6.8878 7.2893c-1.1372 1.2035-2.9767 1.2018-4.1122 0l-6.8878-7.2893c-1.1372-1.2035-0.71326-2.176 0.94322-2.176h0.2565c1.6574 0 2.9993-1.3451 2.9993-3.0045z" fill="#fff" fill-rule="evenodd"/>
+<path d="m53 51c0 0.55228-0.45364 1-0.83333 1h-8.3333c-0.3797 0-0.83333-0.44772-0.83333-1s0.45364-1 0.83333-1h8.3333c0.3797 0 0.83333 0.44772 0.83333 1zm-1 0c0-0.0068-6e-3 0 0.16667 0h-8.3333c0.1727 0 0.16667-0.0068 0.16667 0s6e-3 0-0.16667 0h8.3333c-0.1727 0-0.16667 0.006789-0.16667 0zm-9 3.8v-0.6c0-0.6 0.55556-1.2 1.1111-1.2h7.7778c0.55556 0 1.1111 0.6 1.1111 1.2v0.6c0 0.6-0.55556 1.2-1.1111 1.2h-7.7778c-0.55556 0-1.1111-0.6-1.1111-1.2zm1 0c0 0.06417 0.12576 0.2 0.11111 0.2h7.7778c-0.01465 0 0.11111-0.13583 0.11111-0.2v-0.6c0-0.06417-0.12576-0.2-0.11111-0.2h-7.7778c0.014654 0-0.11111 0.13583-0.11111 0.2zm-0.74484 5.2742v-0.95958c0-0.55733 0.54296-1.1147 1.0859-1.1147h7.6004c0.54296 0 1.0859 0.55733 1.0859 1.1147v0.95958c1e-6 1.6624 1.3448 3.0045 3.0038 3.0045h-0.03499c1.6634 0 2.0832 0.97422 0.94766 2.176l-6.8878 7.2893c-1.1372 1.2035-2.9767 1.2018-4.1122 0l-6.8878-7.2893c-1.1372-1.2035-0.71326-2.176 0.94322-2.176h0.2565c1.6574 0 2.9993-1.3451 2.9993-3.0045zm12.741 4.0045c-0.01541 0-0.03065-2.67e-4 -0.04571-7.96e-4 -2.1749-0.04292-3.9231-1.8169-3.9231-4.0037v-0.95958c4e-6 -0.01081-0.10117-0.11467-0.08592-0.11467h-7.6004c0.01526 0-0.08592 0.10386-0.08592 0.11467v0.95958c0 2.2115-1.7895 4.0045-3.9993 4.0045h-0.2565c-0.78172 0-0.74926-0.07477-0.21638 0.48918l6.8878 7.2893c0.74162 0.78485 1.9166 0.78519 2.6585 0l6.8878-7.2893c0.52097-0.55135 0.56369-0.49222-0.16915-0.48928-0.0055 7e-5 -0.01109 1.05e-4 -0.01667 1.05e-4 -0.0042 0-0.0085-7e-6 -0.01273-2e-5 -0.0073 1.3e-5 -0.01477 2e-5 -0.02226 2e-5z" fill="url(#folder-downloads-m-9)"/>
+</g>
+</svg>

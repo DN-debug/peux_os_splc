@@ -1,0 +1,10 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<title>软件包安装器-16px</title>
+<g fill-rule="evenodd">
+<path d="m3 14v-12h10v12z" fill="#d70751"/>
+<path d="m2 6h12v9h-12z" fill="#d0dfed"/>
+<path d="m1.5 6h13l1.5 4h-16z" fill="#cdddea"/>
+<path d="m2 6h12l1 3h-14z" fill="#fff"/>
+<path d="m8 6.575-2-2.637 2 0.52 2-0.52zm-1.2-4 1.2 0.253 1.2-0.253v0.4l-1.2 0.272-1.2-0.272zm0 0.8 1.2 0.253 1.2-0.253v0.4l-1.2 0.272-1.2-0.272z" fill="#fff"/>
+</g>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="folder-music-256px-j" x1="51.042" x2="51.042" y1="4.8098" y2="98" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="folder-music-256px-i" d="m49 98c-27.062 0-49-21.938-49-49s21.938-49 49-49 49 21.938 49 49-21.938 49-49 49zm0-17c17.673 0 32-14.327 32-32s-14.327-32-32-32-32 14.327-32 32 14.327 32 32 32z"/>
+<filter id="folder-music-256px-h" x="-13.3%" y="-11.2%" width="126.5%" height="126.5%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-music-256px-k" x1="41.031" x2="31.511" y1="21" y2="77" gradientTransform="translate(79,110)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#28851e" offset="0"/>
+<stop stop-color="#00b160" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient884" x1="103.23" x2="103.23" y1="-3.0562e-14" y2="78.387" gradientTransform="matrix(1.0753 0 0 .92998 17 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-256px-a" x="-.122" y="-.141" width="1.243" height="1.281">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter934" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.5625"/>
+</filter>
+<linearGradient id="linearGradient916" x1="-105" x2="-105" y1="174" y2="187" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient888" cx="90.017" cy="0" r="211.7" gradientTransform="matrix(1.2331 0 0 .81096 17 91)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+</defs>
+<g fill-rule="evenodd">
+<path d="m141 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#linearGradient884)" filter="url(#folder-256px-a)"/>
+<g transform="translate(238,-96)">
+<rect x="-211" y="175" width="202" height="83" rx="17.995" ry="17.995" fill-opacity=".2" filter="url(#filter934)" style="paint-order:stroke fill markers"/>
+<rect x="-211" y="173" width="202" height="83" rx="17.995" ry="17.995" fill="url(#linearGradient916)" style="paint-order:stroke fill markers"/>
+<path d="m-193 173c-9.9694 0-17.996 8.0267-17.996 17.996v2c0-9.9694 8.0267-17.996 17.996-17.996h166.01c9.9694 0 17.996 8.0267 17.996 17.996v-2c0-9.9694-8.0267-17.996-17.996-17.996z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m17 91h222v118c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28z" fill="url(#radialGradient888)" filter="url(#folder-256px-a)"/>
+</g>
+<use transform="translate(79,110)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-music-256px-h)" xlink:href="#folder-music-256px-i"/>
+<use transform="translate(79,110)" width="100%" height="100%" fill="url(#folder-music-256px-j)" fill-rule="evenodd" xlink:href="#folder-music-256px-i"/>
+<circle cx="128" cy="159" r="43.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="46.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="37.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="40.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="34.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="31.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="28.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="25.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="22.5" fill="none" stroke="#0070dd" stroke-opacity=".15"/>
+<circle cx="128" cy="159" r="28" fill="url(#folder-music-256px-k)" fill-rule="evenodd"/>
+<path d="m138 163v-13.43c0-0.72751-0.58977-1.3173-1.3173-1.3173-0.0767 0-0.15334 7e-3 -0.22892 0.02l-14.365 2.5351c-0.62947 0.11112-1.0884 0.65808-1.0884 1.2973v19.895c0 2.7614-2.2386 5-5 5s-5-2.2386-5-5 2.2386-5 5-5c1.1256 0 2.1643 0.37194 3 0.99963v-18.729c0-1.8974 1.3485-3.527 3.2124-3.8821l13.096-2.4945c2.144-0.40838 4.2131 0.99862 4.6215 3.1426 0.0464 0.24374 0.0698 0.49132 0.0698 0.73944v20.224c0 2.7614-2.2386 5-5 5s-5-2.2386-5-5 2.2386-5 5-5c1.1256 0 2.1643 0.37194 3 0.99963z" fill="#fff" fill-rule="evenodd"/>
+</svg>

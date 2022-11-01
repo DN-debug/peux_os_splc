@@ -1,0 +1,16 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="voice-note-a" x="-17.1%" y="-15.5%" width="134.2%" height="133.3%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<rect x="5" y="3" width="38" height="42" rx="5" fill="#fff" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+<path d="m12 3v2h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h27v1h-27v3h-1v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-3h-3v-1h3v-2z" fill="#808080" fill-opacity=".96335" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+</svg>

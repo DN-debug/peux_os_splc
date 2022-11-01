@@ -1,0 +1,21 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".7"/>
+<feOffset dx="0" dy=".7" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<title>软件包安装器-24px</title>
+<image x="-.25" y="1" width="25" height="22" fill="none" filter="url(#a)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAWCAYAAAA1vze2AAAABGdBTUEAA1teXP8meAAAAPpJREFUSA3tlusKwjAMha13BfH9X1TnbXq+YorQ1VYW8Y8H4kpSz0nSdCxMcgS5ZrJpHso8vTw32T2LVBxzxbeVPRbeaLGWkVgRpWxbMzuKGY6VrChUEilmNRA4yPdWyEMEXRNaaJ1V5CViQlURMmDT4EZYGsDQ8H+mM6sIB4dH0AM7kSQuaxciSxkz74GTSFI1JkKZFw/2J8dZzzTWiFgVnaMIVHQltgwRrPXyaWszuKgMQXo/0UNvkDhdCjYBPOkhh+9xNnvxAM6mNxHepoDWXeNq3A9tojuRF9Kv4y/yUYt/0i7meizgYKrSBX8lZc1Ij60Ocvu4iEIP9JIfeKUSqwoAAAAASUVORK5CYII="/>
+<g fill-rule="evenodd">
+<path d="m18 19h-12c-1 0-1-0.9-1-0.9v-15.633c0-0.27 0.21-0.467 0.5-0.467h9.5l4 4v12c0 1-1 1-1 1z" fill="#d70751" filter="url(#a)"/>
+<path d="m15.5 6a0.526 0.526 0 0 1-0.5-0.5v-3.5l4 4z" fill="#ff5491" filter="url(#a)"/>
+<rect x="3" y="9" width="18" height="13" rx=".5" fill="#d0dfed" filter="url(#a)"/>
+<path d="m22.75 14h-21.5a0.5 0.5 0 0 1-0.462-0.692l2.212-5.308h18l2.211 5.308a0.5 0.5 0 0 1-0.461 0.692z" fill="#ccdcea" filter="url(#a)"/>
+<path d="m22 13h-20l2-5h16z" fill="#fff" filter="url(#a)"/>
+<path d="m12 11.517-4-5.273 4 1.04 4-1.04zm-2.4-8 2.4 0.507 2.4-0.507v0.8l-2.4 0.544-2.4-0.544zm0 1.6 2.4 0.507 2.4-0.507v0.8l-2.4 0.544-2.4-0.544z" fill="#fff" filter="url(#a)" stroke-width="2"/>
+</g>
+</svg>

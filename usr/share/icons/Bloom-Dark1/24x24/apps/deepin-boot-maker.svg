@@ -1,0 +1,54 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-boot-maker-a" x="-39.3%" y="-25%" width="178.6%" height="136.4%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="deepin-boot-maker-b" x="-28.6%" y="-28.6%" width="157.1%" height="157.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-boot-maker-d" x1="3.9236" x2="10.798" y1="-9.6518e-31" y2="11.206" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9BBE34" offset="0"/>
+<stop stop-color="#3A7D09" offset="1"/>
+</linearGradient>
+<path id="deepin-boot-maker-c" d="m12.312 0c0.93198-9.9897e-16 1.6875 0.75552 1.6875 1.6875v12.312h-14v-8.6765c-6.0899e-17 -0.49728 0.19754-0.97419 0.54917-1.3258l3.4485-3.4485c0.35163-0.35163 0.82854-0.54917 1.3258-0.54917h6.989zm-0.3125 1c-0.55228 0-1 0.44772-1 1s0.44772 1 1 1 1-0.44772 1-1-0.44772-1-1-1z"/>
+<linearGradient id="deepin-boot-maker-g" x1="5.2915" x2="5.2915" y1="18.52" y2="28.698" gradientTransform="matrix(1.3229 0 0 .75593 5 1)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#343434" offset="0"/>
+<stop stop-color="#181818" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-boot-maker-h" x1="1.206" x2="7.8393" y1="29.48" y2="30.219" gradientTransform="scale(1.6583 .60302)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F1E274" offset="0"/>
+<stop stop-color="#CEB214" offset=".18149"/>
+<stop stop-color="#F2CC00" offset=".37816"/>
+<stop stop-color="#E7BF00" offset=".56473"/>
+<stop stop-color="#F9D53B" offset=".67568"/>
+<stop stop-color="#E8B800" offset=".83443"/>
+<stop stop-color="#FFCF00" offset="1"/>
+</linearGradient>
+<path id="deepin-boot-maker-i" d="m3.625 16c0.20711 0 0.375 0.16789 0.375 0.375v3.25c0 0.20711-0.16789 0.375-0.375 0.375h-1.25c-0.20711 0-0.375-0.16789-0.375-0.375v-3.25c0-0.20711 0.16789-0.375 0.375-0.375h1.25zm9 0c0.20711 0 0.375 0.16789 0.375 0.375v3.25c0 0.20711-0.16789 0.375-0.375 0.375h-1.25c-0.20711 0-0.375-0.16789-0.375-0.375v-3.25c0-0.20711 0.16789-0.375 0.375-0.375h1.25zm-3 0c0.20711 0 0.375 0.16789 0.375 0.375v2.25c0 0.20711-0.16789 0.375-0.375 0.375h-1.25c-0.20711 0-0.375-0.16789-0.375-0.375v-2.25c0-0.20711 0.16789-0.375 0.375-0.375h1.25zm-3 0c0.20711 0 0.375 0.16789 0.375 0.375v2.25c0 0.20711-0.16789 0.375-0.375 0.375h-1.25c-0.20711 0-0.375-0.16789-0.375-0.375v-2.25c0-0.20711 0.16789-0.375 0.375-0.375h1.25z"/>
+<filter id="deepin-boot-maker-j" x="-4.5%" y="-12.5%" width="109.1%" height="125%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.926828578   0 0 0 0 0.558558022   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(5,1)" width="100%" height="100%" fill="url(#deepin-boot-maker-d)" filter="url(#deepin-boot-maker-b)" xlink:href="#deepin-boot-maker-c"/>
+<path d="m5 15h14v6.3125c0 0.93198-0.75552 1.6875-1.6875 1.6875h-10.625c-0.93198 0-1.6875-0.75552-1.6875-1.6875z" fill="url(#deepin-boot-maker-g)" filter="url(#deepin-boot-maker-a)"/>
+<use transform="translate(5,1)" width="100%" height="100%" fill="url(#deepin-boot-maker-h)" filter="url(#deepin-boot-maker-a)" xlink:href="#deepin-boot-maker-i"/>
+<use transform="translate(5,1)" width="100%" height="100%" fill="#000000" filter="url(#deepin-boot-maker-j)" xlink:href="#deepin-boot-maker-i"/>
+</g>
+</svg>

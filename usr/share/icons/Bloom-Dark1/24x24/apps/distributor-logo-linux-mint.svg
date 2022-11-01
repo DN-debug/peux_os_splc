@@ -1,0 +1,21 @@
+<svg width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter873" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.36"/>
+</filter>
+<linearGradient id="linearGradient883" x1="12" x2="12" y1="22" y2="2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46a926" offset="0"/>
+<stop stop-color="#7ec242" offset="1"/>
+</linearGradient>
+</defs>
+<g>
+<g fill-rule="evenodd">
+<circle cx="12" cy="12" r="12" fill="#ccc" filter="url(#filter873)" style="paint-order:stroke fill markers"/>
+<circle cx="12" cy="12" r="12" fill="#fff" style="paint-order:stroke fill markers"/>
+<circle cx="12" cy="12" r="10" fill="url(#linearGradient883)" style="paint-order:stroke fill markers"/>
+</g>
+<g transform="matrix(.0625 0 0 .0625 0 -.5)" enable-background="new" fill="#92b372">
+<path d="m80 104v144c0 35.157 28.843 64 64 64h96c35.157 0 64-28.843 64-64v-80c0-26.32-21.68-48-48-48-12.296 0-23.467 4.8602-32 12.586-8.5332-7.7257-19.704-12.586-32-12.586-26.32 0-48 21.68-48 48v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80c0 17.863-14.137 32-32 32h-96c-17.863 0-32-14.137-32-32v-144z" color="#000000" color-rendering="auto" dominant-baseline="auto" enable-background="accumulate" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</g>
+</g>
+</svg>

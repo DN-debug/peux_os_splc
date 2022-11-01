@@ -1,0 +1,16 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="voice-note-a" x="-12.5%" y="-11.4%" width="125%" height="131.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<rect x="2" y="1" width="20" height="22" rx="3" fill="#fff" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+<path d="m8 2v3h11v1h-11v3h11v1h-11v3h11v1h-11v3h11v1h-11v4h-1v-4h-2v-1h2v-3h-2v-1h2v-3h-2v-1h2v-3h-2v-1h2v-3z" fill="#808080" fill-opacity=".98953" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+</svg>

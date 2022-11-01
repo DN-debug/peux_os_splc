@@ -1,0 +1,23 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-cd-image-a" x="-.167" y="-.071" width="1.333" height="1.286">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.505882353   0 0 0 0 0.741176471   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-cd-image-c" x1="6.4807" x2="6.4807" y1="2.7527e-16" y2="12.961" gradientTransform="scale(.92582 1.0801)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#B7EE43" offset="0"/>
+   <stop stop-color="#6AD500" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(2,1)" fill-rule="evenodd">
+  <path d="m2.0085 14c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059z" filter="url(#application-x-cd-image-a)"/>
+  <path d="m2.0085 14c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059z" fill="url(#application-x-cd-image-c)"/>
+ </g>
+ <g transform="translate(3,3)" fill="none" fill-rule="evenodd" stroke="#fff">
+  <polygon points="5 0.5 7 0.5 9.5 3.5 5 10 0.5 3.5 3 0.5"/>
+  <path d="m0.5 3.5 9-9.766e-4"/>
+  <polyline points="3 3.5 5 8.5 7 3.5"/>
+  <polyline points="3 3.5 5 0.5 7 3.5" stroke-linejoin="round"/>
+ </g>
+</svg>

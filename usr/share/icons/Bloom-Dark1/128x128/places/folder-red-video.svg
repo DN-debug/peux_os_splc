@@ -1,0 +1,50 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-videos-128px-a" x="-14.4%" y="-16.7%" width="128.8%" height="133.3%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-videos-128px-c" x1="51.614" x2="51.614" y1="-3.0562e-14" y2="39.194" gradientTransform="scale(1.0753 .92998)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ba5638" offset="0"/>
+<stop stop-color="#870b3d" offset="1"/>
+</linearGradient>
+<path id="folder-videos-128px-b" d="m62 6c1.5139 3.6333 5.0639 6 9 6h26c7.732 0 14 6.268 14 14v56c0 7.732-6.268 14-14 14h-83c-7.732 0-14-6.268-14-14v-68c-9.469e-16 -7.732 6.268-14 14-14h39c3.9361-7.2305e-16 7.4861 2.3667 9 6z"/>
+<linearGradient id="folder-videos-128px-l" x1="25" x2="25" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<circle id="folder-videos-128px-k" cx="25" cy="25" r="25"/>
+<filter id="folder-videos-128px-j" x="-13%" y="-11%" width="126%" height="126%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+</filter>
+<radialGradient id="radialGradient909" cx="45.008" cy="0" r="105.85" gradientTransform="matrix(1.2331 0 0 .81096 9 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ff774d" offset="0"/>
+<stop stop-color="#ba0e55" offset="1"/>
+</radialGradient>
+<filter id="filter1016" x="-.03398" y="-.081714" width="1.068" height="1.1634" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.43"/>
+</filter>
+<linearGradient id="linearGradient964" x1="-70" x2="-70" y1="96.088" y2="103" gradientTransform="translate(138,-58)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#fff8a3" offset="1"/>
+</linearGradient>
+</defs>
+<use transform="translate(9,22)" width="100%" height="100%" fill="url(#folder-videos-128px-c)" fill-rule="evenodd" filter="url(#folder-videos-128px-a)" xlink:href="#folder-videos-128px-b"/>
+<rect x="14" y="38" width="101" height="42" rx="9" ry="9" fill-opacity=".2" fill-rule="evenodd" filter="url(#filter1016)" style="paint-order:stroke fill markers"/>
+<rect x="14" y="38" width="101" height="42" rx="9" ry="9" fill="url(#linearGradient964)" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+<path d="m23 38c-4.986 0-9 4.014-9 9v1c0-4.986 4.014-9 9-9h83c4.986 0 9 4.014 9 9v-1c0-4.986-4.014-9-9-9z" fill-rule="evenodd" opacity=".615" style="paint-order:stroke fill markers"/>
+<path d="m9 45h111v59c0 7.732-6.268 14-14 14h-83c-7.732 0-14-6.268-14-14z" fill="url(#radialGradient909)" fill-rule="evenodd" filter="url(#folder-videos-128px-a)"/>
+<use transform="translate(39,55)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-videos-128px-j)" xlink:href="#folder-videos-128px-k"/>
+<use transform="translate(39,55)" width="100%" height="100%" fill="url(#folder-videos-128px-l)" fill-rule="evenodd" xlink:href="#folder-videos-128px-k"/>
+<path d="m59.388 92.422c-2.4236 1.3571-4.3883 0.24462-4.3883-2.4906v-19.865c0-2.7326 1.9757-3.8415 4.3883-2.4906l17.798 9.9661c2.4236 1.3571 2.4126 3.5635 0 4.9144z" fill="#ff006b" fill-rule="evenodd"/>
+<path d="m71 85.92-11.612 6.502c-2.4031 1.3456-4.3551 0.26321-4.3879-2.4217h5.9996v-21.522l10 5.5995zm-16-5.9213v-9.9327c0-0.85678 0.19422-1.5539 0.53524-2.0657h4.6119l0.85288 0.47757z" fill="#ffb600" fill-rule="evenodd"/>
+<path d="m63 69.597v20.802l-3.6117 2.0224c-2.4236 1.3571-4.3883 0.24462-4.3883-2.4906v-19.865c0-2.7326 1.9757-3.8415 4.3883-2.4906z" fill="#1473ff" fill-rule="evenodd"/>
+</svg>

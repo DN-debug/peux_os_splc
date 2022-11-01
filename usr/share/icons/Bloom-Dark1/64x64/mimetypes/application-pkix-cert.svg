@@ -1,0 +1,32 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-vnd.nokia.qt.qmakeprofile-c" x1="23.367" x2="23.367" y2="46.033" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#7FCB10" offset="0"/>
+   <stop stop-color="#50A100" offset="1"/>
+  </linearGradient>
+  <path id="application-vnd.nokia.qt.qmakeprofile-b" d="m29 0 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c-3.0436e-16 -2.4853 2.0147-4.5 4.5-4.5h24.5z"/>
+  <filter id="application-vnd.nokia.qt.qmakeprofile-a" x="-15.5%" y="-10.6%" width="131%" height="125%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.46370117   0 0 0 0 0.679376132   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-vnd.nokia.qt.qmakeprofile-f" x1="35.5" x2="30.364" y1="6.5" y2="11.855" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="application-vnd.nokia.qt.qmakeprofile-e" d="m29 0 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5v-8.5z"/>
+  <filter id="application-vnd.nokia.qt.qmakeprofile-d" x="-26.9%" y="-19.2%" width="153.8%" height="153.8%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <g transform="translate(11,7)" fill-rule="evenodd">
+  <use width="100%" height="100%" fill="#000000" filter="url(#application-vnd.nokia.qt.qmakeprofile-a)" xlink:href="#application-vnd.nokia.qt.qmakeprofile-b"/>
+  <use width="100%" height="100%" fill="url(#application-vnd.nokia.qt.qmakeprofile-c)" xlink:href="#application-vnd.nokia.qt.qmakeprofile-b"/>
+  <use width="100%" height="100%" fill="#000000" filter="url(#application-vnd.nokia.qt.qmakeprofile-d)" xlink:href="#application-vnd.nokia.qt.qmakeprofile-e"/>
+  <use width="100%" height="100%" fill="url(#application-vnd.nokia.qt.qmakeprofile-f)" xlink:href="#application-vnd.nokia.qt.qmakeprofile-e"/>
+ </g>
+ <path d="m32 22c-1.5325 0.0023-2.929 0.8799-3.5957 2.2598-0.44873-0.17013-0.9244-0.25812-1.4043-0.25977-2.2091 0-4 1.7909-4 4 4e-4 0.47965 0.08706 0.95532 0.25586 1.4043-1.3783 0.66784-2.2543 2.0641-2.2559 3.5957 0.0023 1.5325 0.8799 2.929 2.2598 3.5957-0.17013 0.44873-0.25812 0.9244-0.25977 1.4043 0 2.2091 1.7909 4 4 4 0.3376-0.0019 0.67361-0.04652 1-0.13281v7.1328c3.5e-4 0.89064 1.077 1.3366 1.707 0.70703l2.293-2.293 2.293 2.293c0.63 0.62956 1.7067 0.18361 1.707-0.70703v-7.1309c0.32648 0.08564 0.66248 0.1296 1 0.13086 2.2091 0 4-1.7909 4-4-4e-4 -0.47965-0.08707-0.95532-0.25586-1.4043 1.3783-0.66784 2.2543-2.0641 2.2559-3.5957-0.0023-1.5325-0.8799-2.929-2.2598-3.5957 0.17013-0.44873 0.25812-0.9244 0.25977-1.4043 0-2.2091-1.7909-4-4-4-0.47965 4e-4 -0.95532 0.08706-1.4043 0.25586-0.66784-1.3783-2.0641-2.2543-3.5957-2.2559zm0 4c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 1c-3.3137 0-6 2.6863-6 6s2.6863 6 6 6 6-2.6863 6-6-2.6863-6-6-6z" fill="#fff"/>
+</svg>

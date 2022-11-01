@@ -1,0 +1,18 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="image-bmp-a" x="-.167" y="-.071" width="1.333" height="1.286">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.262745098   0 0 0 0 0.71372549   0 0 0 0 0.607843137  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="image-bmp-c-6" x1="8.641" x2="8.641" y1=".92582" y2="13.887" gradientTransform="matrix(.92582 0 0 1.0801 -3.02e-5 -3.1e-7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#28DCB1" offset="0"/>
+   <stop stop-color="#00AF9D" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m4.0085 15c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059z" fill-rule="evenodd" filter="url(#image-bmp-a)"/>
+ <path d="m4.0085 15c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059z" fill="url(#image-bmp-c-6)" fill-rule="evenodd"/>
+ <path d="m11.5 4.5h-6s3.1667 4 0 7h5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+ <circle cx="11.5" cy="11.5" r="1" fill="none" stroke="#fff"/>
+ <rect x="3.5" y="10.5" width="2" height="2" fill="none" stroke="#fff"/>
+</svg>

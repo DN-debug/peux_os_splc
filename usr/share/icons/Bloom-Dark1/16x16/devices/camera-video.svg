@@ -1,0 +1,9 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<title>Pop Symbolic Icon Theme</title>
+<defs>
+<filter id="filter7554" color-interpolation-filters="sRGB">
+<feBlend in2="BackgroundImage" mode="darken"/>
+</filter>
+</defs>
+<path d="m4.002 2a3 3 0 0 0-3 3 3 3 0 0 0 1.0293 2.2598c-0.61174 0.3413-1.0293 0.98726-1.0293 1.7402v2c0 1.108 0.892 2 2 2h7c1.108 0 2-0.892 2-2l3 2v-6l-3 2c0-0.40046-0.11918-0.76992-0.32031-1.082a3 3 0 0 0 2.3203-2.918 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 0.76953 2h-2.5371a3 3 0 0 0 0.76758-2 3 3 0 0 0-3-3z" enable-background="new" fill="#dfdfdf" filter="url(#filter7554)"/>
+</svg>

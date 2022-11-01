@@ -1,0 +1,37 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="text-x-po-b" d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c-1.5218e-16 -1.2426 1.0074-2.25 2.25-2.25h8.25z"/>
+  <filter id="text-x-po-a" x="-21.9%" y="-12.5%" width="143.8%" height="135%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0156862745   0 0 0 0 0.580392157   0 0 0 0 0.898039216  0 0 0 0.5 0"/>
+  </filter>
+  <filter id="x-media-podcast-a" x="-.219" y="-.125" width="1.438" height="1.35">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-c" x1=".5" x2=".5" y2="1" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="x-media-podcast-d" x="-.364" y="-.177" width="1.727" height="1.709">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-f" x1=".5" x2=".14088" y1=".5" y2=".88513" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <use transform="translate(4,2)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#text-x-po-a)" xlink:href="#text-x-po-b"/>
+ <g transform="translate(4,2)">
+  <path d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c0-1.2426 1.0074-2.25 2.25-2.25z" filter="url(#x-media-podcast-a)"/>
+  <path d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c0-1.2426 1.0074-2.25 2.25-2.25z" fill="url(#x-media-podcast-c)"/>
+  <path d="m10.5 0 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25z" filter="url(#x-media-podcast-d)"/>
+  <path d="m10.5 0 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25z" fill="url(#x-media-podcast-f)"/>
+ </g>
+ <polygon points="8 14 17 14 17 8 8 8 8 7 7 7 7 19 8 19" fill="#fff" fill-rule="evenodd"/>
+</svg>

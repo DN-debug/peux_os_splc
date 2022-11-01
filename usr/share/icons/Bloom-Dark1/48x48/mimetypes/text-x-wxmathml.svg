@@ -1,0 +1,30 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-7zip-a" x="-.156" y="-.103" width="1.312" height="1.256">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-7zip-c" x1="17.664" x2="17.664" y2="35.327" gradientTransform="scale(.90582 1.104)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="application-x-7zip-d" x="-.318" y="-.227" width="1.636" height="1.636">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="application-x-7zip-f" x1="26.5" x2="22.345" y1="5.5" y2="9.7364" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(8,5)" fill-rule="evenodd">
+  <path d="m21 0 11 11v23.5c0 2.4853-2.0147 4.5-4.5 4.5h-23c-2.4853 0-4.5-2.0147-4.5-4.5v-30c0-2.4853 2.0147-4.5 4.5-4.5z" filter="url(#application-x-7zip-a)"/>
+  <path d="m21 0 11 11v23.5c0 2.4853-2.0147 4.5-4.5 4.5h-23c-2.4853 0-4.5-2.0147-4.5-4.5v-30c0-2.4853 2.0147-4.5 4.5-4.5z" fill="url(#application-x-7zip-c)"/>
+  <path d="m21 0 11 11h-6.5c-2.4853 0-4.5-2.0147-4.5-4.5z" filter="url(#application-x-7zip-d)"/>
+  <path d="m21 0 11 11h-6.5c-2.4853 0-4.5-2.0147-4.5-4.5z" fill="url(#application-x-7zip-f)"/>
+ </g>
+ <path d="m29.46 17 0.44575 4.176h-0.72564c-0.30409-0.75673-0.73602-1.4614-1.2958-2.114-0.55979-0.65953-0.92163-0.96473-1.3847-1.0619-0.20734-0.041642-6.5 0-6.5 0l6.0394 7.7476v0.28117l-6.5394 7.9712h8c1 0 1.5699-0.44547 1.8048-0.72317 0.24878-0.29159 0.46993-0.61789 0.66345-0.9789 0.19349-0.36101 0.35244-0.69426 0.47685-0.99973l0.69454 0.21869-1.1714 4.4831h-12.968v-0.42171l7.215-8.7372-7.215-9.3411v-0.5z" fill="#fff" fill-rule="evenodd"/>
+</svg>

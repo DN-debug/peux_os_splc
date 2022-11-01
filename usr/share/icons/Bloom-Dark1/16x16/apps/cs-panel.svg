@@ -1,0 +1,10 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="deepin-show-desktop-a" x1="7.4065" x2="7.4065" y1="2.1603" y2="15.122" gradientTransform="scale(1.0801 .92581)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m13.993 2c0.55607 0 1.0068 0.45575 1.0068 1.0025v9.9949c0 0.55364-0.44995 1.0025-1.0068 1.0025h-11.986c-0.55607 0-1.0068-0.45575-1.0068-1.0025v-9.9949c0-0.55364 0.44995-1.0025 1.0068-1.0025z" fill="url(#deepin-show-desktop-a)" fill-rule="evenodd"/>
+<rect x="2" y="11" width="12" height="2" fill="#a4ffcc" fill-rule="evenodd" opacity=".7"/>
+</svg>

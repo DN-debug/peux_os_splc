@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33" height="32" version="1.1" viewBox="0 0 33 32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="application-x-7zip-c" x1="11.958" x2="11.958" y2="23.917" gradientTransform="scale(.91987 1.0871)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <path id="application-x-7zip-b" d="m15 0 7 7v15c0 2.2091-1.7909 4-4 4h-14c-2.2091 0-4-1.7909-4-4v-18c-2.7054e-16 -2.2091 1.7909-4 4-4h11z"/>
+  <filter id="application-x-7zip-a" x="-15.9%" y="-9.6%" width="131.8%" height="126.9%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-7zip-f" x1="18.5" x2="15.734" y1="3.5" y2="6.3836" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="application-x-7zip-e" d="m15 0 7 7h-4.75c-1.2426 0-2.25-1.0074-2.25-2.25v-4.75z"/>
+  <filter id="application-x-7zip-d" x="-28.6%" y="-14.3%" width="157.1%" height="157.1%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <g fill-rule="evenodd">
+  <use transform="translate(6,3)" width="100%" height="100%" fill="#000000" filter="url(#application-x-7zip-a)" xlink:href="#application-x-7zip-b"/>
+  <use transform="translate(6,3)" width="100%" height="100%" fill="url(#application-x-7zip-c)" xlink:href="#application-x-7zip-b"/>
+  <use transform="translate(6,3)" width="100%" height="100%" fill="#000000" filter="url(#application-x-7zip-d)" xlink:href="#application-x-7zip-e"/>
+  <use transform="translate(6,3)" width="100%" height="100%" fill="url(#application-x-7zip-f)" xlink:href="#application-x-7zip-e"/>
+ </g>
+ <g transform="translate(1 -2)" fill="#fff">
+  <path d="m17.943 20.516-1.3789 1.4844h-9.2285l-2.3359 2.3223v2.8203l3.1621-3.1426h9.2734l1.9727-2.123z"/>
+  <circle cx="8.5" cy="18.5" r="1.5"/>
+  <circle cx="13.5" cy="18.5" r="1.5"/>
+  <path d="m20.5 16a3.5 3.5 0 0 0-3.5 3.5 3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5 3.5 3.5 0 0 0-3.5-3.5zm0 1.4a2.1 2.1 0 0 1 2.1 2.1 2.1 2.1 0 0 1-2.1 2.1 2.1 2.1 0 0 1-2.1-2.1 2.1 2.1 0 0 1 2.1-2.1z"/>
+ </g>
+</svg>

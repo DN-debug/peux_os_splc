@@ -1,0 +1,17 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter843" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.42"/>
+</filter>
+<linearGradient id="linearGradient845" x1="15.935" x2="15.935" y1="1.9354" y2="29.982" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00b8ff" offset="0"/>
+<stop stop-color="#2e5dff" offset="1"/>
+</linearGradient>
+</defs>
+<circle cx="16" cy="16" r="14" fill="#b3b3b3" filter="url(#filter843)"/>
+<circle cx="16" cy="16" r="14" fill="url(#linearGradient845)"/>
+<g fill="#fff">
+<path d="m16 6c-2.2096 0-4 1.7912-4 4s1.7904 4 4 4 4-1.7912 4-4-1.7904-4-4-4z"/>
+<path d="m16 16c-6.9993 0.0042-7 4.4308-7 4.4308v1.8s1.2923 2.7692 7 2.7692 7-2.7692 7-2.7692v-1.8s0-4.4335-6.9986-4.4308z"/>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-14.3%" y="-15.4%" width="128.6%" height="130.8%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-show-desktop-b" x1="13.491" x2="13.491" y1="8.3806e-11" y2="26.981" gradientTransform="matrix(1.0377 0 0 .96362 2 3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m27.004 3c1.6549 0 2.9965 1.3431 2.9965 3.0079v19.984c0 1.6612-1.3505 3.0079-2.9965 3.0079h-22.007c-1.6549 0-2.9965-1.3431-2.9965-3.0079v-19.984c0-1.6612 1.3505-3.0079 2.9965-3.0079z" fill="url(#deepin-show-desktop-b)" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="3" y="24" width="26" height="4" rx="2" fill="#a4ffcc" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".7"/>
+</svg>

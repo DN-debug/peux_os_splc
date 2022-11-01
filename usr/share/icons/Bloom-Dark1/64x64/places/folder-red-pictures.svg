@@ -1,0 +1,72 @@
+<svg width="64" height="64" enable-background="new" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-home-64px-a" x="-14.3%" y="-16.7%" width="128.6%" height="133.3%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-home-64px-c" x1="25.923" x2="25.923" y1="-3.0699e-14" y2="19.685" gradientTransform="scale(1.0801 .92582)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ba5638" offset="0"/>
+<stop stop-color="#870b3d" offset="1"/>
+</linearGradient>
+<path id="folder-home-64px-b" d="m31.279 3c0.7642 1.8177 2.5438 3 4.5156 3h13.205c3.866 0 7 3.134 7 7v28c0 3.866-3.134 7-7 7h-42c-3.866 0-7-3.134-7-7l-2.6645e-15 -34c-4.7345e-16 -3.866 3.134-7 7-7l19.764 1.1546e-14c1.9718-3.6222e-16 3.7514 1.1823 4.5156 3z"/>
+<radialGradient id="radialGradient899" cx="22.45" cy=".62361" r="52.808" gradientTransform="matrix(1.2472 0 0 .80178 4 22.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ff774d" offset="0"/>
+<stop stop-color="#ba0e55" offset="1"/>
+</radialGradient>
+<filter id="filter920" x="-.05066" y="-.1244" width="1.1013" height="1.2488" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.075575"/>
+</filter>
+<filter id="folder-64px-a" x="-.143" y="-.167" width="1.286" height="1.333">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="linearGradient921" x1="17.868" x2="17.868" y1="14.103" y2="17.939" gradientTransform="matrix(1.5671 0 0 .63814 4 11)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#fff8a3" offset="1"/>
+</linearGradient>
+<filter id="folder-pictures-64px-k" x="-.135" y="-.194" width="1.269" height="1.389">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-pictures-64px-l" x1="10.817" x2="10.817" y1="-1.2019" y2="20.168" gradientTransform="matrix(1.2019 0 0 .83205 19 32)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-pictures-64px-m" x1="8.4854" x2="7.0113" y1="10.836" y2="16.989" gradientTransform="scale(1.2963 .7714)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF3C14" stop-opacity=".8" offset="0"/>
+<stop stop-color="#6E00F5" stop-opacity=".8" offset=".43748"/>
+<stop stop-color="#3900FF" stop-opacity=".655" offset="1"/>
+</linearGradient>
+<mask id="folder-pictures-64px-n" fill="#ffffff">
+<path d="m0 0.5816c0-0.8735 0.70892-1.5816 1.5873-1.5816h22.825c0.87663 0 1.5873 0.70562 1.5873 1.5816v14.837c0 0.8735-0.70892 1.5816-1.5873 1.5816h-22.825c-0.87663 0-1.5873-0.70562-1.5873-1.5816zm20.92 3.5327c0.66274 0 1.2-0.51167 1.2-1.1429s-0.53726-1.1429-1.2-1.1429-1.2 0.51167-1.2 1.1429 0.53726 1.1429 1.2 1.1429z"/>
+</mask>
+<linearGradient id="folder-pictures-64px-o" x1="13.372" x2="13.372" y1="9.4599" y2="22.248" gradientTransform="scale(1.3087 .76411)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32F8FF" stop-opacity=".8" offset="0"/>
+<stop stop-color="#0097FF" offset="1"/>
+</linearGradient>
+</defs>
+<use transform="translate(4,11)" width="100%" height="100%" fill="url(#folder-home-64px-c)" fill-rule="evenodd" filter="url(#folder-home-64px-a)" xlink:href="#folder-home-64px-b"/>
+<rect x="6.523" y="20" width="50.955" height="20.75" rx="4.5254" ry="4.5254" fill-opacity=".2" fill-rule="evenodd" filter="url(#filter920)" style="paint-order:stroke fill markers"/>
+<rect x="6.523" y="20" width="50.955" height="20.75" rx="4.5" ry="4.5" fill="url(#linearGradient921)" fill-rule="evenodd" filter="url(#folder-64px-a)"/>
+<path d="m11.049 20c-2.5071 0-4.5254 2.0183-4.5254 4.5254v1c0-2.5071 2.0183-4.5254 4.5254-4.5254h41.904c2.5071 0 4.5254 2.0183 4.5254 4.5254v-1c0-2.5071-2.0183-4.5254-4.5254-4.5254z" fill-rule="evenodd" opacity=".5" style="paint-order:stroke fill markers"/>
+<path d="m4 23h56v29c0 3.866-3.134 7-7 7h-42c-3.866 0-7-3.134-7-7z" fill="url(#radialGradient899)" fill-rule="evenodd" filter="url(#folder-home-64px-a)"/>
+<g transform="translate(-5.3861e-5 3.8635e-5)" fill-rule="evenodd">
+<path d="m19 32.582c0-0.8735 0.70892-1.5816 1.5873-1.5816h22.825c0.87663 0 1.5873 0.70562 1.5873 1.5816v14.837c0 0.8735-0.70892 1.5816-1.5873 1.5816h-22.825c-0.87663 0-1.5873-0.70562-1.5873-1.5816zm20.92 3.5327c0.66274 0 1.2-0.51167 1.2-1.1429s-0.53726-1.1429-1.2-1.1429-1.2 0.51167-1.2 1.1429 0.53726 1.1429 1.2 1.1429z" filter="url(#folder-pictures-64px-k)"/>
+<path d="m19 32.582c0-0.8735 0.70892-1.5816 1.5873-1.5816h22.825c0.87663 0 1.5873 0.70562 1.5873 1.5816v14.837c0 0.8735-0.70892 1.5816-1.5873 1.5816h-22.825c-0.87663 0-1.5873-0.70562-1.5873-1.5816zm20.92 3.5327c0.66274 0 1.2-0.51167 1.2-1.1429s-0.53726-1.1429-1.2-1.1429-1.2 0.51167-1.2 1.1429 0.53726 1.1429 1.2 1.1429z" fill="url(#folder-pictures-64px-l)"/>
+<path transform="translate(19,32)" d="M 0,17 9.7808,4.552 c 0.67336,-0.857 1.7647,-0.85747 2.4384,0 L 22,17 Z" fill="url(#folder-pictures-64px-m)" mask="url(#folder-pictures-64px-n)"/>
+<path transform="translate(19,32)" d="m8 17 8.2775-10.456c0.67517-0.85285 1.7743-0.84718 2.445 0l8.2775 10.456z" fill="url(#folder-pictures-64px-o)" mask="url(#folder-pictures-64px-n)"/>
+</g>
+</svg>

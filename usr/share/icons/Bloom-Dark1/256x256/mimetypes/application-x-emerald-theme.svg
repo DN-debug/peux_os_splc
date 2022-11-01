@@ -1,0 +1,30 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-cd-image-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.505882353   0 0 0 0 0.741176471   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-cd-image-c" x1="93.467" x2="93.467" y2="186.93" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#B7EE43" offset="0"/>
+   <stop stop-color="#6AD500" offset="1"/>
+  </linearGradient>
+  <filter id="application-x-cd-image-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="application-x-cd-image-f" x1="142" x2="120.16" y1="26" y2="46.224" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(44,28)" fill-rule="evenodd">
+  <path d="m116 0 52 52v138c0 9.9411-8.0589 18-18 18h-132c-9.9411 0-18-8.0589-18-18v-172c0-9.9411 8.0589-18 18-18z" filter="url(#application-x-cd-image-a)"/>
+  <path d="m116 0 52 52v138c0 9.9411-8.0589 18-18 18h-132c-9.9411 0-18-8.0589-18-18v-172c0-9.9411 8.0589-18 18-18z" fill="url(#application-x-cd-image-c)"/>
+  <path d="m116 0 52 52h-34c-9.9411 0-18-8.0589-18-18z" filter="url(#application-x-cd-image-d)"/>
+  <path d="m116 0 52 52h-34c-9.9411 0-18-8.0589-18-18z" fill="url(#application-x-cd-image-f)"/>
+ </g>
+ <path d="m123.27 90.502-22.618 2.3499 1.5117 22.665zm9.4557 0 21.106 25.015 1.5117-22.665zm17.963 27.493-22.691-26.893-22.7 26.904zm-22.92-31.982c0.0133-0.0015 0.0266-0.0029 0.0398-0.0041l0.18861-0.0196 0.18861 0.0196c0.0133 0.0012 0.0266 0.0026 0.0398 0.0041l31.032 3.2242 26.311 31.307-57.571 74.036-57.571-74.036 26.311-31.307zm-30.959 9.3534-19.032 22.645 20.542-5e-3zm62.374 0-1.5092 22.627 20.521-5e-3zm-26.41 86.554 46.604-59.932-22.291 5e-3zm-9.5544 0-24.307-59.913-22.278 5e-3zm-19.991-59.914 24.768 61.049 24.773-61.061z" fill="#fff" fill-rule="evenodd"/>
+</svg>

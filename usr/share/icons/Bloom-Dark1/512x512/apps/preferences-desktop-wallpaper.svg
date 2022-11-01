@@ -1,0 +1,45 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="computer-a" x="-11.7%" y="-13.8%" width="123.5%" height="127.7%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="computer-h" x1="156.6" x2="297.8" y1="89.709" y2="305.76" gradientTransform="scale(1.1632 .85973)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7E4FF" offset="0"/>
+<stop stop-color="#F4F9FF" offset="1"/>
+</linearGradient>
+<rect id="computer-i" width="460" height="340" rx="50"/>
+<filter id="computer-j" x="-.4%" y="-.6%" width="100.9%" height="101.2%">
+<feOffset dy="-4" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner2"/>
+<feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+<feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixInner1"/>
+<feMergeNode in="shadowMatrixInner2"/>
+</feMerge>
+</filter>
+<linearGradient id="computer-l" x1="171.91" x2="171.91" y1="2.0743" y2="365.9" gradientTransform="scale(1.1767 .84984)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4F5D73" offset="0"/>
+<stop stop-color="#313A46" offset="1"/>
+</linearGradient>
+<rect id="computer-k" width="432" height="312" rx="36"/>
+</defs>
+<g transform="translate(0,10)" fill-rule="evenodd">
+<use transform="translate(26,61)" width="100%" height="100%" fill="url(#computer-h)" filter="url(#computer-a)" xlink:href="#computer-i"/>
+<use transform="translate(26,61)" width="100%" height="100%" fill="#000000" filter="url(#computer-j)" xlink:href="#computer-i"/>
+<use transform="translate(40,75)" width="100%" height="100%" fill="url(#computer-l)" filter="url(#computer-a)" xlink:href="#computer-k"/>
+<path d="m353.27 75c-33.255 78.817-46.406 122.93-39.383 132.22 11.356 15.022 7.228 53.078-8.2578 74.109-15.486 21.031-64.008 35.053-69.17 52.078-5.1619 17.025-135.24 29.042-147.63 43.062-6.4708 7.3233-3.6351 9.4459 0.53906 10.525h346.64c21.052 0 38-15.715 38-35.236v-241.53c0-19.521-16.948-35.236-38-35.236h-82.734z" fill="#1c4186" filter="url(#computer-a)"/>
+<path d="m126.93 75-30.281 32.068c-13.083 184.8-15.149 277.2-6.1973 277.2 13.427 0 79.531 5.0031 103.29-2.002 23.756-7.0051 80.565-92.067 92.959-113.08s24.787-51.038 67.135-131.1c15.241-28.812 23.545-49.832 24.939-63.09h-251.84z" fill="#e080a9" filter="url(#computer-a)"/>
+<path d="m80 75c-21.052 0-38 15.715-38 35.236v40.234l6.332 220.81c6.7958 9.4837 18.416 15.715 31.668 15.715h48.543c15.598-17.414 33.072-44.028 26.404-71-11.372-46 43.419-110 35.148-171-3.7189-27.43-3.1982-50.759 1.5488-70h-111.64z" fill="#101852" filter="url(#computer-a)"/>
+<path d="m372.83 75-2.9629 10.887c-5.2233 19.19-16.794 36.046-32.824 47.818-23.307 17.116-34.959 36.214-34.959 57.295 0 41-20.621 87-54.646 98s-69.083 8-77.332 40c-8.2486 32-32.993 6-46.396 19-10.206 9.8984-10.815 28.483-17.348 39h204.46c9.8849-60.404 32.399-103.08 67.561-128 53.616-38-48.461-49-6.1875-82 25.028-19.537 29.339-53.546 12.967-102h-12.332z" fill="#7a6c9f" filter="url(#computer-a)"/>
+</g>
+</svg>

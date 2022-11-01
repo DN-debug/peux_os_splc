@@ -1,0 +1,32 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-x-blender-c" x1="35.327" x2="35.327" y2="70.21" gradientTransform="scale(.90582 1.104)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFBC2A" offset="0"/>
+   <stop stop-color="#E77B00" offset="1"/>
+  </linearGradient>
+  <path id="application-x-blender-b" d="m42 0 22 22v47c0 4.9706-4.0294 9-9 9h-46c-4.9706 0-9-4.0294-9-9v-60c-6.0872e-16 -4.9706 4.0294-9 9-9l33-3.5527e-15z"/>
+  <filter id="application-x-blender-a" x="-15.6%" y="-10.3%" width="131.2%" height="125.6%">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.874509804   0 0 0 0 0.498039216   0 0 0 0 0.0588235294  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-blender-f" x1="53" x2="44.528" y1="11" y2="19.51" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="application-x-blender-e" d="m42 0 22 22h-13c-4.9706 0-9-4.0294-9-9v-13z"/>
+  <filter id="application-x-blender-d" x="-25%" y="-15.9%" width="150%" height="150%">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <use transform="translate(16,10)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#application-x-blender-a)" opacity=".9" xlink:href="#application-x-blender-b"/>
+ <use transform="translate(16,10)" width="100%" height="100%" fill="url(#application-x-blender-c)" fill-rule="evenodd" opacity=".9" xlink:href="#application-x-blender-b"/>
+ <use transform="translate(16,10)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#application-x-blender-d)" xlink:href="#application-x-blender-e"/>
+ <use transform="translate(16,10)" width="100%" height="100%" fill="url(#application-x-blender-f)" fill-rule="evenodd" xlink:href="#application-x-blender-e"/>
+ <path d="m30 42v20l16 6v-20z" fill="#fff" fill-rule="evenodd"/>
+ <path d="m66 40.859-17.957 7.1094v0.03125h-0.042968v20l18-7.125v-17.863z" fill="#fff" fill-rule="evenodd"/>
+ <path d="m50 34-20 6 16 6 20-8z" fill="#fff" fill-rule="evenodd"/>
+</svg>

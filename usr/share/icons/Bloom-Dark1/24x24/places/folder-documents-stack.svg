@@ -1,0 +1,86 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-documents-stack-a" x="-11.4%" y="-13.9%" width="122.7%" height="127.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-documents-stack-j" x1="6.5" x2="6.5" y1="1" y2="14" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFE3C0" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-documents-stack-k" cx="5.1157" cy="5.3595" r="5.9161" gradientTransform="scale(1.1832 .84515)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FA9361" offset="0"/>
+<stop stop-color="#5F1CF7" offset="1"/>
+</radialGradient>
+<linearGradient id="folder-documents-stack-l" x1="2.5681" x2="2.5681" y1="4.4679" y2="7.9921" gradientTransform="scale(1.3458 .74305)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-m" x1="2.5981" x2="2.5981" y1="2.8868" y2="8.0829" gradientTransform="scale(.57735 1.7321)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#242424" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-n" x2="3.873" y1="3.5977" y2="3.5977" gradientTransform="scale(.7746 1.291)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE489" offset="0"/>
+<stop stop-color="#8F3F09" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-o" x1="1.6665" x2="2.175" y1=".62409" y2=".62409" gradientTransform="scale(.77587 1.2889)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6A6A6A" offset="0"/>
+<stop stop-color="#0A0A0A" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient919" x1="9.9499" x2="9.9499" y1="-3.6331e-14" y2="7.5555" gradientTransform="matrix(1.1055 0 0 .90453 1 3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d9630f" offset="0"/>
+<stop stop-color="#c70000" offset="1"/>
+</linearGradient>
+<filter id="folder-24-a" x="-.114" y="-.139" width="1.227" height="1.278">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter1010" x="-.0588" y="-.147" width="1.1176" height="1.294" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.49"/>
+</filter>
+<linearGradient id="linearGradient968" x1="-13" x2="-13" y1="16" y2="17" gradientTransform="translate(0,-6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient923" cx="8.4558" cy=".89436" r="19.907" gradientTransform="matrix(1.1566 2.5329e-8 -1.6835e-8 .76871 2.2205 7.313)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ffb754" offset="0"/>
+<stop stop-color="#ff7248" offset="1"/>
+</radialGradient>
+</defs>
+<g transform="translate(2e-4,1)" fill-rule="evenodd">
+<path d="m14 4c0.30643 0.61287 0.93283 1 1.618 1h4.7964c1.428 0 2.5856 1.1576 2.5856 2.5856v10.829c0 1.428-1.1576 2.5856-2.5856 2.5856h-16.829c-1.428 0-2.5856-1.1576-2.5856-2.5856v-12.829c0-1.428 1.1576-2.5856 2.5856-2.5856h8.7964c0.68521 0 1.3116 0.38713 1.618 1z" fill="url(#linearGradient919)" filter="url(#folder-24-a)"/>
+<g transform="translate(26,-4)">
+<rect x="-24" y="10" width="20" height="8" rx="1.6573" ry="1.6573" fill-opacity=".2" filter="url(#filter1010)" style="paint-order:stroke fill markers"/>
+<rect x="-24" y="10" width="20" height="8" rx="1.6573" ry="1.6573" fill="url(#linearGradient968)" style="paint-order:stroke fill markers"/>
+<path d="m-22.342 10c-0.91812 0-1.6582 0.74008-1.6582 1.6582v1c0-0.91812 0.74008-1.6582 1.6582-1.6582h16.684c0.91812 0 1.6582 0.74008 1.6582 1.6582v-1c0-0.91812-0.74008-1.6582-1.6582-1.6582z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m1 8.0005h22v10.414c0 1.428-1.1576 2.5856-2.5856 2.5856h-16.829c-1.428 0-2.5856-1.1576-2.5856-2.5856z" fill="url(#radialGradient923)" filter="url(#folder-24-a)"/>
+</g>
+<g transform="translate(3,8)" fill="none" fill-rule="evenodd" filter="url(#folder-documents-stack-a)">
+<polygon points="9e-3 1 13 1 12.984 14 0 14" fill="url(#folder-documents-stack-j)"/>
+<g transform="translate(.544 1.062)">
+<polygon points="0.456 0.938 7.456 0.938 7.456 5.938 0.456 5.938" fill="url(#folder-documents-stack-k)"/>
+<circle cx="6.5" cy="4.499" r="1" fill="#ff5151"/>
+<path d="m0.45614 5.9385h6l-1.2702-2.0691c-0.14447-0.23534-0.45236-0.309-0.6877-0.16453-0.03665 0.022499-0.070245 0.049633-0.099952 0.080729l-0.2868 0.30021c-0.19075 0.19967-0.50725 0.2069-0.70692 0.016154-0.047598-0.045471-0.085749-0.099894-0.11226-0.16015l-0.44767-1.0173c-0.11123-0.25275-0.40629-0.36748-0.65904-0.25626-0.10816 0.047596-0.19596 0.13196-0.24784 0.23813z" fill="url(#folder-documents-stack-l)"/>
+</g>
+<path d="m12 12v1h-11v-1zm-6-2v1h-5v-1zm6-2v1h-11v-1zm0-2v1h-3v-1zm0-2v1h-3v-1zm0-2v1h-3v-1z" fill="#000" fill-opacity=".5"/>
+<g transform="translate(15)">
+<polygon points="0 5 3 5 3 14 0 14" fill="url(#folder-documents-stack-m)"/>
+<polygon points="3 5 0 5 1.5 0" fill="url(#folder-documents-stack-n)"/>
+<polygon points="1.221 1.015 1.526 0 1.832 1.015" fill="url(#folder-documents-stack-o)"/>
+</g>
+</g>
+</svg>

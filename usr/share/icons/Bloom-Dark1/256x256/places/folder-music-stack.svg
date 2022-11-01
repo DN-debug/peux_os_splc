@@ -1,0 +1,90 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-music-stack-256px-a" x="-12.2%" y="-14.1%" width="124.3%" height="128.1%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-music-stack-256px-b" x1="118" x2="118" y1="-3.0562e-14" y2="181.94" gradientTransform="matrix(1.0753 0 0 .92998 17 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C80017" offset="0"/>
+<stop stop-color="#B105FF" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-music-stack-256px-h" x1="90.017" x2="90.017" y2="172.45" gradientTransform="scale(1.2331 .81096)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F87136" offset="0"/>
+<stop stop-color="#D22E18" offset="1"/>
+</linearGradient>
+<path id="folder-music-stack-256px-g" d="m0 0h222v118c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-118z"/>
+<linearGradient id="folder-music-stack-256px-l" x1="68" x2="68" y1="-2" y2="134.88" gradientTransform="translate(60,134)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#343434" offset="0"/>
+<stop stop-color="#240B0B" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-music-stack-256px-m" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#151515" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<circle id="folder-music-stack-256px-j" cx="68" cy="68" r="68"/>
+<filter id="folder-music-stack-256px-k" x="-11.8%" y="-8.8%" width="123.5%" height="123.5%">
+<feMorphology in="SourceAlpha" operator="dilate" radius="2" result="shadowSpreadOuter1"/>
+<feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+<filter id="folder-music-stack-256px-o" x="-50%" y="-17.6%" width="200%" height="135.3%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+</filter>
+<filter id="folder-music-stack-256px-p" x="-50%" y="-17.6%" width="200%" height="135.3%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+</filter>
+<linearGradient id="folder-music-stack-256px-q" x1="68" x2="68" y1="39" y2="97" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E91F95" offset="0"/>
+<stop stop-color="#930DCE" offset="1"/>
+</linearGradient>
+<filter id="filter934" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.5625"/>
+</filter>
+<linearGradient id="linearGradient916" x1="-105" x2="-105" y1="174" y2="187" gradientTransform="translate(238 -96)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#ffedce" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1135" x1="68" x2="68" y1="-2" y2="138" gradientTransform="translate(60,134)" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1137" x1="68" x2="68" y1="2" y2="134" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1139" x1="68" x2="68" y1="6" y2="130" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1141" x1="68" x2="68" y1="10" y2="126" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1143" x1="68" x2="68" y1="14" y2="122" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1145" x1="68" x2="68" y1="18" y2="118" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1147" x1="68" x2="68" y1="22" y2="114" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1149" x1="68" x2="68" y1="26" y2="110" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1151" x1="68" x2="68" y1="30" y2="106" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1153" x1="68" x2="68" y1="34" y2="102" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<linearGradient id="linearGradient1155" x1="68" x2="68" y1="39" y2="97" gradientUnits="userSpaceOnUse" xlink:href="#folder-music-stack-256px-m"/>
+<mask id="folder-music-stack-256px-n" fill="#fff">
+<use width="100%" height="100%" xlink:href="#folder-music-stack-256px-j"/>
+</mask>
+</defs>
+<path d="m141 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#folder-music-stack-256px-b)" fill-rule="evenodd" filter="url(#folder-music-stack-256px-a)"/>
+<rect x="27" y="79" width="202" height="83" rx="17.995" ry="17.995" fill-opacity=".2" fill-rule="evenodd" filter="url(#filter934)" style="paint-order:stroke fill markers"/>
+<rect x="27" y="77" width="202" height="83" rx="17.995" ry="17.995" fill="url(#linearGradient916)" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+<path d="m45 77c-9.9694 0-17.996 8.0267-17.996 17.996v2c0-9.9694 8.0267-17.996 17.996-17.996h166.01c9.9694 0 17.996 8.0267 17.996 17.996v-2c0-9.9694-8.0267-17.996-17.996-17.996z" fill-rule="evenodd" opacity=".5" style="paint-order:stroke fill markers"/>
+<use transform="translate(17,91)" width="100%" height="100%" fill="url(#folder-music-stack-256px-h)" fill-rule="evenodd" filter="url(#folder-music-stack-256px-a)" xlink:href="#folder-music-stack-256px-g"/>
+<use transform="translate(60,134)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-music-stack-256px-k)" xlink:href="#folder-music-stack-256px-j"/>
+<circle cx="128" cy="202" r="69" fill="url(#folder-music-stack-256px-l)" fill-rule="evenodd" filter="url(#folder-music-stack-256px-a)" stroke="url(#linearGradient1135)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="65" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1137)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="61" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1139)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="57" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1141)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="53" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1143)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="49" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1145)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="45" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1147)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="41" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1149)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="37" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1151)" stroke-width="2"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="33" fill="none" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1153)" stroke-width="2"/>
+<path transform="rotate(120 59.318 152.32)" d="m68 68 24 68h-48zl-24-68h48z" fill="#fff" fill-rule="evenodd" filter="url(#folder-music-stack-256px-o)" mask="url(#folder-music-stack-256px-n)" opacity=".1"/>
+<path transform="rotate(45 -63.752 207.43)" d="m68 68 24 68h-48zl-24-68h48z" fill="#fff" fill-rule="evenodd" filter="url(#folder-music-stack-256px-p)" mask="url(#folder-music-stack-256px-n)" opacity=".1"/>
+<circle transform="translate(60,134)" cx="68" cy="68" r="28" fill="url(#folder-music-stack-256px-q)" fill-rule="evenodd" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)" stroke="url(#linearGradient1155)" stroke-width="2"/>
+<polygon transform="translate(60,134)" points="62 58 78 68 62 78" fill="#fff" fill-rule="evenodd" filter="url(#folder-music-stack-256px-a)" mask="url(#folder-music-stack-256px-n)"/>
+</svg>

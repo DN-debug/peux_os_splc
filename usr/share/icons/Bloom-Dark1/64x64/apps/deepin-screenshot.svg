@@ -1,0 +1,26 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<title>深度截图-64px</title>
+<defs>
+<filter id="b" color-interpolation-filters="sRGB">
+<feFlood flood-color="#CF0045" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter954" x="-.043846" y="-.053023" width="1.0877" height="1.106" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter978" x="-.045336" y="-.050996" width="1.0907" height="1.102" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.0951163"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<rect transform="rotate(14.403)" x="13.291" y="2.8492" width="52" height="43" rx="7" ry="7.1429" fill="#ccc" filter="url(#filter978)"/>
+<rect transform="rotate(14.403)" x="13.291" y="2.8492" width="52" height="43" rx="7" ry="7.1429" fill="#a6dbff"/>
+<rect x="6" y="11.857" width="52" height="43" rx="7" ry="7.1429" fill="#b3b3b3" filter="url(#filter954)"/>
+<rect x="6" y="11.857" width="52" height="43" rx="7" ry="7.1429" fill="#ea004e"/>
+<path d="m11.598 12c-3.2013 0.65935-5.5977 3.5333-5.5977 7v18.334c13.333 8.666 26.094-2.6859 28.764-8.6289 3.008 2.013 10.007 0.90108 13.023-2.9199 1.856 4.941 6.6309 8.4078 10.213 8.2148v-15c0-3.4667-2.3963-6.3407-5.5977-7z" fill="#ff0056"/>
+</g>
+<path d="m43 39v-12.502a1.5 1.5 0 0 0-1.49-1.498h-17.51v-4c0-0.5-0.5-1.5-1.5-1.5s-1.5 1-1.5 1.5v4h-4c-0.5 0-1.5 0.5-1.5 1.5s1 1.5 1.5 1.5h4v12.502a1.5 1.5 0 0 0 1.491 1.498h17.509v4c0 0.5 0.5 1.5 1.5 1.5s1.5-1 1.5-1.5v-4h4c0.5 0 1.5-0.5 1.5-1.5s-1-1.5-1.5-1.5zm-19 0v-11h16v11z" fill="#fff9f9" fill-rule="evenodd" filter="url(#b)"/>
+</svg>

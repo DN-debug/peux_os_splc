@@ -1,0 +1,20 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-color="#908B78" flood-opacity=".498" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<radialGradient id="radialGradient1046" cx="32" cy="32" r="33.6" gradientTransform="translate(-225.21 -37.927)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0056FF" offset="1"/>
+</radialGradient>
+</defs>
+<title>deepin-clone</title>
+<circle transform="matrix(1.9912 0 0 1.9912 .282 -.713)" cx="32" cy="32" r="28" fill="url(#radialGradient1046)" filter="url(#a)"/>
+<g transform="matrix(1.9912 0 0 1.9912 .282 -.713)" fill="#fff" filter="url(#a)">
+<path d="m32 14a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm0 19c-13.999 8e-3 -14 8.861-14 8.861v3.6s2.585 5.539 14 5.539 14-5.538 14-5.538v-3.6s0-8.869-13.997-8.862z"/>
+</g>
+</svg>

@@ -1,0 +1,64 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="network-server-96px-l" x1="17.188" x2="17.188" y1="1.6196" y2="33" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="network-server-96px-k" d="m2 16.5c0-8.0074 6.4926-14.5 14.5-14.5 8.0074 0 14.5 6.4926 14.5 14.5 0 8.0074-6.4926 14.5-14.5 14.5-8.0074 0-14.5-6.4926-14.5-14.5zm31 0c0-9.1119-7.3881-16.5-16.5-16.5-9.1119 0-16.5 7.3881-16.5 16.5 0 9.1119 7.3881 16.5 16.5 16.5 9.1119 0 16.5-7.3881 16.5-16.5z"/>
+<filter id="network-server-96px-j" x="-39.4%" y="-33.3%" width="178.8%" height="178.8%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="network-server-96px-o" x1="18.072" x2="18.072" y1="2.7663" y2="31.665" gradientTransform="scale(.98056 1.0198)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="network-server-96px-n" d="m21.097 21.771c-1.7437 1.1063-3.4811 2.3465-5.113 3.7019-2.0167 1.675-3.7412 3.4198-5.0837 5.2228-0.32984 0.44297-0.23813 1.0695 0.20485 1.3993 0.44297 0.32984 1.0695 0.23813 1.3993-0.20485 1.2383-1.663 2.8544-3.2981 4.7574-4.8788 1.6632-1.3814 3.4496-2.6439 5.2361-3.759 0.0599-0.037389 0.11939-0.07435 0.17844-0.11088 0.31829 0.25602 0.69471 0.44265 1.1062 0.53687 0.18685 1.8491 0.20325 3.7967 0.036303 5.846-0.044623 0.54776 0.36545 1.0278 0.91593 1.0722s1.0329-0.36365 1.0775-0.91142c0.17957-2.2043 0.15828-4.3036-0.049636-6.2998 0.56414-0.32327 1.003-0.84071 1.2252-1.461 1.3623-0.094875 2.767-0.27689 4.2145-0.55007 0.52883-0.099806 0.87876-0.62106 0.78159-1.1643s-0.60463-0.90263-1.1335-0.80282c-1.3487 0.25454-2.6551 0.42555-3.92 0.51681-0.37257-0.87701-1.1876-1.5212-2.1644-1.652-0.96195-3.2866-2.4955-6.2393-4.5158-8.8686-0.42607-0.5545-0.86518-1.0847-1.3149-1.591 0.1466-0.33621 0.22793-0.70734 0.22793-1.0973 0-0.13404-0.009606-0.26585-0.028167-0.39478 1.848-0.81968 3.8698-1.4961 6.0746-2.0154 0.53651-0.12637 0.86518-0.64816 0.73411-1.1654-0.13107-0.51729-0.67224-0.83418-1.2087-0.70781-2.3723 0.55878-4.5511 1.2926-6.5444 2.1855-0.47945-0.40666-1.0999-0.65204-1.7774-0.65204-0.45021 0-0.87527 0.10837-1.2505 0.30043-1.4673-1.1488-2.9731-2.0958-4.453-2.8548-0.49091-0.25179-1.094-0.0599-1.347 0.42859-0.25303 0.48849-0.060197 1.0886 0.43071 1.3404 1.339 0.68675 2.7055 1.5432 4.0407 2.5794-0.11052 0.29779-0.17091 0.61986-0.17091 0.95596 0 0.13176 0.0092815 0.26136 0.027226 0.38819-1.9957 1.3422-3.7436 2.8866-5.2566 4.6071-0.18181-0.037887-0.37019-0.057802-0.56319-0.057802-0.43267 0-0.84211 0.10009-1.2064 0.27836-1.0601-1.2161-1.9403-2.4788-2.6494-3.7277-0.27086-0.47709-0.86696-0.63831-1.3314-0.36009-0.46447 0.27822-0.62143 0.89051-0.35057 1.3676 0.79668 1.4033 1.7868 2.8169 2.9831 4.1726-0.12599 0.31525-0.1953 0.65921-0.1953 1.0193 0 0.49545 0.13124 0.96042 0.36082 1.362-1.6391 2.7474-2.6375 5.5274-3.1449 8.0901-0.10356 0.52305 0.25226 1.028 0.79475 1.1279 0.54249 0.099849 1.0662-0.24323 1.1698-0.76628 0.44941-2.2699 1.3226-4.7398 2.7392-7.1915 0.26202 0.082976 0.54098 0.12774 0.83034 0.12774 0.43423 0 0.84505-0.10081 1.2103-0.28029 0.48323 0.36551 0.98682 0.71982 1.5111 1.061 3.0882 2.0094 6.5858 3.3316 10.505 3.8377zm0.80032-1.918c0.20484-0.44645 0.52574-0.82873 0.92401-1.1081-0.89411-3.0159-2.3061-5.7201-4.1598-8.1326-0.36869-0.47982-0.74809-0.94021-1.1363-1.3815-0.34004 0.15063-0.71625 0.23432-1.1119 0.23432-0.6754 0-1.2942-0.24389-1.773-0.64835-1.7104 1.1729-3.2189 2.5056-4.5378 3.9794 0.32605 0.45202 0.51822 1.0069 0.51822 1.6065 0 0.35471-0.067268 0.6938-0.18974 1.0052 0.3872 0.28689 0.7882 0.56594 1.2032 0.83595 2.9909 1.9461 6.4009 3.1967 10.263 3.6092z"/>
+<filter id="network-server-96px-m" x="-43.6%" y="-35.5%" width="187.2%" height="183.9%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="linearGradient919" x1="38.151" x2="38.151" y1="-2.959e-14" y2="28.97" gradientTransform="matrix(1.0747 0 0 .93051 7 18)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-96px-a" x="-.146" y="-.169" width="1.293" height="1.338">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter973" x="-.034054" y="-.08129" width="1.0681" height="1.1626" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.05"/>
+</filter>
+<linearGradient id="linearGradient955" x1="-85" x2="-85" y1="73.782" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient923" cx="33.268" cy="0" r="78.239" gradientTransform="matrix(1.2324 0 0 .81142 7 35.01)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+</defs>
+<g fill-rule="evenodd">
+<path d="m53 22.5c1.2162 2.7365 3.9299 4.5 6.9244 4.5h18.733c5.7119 0 10.342 4.6304 10.342 10.342v41.315c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342v-50.315c0-5.7119 4.6304-10.342 10.342-10.342h28.733c2.9946 0 5.7082 1.7635 6.9244 4.5z" fill="url(#linearGradient919)" filter="url(#folder-96px-a)"/>
+<g transform="translate(134,-44)">
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill-opacity=".2" filter="url(#filter973)" style="paint-order:stroke fill markers"/>
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill="url(#linearGradient955)" style="paint-order:stroke fill markers"/>
+<path d="m-116.38 74c-3.6658 0-6.6172 2.9514-6.6172 6.6172v1c0-3.6658 2.9514-6.6172 6.6172-6.6172h60.766c3.6658 0 6.6172 2.9514 6.6172 6.6172v-1c0-3.6658-2.9514-6.6172-6.6172-6.6172z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m7 35.01h82v43.647c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342z" fill="url(#radialGradient923)" filter="url(#folder-96px-a)"/>
+</g>
+<g transform="translate(32,44)" fill-rule="evenodd">
+<use width="100%" height="100%" fill="#000000" filter="url(#network-server-96px-j)" xlink:href="#network-server-96px-k"/>
+<use width="100%" height="100%" fill="url(#network-server-96px-l)" xlink:href="#network-server-96px-k"/>
+<use width="100%" height="100%" fill="#000000" filter="url(#network-server-96px-m)" xlink:href="#network-server-96px-n"/>
+<use width="100%" height="100%" fill="url(#network-server-96px-o)" xlink:href="#network-server-96px-n"/>
+</g>
+</svg>

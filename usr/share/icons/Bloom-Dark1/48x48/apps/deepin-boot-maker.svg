@@ -1,0 +1,77 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-boot-maker-a" x="-35.2%" y="-21.6%" width="170.4%" height="136.4%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="deepin-boot-maker-b" x="-14.8%" y="-13.8%" width="129.6%" height="127.6%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-boot-maker-d" x1="8.661" x2="20.571" y1="-1.8626e-30" y2="22.398" gradientTransform="scale(.9649 1.0364)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9BBE34" offset="0"/>
+<stop stop-color="#3A7D09" offset="1"/>
+</linearGradient>
+<path id="deepin-boot-maker-c" d="m23.625 0c1.864-1.9979e-15 3.375 1.511 3.375 3.375v25.625h-27v-18.353c-1.1938e-16 -0.99456 0.39509-1.9484 1.0983-2.6517l6.8971-6.8971c0.70326-0.70326 1.6571-1.0983 2.6517-1.0983h12.978zm0.375 1.5c-0.82843 0-1.5 0.67157-1.5 1.5s0.67157 1.5 1.5 1.5 1.5-0.67157 1.5-1.5-0.67157-1.5-1.5-1.5z"/>
+<filter id="deepin-boot-maker-e" x="-3.7%" y="-3.4%" width="107.4%" height="106.9%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.3 0"/>
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation=".5"/>
+<feOffset dx="-1" dy="-1" in="shadowBlurInner2" result="shadowOffsetInner2"/>
+<feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+<feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.0184287527   0 0 0 0 0.105044158   0 0 0 0 0.00466373642  0 0 0 0.35385708 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixInner1"/>
+<feMergeNode in="shadowMatrixInner2"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-boot-maker-h" x1="10.062" x2="10.062" y1="38.908" y2="58.262" gradientTransform="scale(1.3416 .74536)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#343434" offset="0"/>
+<stop stop-color="#181818" offset="1"/>
+</linearGradient>
+<path id="deepin-boot-maker-i" d="m0 29h27v11.625c0 1.864-1.511 3.375-3.375 3.375h-20.25c-1.864 0-3.375-1.511-3.375-3.375v-11.625z"/>
+<filter id="deepin-boot-maker-j" x="-3.7%" y="-6.7%" width="107.4%" height="113.3%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<linearGradient id="deepin-boot-maker-k" x1="3.3333" x2="15.333" y1="53.002" y2="54.997" gradientTransform="scale(1.5 .66667)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F1E274" offset="0"/>
+<stop stop-color="#CEB214" offset=".18149"/>
+<stop stop-color="#F2CC00" offset=".37816"/>
+<stop stop-color="#E7BF00" offset=".56473"/>
+<stop stop-color="#F9D53B" offset=".67568"/>
+<stop stop-color="#E8B800" offset=".83443"/>
+<stop stop-color="#FFCF00" offset="1"/>
+</linearGradient>
+<path id="deepin-boot-maker-l" d="m7.25 32c0.41421 0 0.75 0.33579 0.75 0.75v6.5c0 0.41421-0.33579 0.75-0.75 0.75h-1.5c-0.41421 0-0.75-0.33579-0.75-0.75v-6.5c0-0.41421 0.33579-0.75 0.75-0.75h1.5zm15 0c0.41421 0 0.75 0.33579 0.75 0.75v6.5c0 0.41421-0.33579 0.75-0.75 0.75h-1.5c-0.41421 0-0.75-0.33579-0.75-0.75v-6.5c0-0.41421 0.33579-0.75 0.75-0.75h1.5zm-5 0c0.41421 0 0.75 0.33579 0.75 0.75v4.5c0 0.41421-0.33579 0.75-0.75 0.75h-1.5c-0.41421 0-0.75-0.33579-0.75-0.75v-4.5c0-0.41421 0.33579-0.75 0.75-0.75h1.5zm-5 0c0.41421 0 0.75 0.33579 0.75 0.75v4.5c0 0.41421-0.33579 0.75-0.75 0.75h-1.5c-0.41421 0-0.75-0.33579-0.75-0.75v-4.5c0-0.41421 0.33579-0.75 0.75-0.75h1.5z"/>
+<filter id="deepin-boot-maker-m" x="-2.8%" y="-6.2%" width="105.6%" height="112.5%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.926828578   0 0 0 0 0.558558022   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(11,2)" width="100%" height="100%" fill="url(#deepin-boot-maker-d)" filter="url(#deepin-boot-maker-b)" xlink:href="#deepin-boot-maker-c"/>
+<use transform="translate(11,2)" width="100%" height="100%" fill="#000000" filter="url(#deepin-boot-maker-e)" xlink:href="#deepin-boot-maker-c"/>
+<use transform="translate(11,2)" width="100%" height="100%" fill="url(#deepin-boot-maker-h)" filter="url(#deepin-boot-maker-a)" xlink:href="#deepin-boot-maker-i"/>
+<use transform="translate(11,2)" width="100%" height="100%" fill="#000000" filter="url(#deepin-boot-maker-j)" xlink:href="#deepin-boot-maker-i"/>
+<use transform="translate(11,2)" width="100%" height="100%" fill="url(#deepin-boot-maker-k)" filter="url(#deepin-boot-maker-a)" xlink:href="#deepin-boot-maker-l"/>
+<use transform="translate(11,2)" width="100%" height="100%" fill="#000000" filter="url(#deepin-boot-maker-m)" xlink:href="#deepin-boot-maker-l"/>
+</g>
+</svg>

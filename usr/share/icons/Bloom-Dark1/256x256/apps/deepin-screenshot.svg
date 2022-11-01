@@ -1,0 +1,28 @@
+<svg width="256" height="256" enable-background="new" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<title>深度截图-256px</title>
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-color="#908B78" flood-opacity=".498" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="5"/>
+<feOffset dx="0" dy="5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter932" x="-.045219" y="-.051145" width="1.0904" height="1.1023" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="4.3488095"/>
+<feBlend in2="BackgroundImage" mode="overlay"/>
+</filter>
+<filter id="filter952" x="-.043731" y="-.053193" width="1.0875" height="1.1064" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.79"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<rect transform="rotate(14.262)" x="52.943" y="12.352" width="208" height="171" rx="30" ry="30" fill="#ccc" filter="url(#filter932)"/>
+<rect transform="rotate(14.262)" x="52.943" y="12.352" width="208" height="171" rx="30" ry="30" fill="#a6dbff"/>
+<rect x="24" y="48" width="208" height="171" rx="30" ry="30" fill="#ccc" filter="url(#filter952)"/>
+<rect x="24" y="48" width="208" height="171" rx="30" ry="30" fill="#ea004e"/>
+<path d="m54 48c-16.62 0-30 13.38-30 30v71.404c53.333 34.69 103.04-10.75 113.72-34.537 12.032 8.059 40.037 3.6085 52.1-11.688 7.4247 19.779 27.855 33.654 42.18 32.881v-58.061c0-16.62-13.38-30-30-30z" fill="#ff0056"/>
+</g>
+<path d="m167 109c0-2.944-3.008-6.347-5.957-6h-62.043v-16c0-2.944-2.056-5-5-5s-5 2.056-5 5v16h-16c-3 0-5 2-5 5s2 5 5 5h16v45c0 2.944 3.056 6 6 6h62v16c0 2.944 2.056 5 5 5s5-2.056 5-5v-16h16c2.944 0 5-2 5-5s-2.056-5-5-5h-16zm-68 45v-41h58v41z" fill="#fff" fill-rule="evenodd" filter="url(#a)"/>
+<path d="m167 109c0-2.944-3.008-4.347-5.957-4h-62.043v-16c0-2.944-2.056-5-5-5s-5 2.056-5 5v16h-16c-3 0-5 0-5 3s2 5 5 5h16v45c0 2.944 3.056 6 6 6h62v16c0 2.944 2.056 5 5 5s5-2.056 5-5v-16h16c2.944 0 5-2 5-5s-2.056-3-5-3h-16zm-68 47v-43h58v43z" fill="#fff9f9" fill-rule="evenodd" filter="url(#a)"/>
+</svg>

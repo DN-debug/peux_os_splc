@@ -1,0 +1,15 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="emblem-checked-b" d="m9 0c-4.95 0-9 4.05-9 9s4.05 9 9 9 9-4.05 9-9-4.05-9-9-9z"/>
+<filter id="emblem-checked-a" x="-22.2%" y="-11.1%" width="144.4%" height="144.4%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.17254902   0 0 0 0 0.654901961   0 0 0 0 0.97254902  0 0 0 0.4 0"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(3,3)" width="100%" height="100%" fill="#000000" filter="url(#emblem-checked-a)" xlink:href="#emblem-checked-b"/>
+<use transform="translate(3,3)" width="100%" height="100%" fill="#ff4f00" xlink:href="#emblem-checked-b"/>
+<rect x="7" y="12" width="10" height="1" rx="0" ry="0" fill="#fff" style="paint-order:stroke fill markers"/>
+</g>
+</svg>

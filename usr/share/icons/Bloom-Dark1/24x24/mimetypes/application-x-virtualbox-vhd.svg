@@ -1,0 +1,32 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="x-office-contact-c" x1="8.9443" x2="8.9443" y2="17.746" gradientTransform="scale(.89443 1.118)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#619FFF" offset="0"/>
+   <stop stop-color="#0093E4" offset="1"/>
+  </linearGradient>
+  <path id="x-office-contact-b" d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c-1.5218e-16 -1.2426 1.0074-2.25 2.25-2.25h8.25z"/>
+  <filter id="x-office-contact-a" x="-21.9%" y="-12.5%" width="143.8%" height="135%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0156862745   0 0 0 0 0.580392157   0 0 0 0 0.898039216  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-office-contact-f" x1="13.419" x2="11.418" y1="2.785" y2="4.9302" gradientTransform="scale(.98742 1.0127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="x-office-contact-e" d="m10.5 0 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25v-3.391z"/>
+  <filter id="x-office-contact-d" x="-36.4%" y="-17.7%" width="172.7%" height="170.9%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <g transform="translate(4,2)" fill-rule="evenodd">
+  <use width="100%" height="100%" fill="#000000" filter="url(#x-office-contact-a)" xlink:href="#x-office-contact-b"/>
+  <use width="100%" height="100%" fill="url(#x-office-contact-c)" xlink:href="#x-office-contact-b"/>
+  <use width="100%" height="100%" fill="#000000" filter="url(#x-office-contact-d)" xlink:href="#x-office-contact-e"/>
+  <use width="100%" height="100%" fill="url(#x-office-contact-f)" xlink:href="#x-office-contact-e"/>
+ </g>
+ <path d="m11.457 11-1.8887 5.666-0.67773-2.7129h-4.8906v1h4.1094l1.3223 5.2871 2.1113-6.334 1.0508 2.627 1.2598-1.9355 0.78516 2.3555h5.3613v-1h-4.6387l-1.2148-3.6426-1.3398 2.0625z" fill="#fff"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="folder-home-512px-a" x="-12.2%" y="-14.1%" width="124.3%" height="128.1%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-home-512px-b" x1="206.46" x2="206.46" y1="-3.0562e-14" y2="156.77" gradientTransform="matrix(1.0753 0 0 .92998 34 90)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-home-512px-g" cx="180.03" cy="0" r="423.4" gradientTransform="matrix(1.2331 0 0 .81096 34 182)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient1016" x1="32" x2="32" y1="30" y2="51" gradientTransform="matrix(7.9998 0 0 7.9998 .007968 -8.1769)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#CEF5FF" offset="1"/>
+</linearGradient>
+<filter id="filter1051" x="-.119" y="-.089251" width="1.238" height="1.1785" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="6.3465698"/>
+</filter>
+<filter id="filter992" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="7.125"/>
+</filter>
+<linearGradient id="linearGradient966" x1="-260" x2="-260" y1="372" y2="392" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m282 113c6.0723 13.966 19.851 23 35.08 23h104.92c30.928 0 56 25.072 56 56v226c0 30.928-25.072 56-56 56h-332c-30.928 0-56-25.072-56-56v-272c0-30.928 25.072-56 56-56h156.92c15.229 0 29.008 9.0338 35.08 23z" fill="url(#folder-home-512px-b)" fill-rule="evenodd" filter="url(#folder-home-512px-a)"/>
+<g transform="translate(532,-214)" fill-rule="evenodd">
+<rect x="-478" y="368" width="404" height="166" rx="36" ry="36" fill-opacity=".2" filter="url(#filter992)" style="paint-order:stroke fill markers"/>
+<rect x="-478" y="366" width="404" height="166" rx="36" ry="36" fill="url(#linearGradient966)" style="paint-order:stroke fill markers"/>
+<path d="m-442 366c-19.944 0-36 16.056-36 36v4c0-19.944 16.056-36 36-36h332c19.944 0 36 16.056 36 36v-4c0-19.944-16.056-36-36-36z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m34 182h444v236c0 30.928-25.072 56-56 56h-332c-30.928 0-56-25.072-56-56z" fill="url(#folder-home-512px-g)" fill-rule="evenodd" filter="url(#folder-home-512px-a)"/>
+<path d="m184 382h144v5c0 2.7614-2.233 5-4.9986 5h-134c-2.7607 0-4.9986-2.2442-4.9986-5z" fill="#32a2fb" fill-opacity=".5" fill-rule="evenodd"/>
+<path d="m256 234.34c-23.473 0-42.512 18.955-42.658 42.395h21.334c0.14606-11.656 9.6368-21.061 21.326-21.062h2e-3c11.781 1e-3 21.332 9.5533 21.332 21.334v21.332h-37.109v0.0293h-28.016c-11.26 0.58421-20.209 9.8982-20.209 21.303v63.998c0 11.782 9.5527 21.334 21.334 21.334h85.332c11.782 0 21.334-9.5527 21.334-21.334v-63.998c0-11.782-9.5527-21.332-21.334-21.332v-21.334c0-23.563-19.1-42.664-42.664-42.664h-4e-3z" fill-opacity=".50196" fill-rule="evenodd" filter="url(#filter1051)"/>
+<path d="m256 234.34c-23.473 0-42.512 18.955-42.658 42.395h21.334c0.14606-11.656 9.6368-21.061 21.326-21.062h2e-3c11.781 1e-3 21.332 9.5533 21.332 21.334v21.332h-37.109v0.0293h-28.016c-11.26 0.58421-20.209 9.8982-20.209 21.303v63.998c0 11.782 9.5527 21.334 21.334 21.334h85.332c11.782 0 21.334-9.5527 21.334-21.334v-63.998c0-11.782-9.5527-21.332-21.334-21.332v-21.334c0-23.563-19.1-42.664-42.664-42.664h-4e-3z" fill="url(#linearGradient1016)" fill-rule="evenodd"/>
+</svg>

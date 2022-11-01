@@ -1,0 +1,30 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-cd-image-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="14"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.505882353   0 0 0 0 0.741176471   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-cd-image-c" x1="186.93" x2="186.93" y2="373.87" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#B7EE43" offset="0"/>
+   <stop stop-color="#6AD500" offset="1"/>
+  </linearGradient>
+  <filter id="application-x-cd-image-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="application-x-cd-image-f" x1="284" x2="240.31" y1="52" y2="92.449" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(88,56)" fill-rule="evenodd">
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" filter="url(#application-x-cd-image-a)"/>
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" fill="url(#application-x-cd-image-c)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" filter="url(#application-x-cd-image-d)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" fill="url(#application-x-cd-image-f)"/>
+ </g>
+ <path d="m246.54 181-45.236 4.6998 3.0235 45.33zm18.911 0 42.213 50.03 3.0235-45.33zm35.927 54.985-45.382-53.787-45.4 53.808zm-45.839-63.963c0.0265-3e-3 0.0531-6e-3 0.0797-8e-3l0.37721-0.0392 0.37721 0.0392c0.0266 2e-3 0.0532 5e-3 0.0797 8e-3l62.065 6.4483 52.621 62.613-115.14 148.07-115.14-148.07 52.621-62.613zm-61.917 18.707-38.063 45.291 41.083-0.01zm124.75 0-3.0184 45.253 41.042-0.01zm-52.82 173.11 93.208-119.86-44.583 0.0105zm-19.109 0-48.615-119.83-44.556 0.0104zm-39.982-119.83 49.537 122.1 49.546-122.12z" fill="#fff" fill-rule="evenodd"/>
+</svg>

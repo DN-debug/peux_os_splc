@@ -1,0 +1,88 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="computer-a" x="-13.6%" y="-16.2%" width="127.3%" height="132.4%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="computer-b" x1="35.278" x2="35.278" y1="91.047" y2="79.822" gradientTransform="scale(1.2472 .80178)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CFDAFC" offset="0"/>
+<stop stop-color="#CDCFD2" offset="1"/>
+</linearGradient>
+<polygon id="computer-c" points="37 64 51 64 51 73 37 73"/>
+<filter id="computer-d" x="-14.3%" y="-22.2%" width="128.6%" height="144.4%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/>
+<feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.305544245   0 0 0 0 0.316030326   0 0 0 0 0.533769248  0 0 0 0.178130463 0"/>
+</filter>
+<linearGradient id="computer-e" x1="13.914" x2="13.914" y1="224.52" y2="232.12" gradientTransform="scale(3.1623 .31623)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#EBF4FF" offset="1"/>
+</linearGradient>
+<path id="computer-f" d="m30.5 71h27c0.82843 0 1.5 0.67157 1.5 1.5s-0.67157 1.5-1.5 1.5h-27c-0.82843 0-1.5-0.67157-1.5-1.5s0.67157-1.5 1.5-1.5z"/>
+<filter id="computer-g" x="-1.7%" y="-16.7%" width="103.3%" height="133.3%">
+<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.168651661 0"/>
+</filter>
+<linearGradient id="computer-h" x1="29.718" x2="56.512" y1="17.676" y2="57.37" gradientTransform="scale(1.1726 .8528)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7E4FF" offset="0"/>
+<stop stop-color="#F4F9FF" offset="1"/>
+</linearGradient>
+<rect id="computer-i" width="88" height="64" rx="9.375"/>
+<filter id="computer-j" x="-.6%" y="-.8%" width="101.1%" height="101.6%">
+<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+<feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+<feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixInner1"/>
+<feMergeNode in="shadowMatrixInner2"/>
+</feMerge>
+</filter>
+<linearGradient id="computer-l" x1="32.293" x2="32.293" y1=".83553" y2="69.178" gradientTransform="scale(1.189 .84102)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4F5D73" offset="0"/>
+<stop stop-color="#313A46" offset="1"/>
+</linearGradient>
+<rect id="computer-k" y=".375" width="82" height="58" rx="6.75"/>
+<linearGradient id="computer-n" x2="26.153" y1="13.077" y2="13.077" gradientTransform="matrix(2.9059 0 0 .34412 10 60)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A09AD3" offset="0"/>
+<stop stop-color="#988DD9" offset=".49618"/>
+<stop stop-color="#1654D2" offset="1"/>
+</linearGradient>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(4,11)" width="100%" height="100%" fill="url(#computer-b)" filter="url(#computer-a)" xlink:href="#computer-c"/>
+<use transform="translate(4,11)" width="100%" height="100%" fill="#000000" filter="url(#computer-d)" xlink:href="#computer-c"/>
+<use transform="translate(4,11)" width="100%" height="100%" fill="url(#computer-e)" filter="url(#computer-a)" xlink:href="#computer-f"/>
+<use transform="translate(4,11)" width="100%" height="100%" fill="#000000" filter="url(#computer-g)" xlink:href="#computer-f"/>
+<use transform="translate(4,11)" width="100%" height="100%" fill="url(#computer-h)" filter="url(#computer-a)" xlink:href="#computer-i"/>
+<use transform="translate(4,11)" width="100%" height="100%" fill="#000000" filter="url(#computer-j)" xlink:href="#computer-i"/>
+<use transform="translate(7,13.625)" width="100%" height="100%" fill="url(#computer-l)" filter="url(#computer-a)" xlink:href="#computer-k"/>
+<rect x="10" y="60" width="76" height="9" rx="1.875" fill="url(#computer-n)" filter="url(#computer-a)"/>
+<rect x="35" y="62" width="5" height="5" rx="1.3" fill="#75ffac" filter="url(#computer-a)"/>
+<rect x="21" y="62" width="5" height="5" rx="1.3" fill="#ff7d52" filter="url(#computer-a)"/>
+<rect x="42" y="62" width="5" height="5" rx="1.3" fill="#ffb656" filter="url(#computer-a)"/>
+<rect x="56" y="62" width="5" height="5" rx="1.3" fill="#ff796e" filter="url(#computer-a)"/>
+<rect x="78" y="62" width="5" height="5" rx="1.3" fill-opacity=".3" filter="url(#computer-a)"/>
+<rect x="71" y="62" width="5" height="5" rx="1.3" fill-opacity=".3" filter="url(#computer-a)"/>
+<circle cx="16.5" cy="64.5" r="2.5" fill="#326cff" filter="url(#computer-a)"/>
+<circle cx="51.5" cy="64.5" r="2.5" fill="#482ac5" filter="url(#computer-a)"/>
+</g>
+<path transform="matrix(1.5026 0 0 1.5026 -.0832 -4.5702)" d="m32 19c-3.324 0-6 2.676-6 6v2h-1.5c-0.831 0-1.5 0.669-1.5 1.5v9c0 0.831 0.669 1.5 1.5 1.5h15c0.831 0 1.5-0.669 1.5-1.5v-9c0-0.831-0.669-1.5-1.5-1.5h-1.5v-2c0-3.324-2.676-6-6-6zm0 3c1.662 0 3 1.338 3 3v2h-6v-2c0-1.662 1.338-3 3-3z" fill="#fff" filter="url(#a)"/>
+</svg>

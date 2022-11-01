@@ -1,0 +1,50 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-virtualkeyboard-a" x="-11.7%" y="-12.9%" width="123.5%" height="125.7%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-virtualkeyboard-b" x1="219.77" x2="219.77" y2="431.37" gradientTransform="matrix(1.0465 0 0 .95553 26 46)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#EDEDED" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-virtualkeyboard-e" x1="162.63" x2="162.63" y1="206.48" y2="387.49" gradientTransform="scale(1.4142 .70711)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4A4A4A" offset="0"/>
+<stop stop-color="#363636" offset=".97645"/>
+</linearGradient>
+<path id="deepin-virtualkeyboard-d" d="m334 146h16c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8zm-48 0h16c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8zm-48 0h16c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8zm40 56v16c0 4.4183-3.5817 8-8 8h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8h16c4.4183 0 8 3.5817 8 8zm-88-56h16c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8zm40 56v16c0 4.4183-3.5817 8-8 8h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8h16c4.4183 0 8 3.5817 8 8zm-120-56h48c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8h-48c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8zm0 48h64c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8h-64c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8zm192 80h-128c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8h128c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8zm-160 0h-32c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8h32c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8zm208-48h-48c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8h48c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8zm0 48h-16c-4.4183 0-8-3.5817-8-8v-16c0-4.4183 3.5817-8 8-8h16c4.4183 0 8 3.5817 8 8v16c0 4.4183-3.5817 8-8 8z"/>
+<filter id="deepin-virtualkeyboard-c" x="-.8%" y="-1.6%" width="101.6%" height="106.2%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+</filter>
+<filter id="deepin-virtualkeyboard-f" x="-.8%" y="-1.6%" width="101.6%" height="106.2%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0"/>
+<feOffset dy="-4" in="SourceAlpha" result="shadowOffsetInner2"/>
+<feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+<feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixInner1"/>
+<feMergeNode in="shadowMatrixInner2"/>
+</feMerge>
+</filter>
+</defs>
+<rect x="26" y="46" width="460" height="420" rx="80" fill="url(#deepin-virtualkeyboard-b)" fill-rule="evenodd" filter="url(#deepin-virtualkeyboard-a)"/>
+<g>
+<use transform="translate(26,46)" width="100%" height="100%" fill="#000000" filter="url(#deepin-virtualkeyboard-c)" xlink:href="#deepin-virtualkeyboard-d"/>
+<use transform="translate(26,46)" width="100%" height="100%" fill="url(#deepin-virtualkeyboard-e)" filter="url(#deepin-virtualkeyboard-a)" xlink:href="#deepin-virtualkeyboard-d"/>
+<use transform="translate(26,46)" width="100%" height="100%" fill="#000000" filter="url(#deepin-virtualkeyboard-f)" xlink:href="#deepin-virtualkeyboard-d"/>
+</g>
+<g fill="#f22c42" fill-rule="evenodd">
+<rect x="208" y="192" width="32" height="32" rx="7" ry="8" style="paint-order:stroke fill markers"/>
+<rect x="256" y="192" width="32" height="32" rx="7" ry="8" style="paint-order:stroke fill markers"/>
+<rect x="224" y="240" width="32" height="32" rx="7" ry="8" style="paint-order:stroke fill markers"/>
+</g>
+</svg>

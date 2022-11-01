@@ -1,0 +1,30 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-flash-video-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="14"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.6622226   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-flash-video-c" x1="186.93" x2="186.93" y2="373.87" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FF6464" offset="0"/>
+   <stop stop-color="#E02222" offset="1"/>
+  </linearGradient>
+  <filter id="application-x-flash-video-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="application-x-flash-video-f" x1="284" x2="240.31" y1="52" y2="92.449" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(88,56)" fill-rule="evenodd">
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" filter="url(#application-x-flash-video-a)"/>
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" fill="url(#application-x-flash-video-c)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" filter="url(#application-x-flash-video-d)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" fill="url(#application-x-flash-video-f)"/>
+ </g>
+ <path d="m208 304h-24v24h-24v8h24v24h24v24h8v-24h24v-24h112v-8h-112v-24h-24v-114h-8zm24 8v40h-40v-40z" fill="#fff" fill-rule="evenodd"/>
+</svg>

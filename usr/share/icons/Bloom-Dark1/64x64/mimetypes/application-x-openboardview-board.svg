@@ -1,0 +1,35 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-x-7zip-c" x1="23.367" x2="23.367" y2="46.733" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <path id="application-x-7zip-b" d="m29 0 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c-3.0436e-16 -2.4853 2.0147-4.5 4.5-4.5h24.5z"/>
+  <filter id="application-x-7zip-a" x="-15.5%" y="-10.6%" width="131%" height="125%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-7zip-f" x1="35.5" x2="30.364" y1="6.5" y2="11.855" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="application-x-7zip-e" d="m29 0 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5v-8.5z"/>
+  <filter id="application-x-7zip-d" x="-26.9%" y="-19.2%" width="153.8%" height="153.8%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <use transform="translate(11,7)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#application-x-7zip-a)" xlink:href="#application-x-7zip-b"/>
+ <use transform="translate(11,7)" width="100%" height="100%" fill="url(#application-x-7zip-c)" fill-rule="evenodd" xlink:href="#application-x-7zip-b"/>
+ <use transform="translate(11,7)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#application-x-7zip-d)" xlink:href="#application-x-7zip-e"/>
+ <use transform="translate(11,7)" width="100%" height="100%" fill="url(#application-x-7zip-f)" fill-rule="evenodd" xlink:href="#application-x-7zip-e"/>
+ <g transform="translate(1,-1)" fill="#fff">
+  <circle cx="18.5" cy="38.5" r="2.5"/>
+  <circle cx="27.5" cy="38.5" r="2.5"/>
+  <path d="m42 32a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7zm0 2.8a4.2 4.2 0 0 1 4.2 4.2 4.2 4.2 0 0 1-4.2 4.2 4.2 4.2 0 0 1-4.2-4.2 4.2 4.2 0 0 1 4.2-4.2z"/>
+  <path d="m36.848 41.494-3.5234 3.5059h-18.516l-4.8086 5.0039v4.3281l6.0859-6.332h18.477l4.4023-4.3789z"/>
+ </g>
+</svg>

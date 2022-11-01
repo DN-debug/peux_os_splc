@@ -1,0 +1,31 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="computer-a" x="-14.8%" y="-18.1%" width="129.5%" height="136.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="computer-f" x1="14.859" x2="28.256" y1="8.8382" y2="28.685" gradientTransform="matrix(1.1726 0 0 .8528 2 6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7E4FF" offset="0"/>
+<stop stop-color="#F4F9FF" offset="1"/>
+</linearGradient>
+<linearGradient id="computer-h" x1="17.044" x2="17.044" y1="1.0146" y2="36.191" gradientTransform="scale(1.1832 .84515)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4F5D73" offset="0"/>
+<stop stop-color="#313A46" offset="1"/>
+</linearGradient>
+<rect id="computer-g" x=".5" y=".688" width="42" height="30" rx="3.5"/>
+</defs>
+<g transform="translate(0,2)" fill-rule="evenodd">
+<rect x="2" y="6" width="44" height="32" rx="4.688" ry="4.688" fill="url(#computer-f)" filter="url(#computer-a)"/>
+<use transform="translate(2.5,6.313)" width="100%" height="100%" fill="url(#computer-h)" filter="url(#computer-a)" xlink:href="#computer-g"/>
+<path d="m33.508 7c-3.2031 7.5614-4.4966 11.827-3.8301 12.709 1.0646 1.4083 0.6764 4.9756-0.77539 6.9473-1.4518 1.9717-6.0004 3.2867-6.4844 4.8828s-12.678 2.7227-13.84 4.0371c-1.1614 1.3145 0.87109 0.84501 0.87109 1.3145 0 0.04325 0.27817 0.07808 0.73047 0.10938h25.121c2.237-0.02412 4.4198-0.04617 6.9531-0.07813 1.4711-0.31493 2.5775-1.579 2.7148-3.1387v-23.566c-0.15904-1.8058-1.621-3.2168-3.4336-3.2168h-8.0273z" fill="#1c4186" filter="url(#computer-a)"/>
+<path d="m12.445 7-3.1348 3.3184c-1.2265 17.325-1.4193 25.988-0.58008 25.988 1.2588 0 7.4565 0.46922 9.6836-0.1875 2.2271-0.65673 7.5529-8.6314 8.7148-10.602 1.162-1.9702 2.3229-4.7856 6.293-12.291 1.5644-2.9575 2.3316-5.0172 2.3398-6.2266h-23.316z" fill="#e080a9" filter="url(#computer-a)"/>
+<path d="m6.4648 7c-1.1749 0-2.2061 0.59458-2.832 1.502l-0.10742 0.17578c-0.32794 0.54045-0.52539 1.1724-0.52539 1.8574v22.93c0 1.9585 1.5454 3.5352 3.4648 3.5352h4.8633c1.0583-1.5143 1.8761-3.4038 1.4043-5.3125-1.0661-4.3125 4.0703-10.312 3.2949-16.031-0.49759-3.6701-0.17764-6.5499 0.94141-8.6562h-10.504z" fill="#101852" filter="url(#computer-a)"/>
+<path d="m35.584 7-0.65039 2.3535c-0.49488 1.7881-1.5777 3.3584-3.0742 4.4551-2.1924 1.6067-3.2891 3.3992-3.2891 5.3789 0 3.8438-1.9332 8.1562-5.123 9.1875s-6.4767 0.75-7.25 3.75-3.093 0.5625-4.3496 1.7812c-0.79421 0.77027-0.96907 2.0994-1.3555 3.0938h19.012c0.97371-5.3564 3.0361-9.1818 6.2188-11.438 5.0265-3.5625-4.5433-4.5938-0.58008-7.6875 2.4192-1.8885 2.8388-5.5281 1.3066-10.875h-0.86524z" fill="#7a6c9f" filter="url(#computer-a)"/>
+</g>
+</svg>

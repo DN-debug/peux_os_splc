@@ -1,0 +1,73 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="folder-open-256px-a" x="-.033876" y="-.03917" width="1.0678" height="1.0783">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.133566"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+   <feMerge>
+    <feMergeNode in="shadowMatrixOuter1"/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <linearGradient id="folder-open-256px-b" x1="103.23" x2="103.23" y1="-3.0562e-14" y2="78.387" gradientTransform="matrix(1.0753 0 0 .92998 17 45)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#value_light" offset="0"/>
+   <stop stop-color="#value_dark" offset="1"/>
+  </linearGradient>
+  <radialGradient id="folder-open-256px-g" cx="72.993" cy="0" r="172.65" gradientTransform="matrix(1.5207 0 0 .6576 17 141)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#value_light" offset="0"/>
+   <stop stop-color="#value_dark" offset="1"/>
+  </radialGradient>
+  <filter id="filter934" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="3.5625"/>
+  </filter>
+  <linearGradient id="linearGradient916" x1="-105" x2="-105" y1="174" y2="242" gradientTransform="translate(-96,-96)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#cef5ff" offset="1"/>
+  </linearGradient>
+  <radialGradient id="folder-open-256px-g-3" cx="72.993" cy="0" r="172.65" gradientTransform="matrix(1.5207 0 0 .6576 23 141)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity=".5" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <filter id="filter944" x="-8.5946e-7" y="-1.9875e-6" width="1" height="1" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="7.95e-05"/>
+   <feOffset dx="-50" dy="-50" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <linearGradient id="linearGradient1048" x1="103.23" x2="103.23" y1="-3.0562e-14" y2="78.387" gradientTransform="matrix(1.0753 0 0 .92998 17 45)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity=".35" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="filter1144" x="-4.4757e-6" y="-5.175e-6" width="1" height="1" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="0.00041399999"/>
+   <feOffset dx="0" dy="0" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <filter id="filter1156" x="-5.1022e-5" y="-.00011799" width="1.0001" height="1.0002" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="0.0047195449"/>
+   <feOffset dx="-50" dy="-50" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" in="fbSourceGraphic" result="flood"/>
+   <feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur"/>
+   <feOffset dx="0" dy="0" result="offset"/>
+   <feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <path d="m141 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#folder-open-256px-b)" fill-rule="evenodd" filter="url(#folder-open-256px-a)"/>
+ <path d="m141 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#linearGradient1048)" fill-rule="evenodd" filter="url(#filter1144)" opacity=".349" style="mix-blend-mode:normal"/>
+ <g transform="translate(334)" fill-rule="evenodd">
+  <rect x="-307" y="79" width="202" height="83" rx="17.995" ry="17.995" fill-opacity=".2" filter="url(#filter934)" style="paint-order:stroke fill markers"/>
+  <rect x="-307" y="77" width="202" height="83" rx="17.995" ry="17.995" fill="url(#linearGradient916)" style="paint-order:stroke fill markers"/>
+  <path d="m-289 77c-9.9694 0-17.996 8.0267-17.996 17.996v2c0-9.9694 8.0267-17.996 17.996-17.996h166.01c9.9694 0 17.996 8.0267 17.996 17.996v-2c0-9.9694-8.0267-17.996-17.996-17.996z" opacity=".5" style="paint-order:stroke fill markers"/>
+ </g>
+ <path d="m17 141h222v68c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28z" fill="url(#folder-open-256px-g)" fill-rule="evenodd" filter="url(#filter1156)" style="mix-blend-mode:normal"/>
+ <path d="m23 141h222v68c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28z" fill="url(#folder-open-256px-g-3)" fill-rule="evenodd" filter="url(#filter944)" opacity=".502" style="mix-blend-mode:normal"/>
+</svg>

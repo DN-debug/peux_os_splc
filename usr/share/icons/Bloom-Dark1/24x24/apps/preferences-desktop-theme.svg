@@ -1,0 +1,33 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-11.4%" y="-12.5%" width="122.7%" height="125%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-show-desktop-b" x1="10.488" x2="10.488" y2="20.976" gradientTransform="matrix(1.0488 0 0 .95346 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".3"/>
+<feOffset dx="0" dy=".3" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<path d="m21.009 2c1.0997 0 1.9912 0.89821 1.9912 1.9908v16.018c0 1.0995-0.88967 1.9908-1.9912 1.9908h-18.018c-1.0997 0-1.9912-0.89821-1.9912-1.9908v-16.018c0-1.0995 0.88967-1.9908 1.9912-1.9908z" fill="url(#deepin-show-desktop-b)" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<path d="m2 18.999c0-0.55171 0.45531-0.99896 0.9918-0.99896h18.016c0.54776 0 0.9918 0.44266 0.9918 0.99896v1.0021c0 0.55171-0.45531 0.99896-0.9918 0.99896h-18.016c-0.54776 0-0.9918-0.44266-0.9918-0.99896z" fill="#a4ffcc" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".7"/>
+<g fill="#fff">
+<rect x="4" y="6" width="3" height="3" rx=".5" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="4" y="11" width="3" height="3" rx=".5" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<path d="m11 9v4.5c0 0.277 0.223 0.5 0.5 0.5h7c0.277 0 0.5-0.223 0.5-0.5v-4.5z"/>
+</g>
+<path d="m11.5 8h7c0.277 0 0.5 0.223 0.5 0.5v0.5h-8v-0.5c0-0.277 0.223-0.5 0.5-0.5z" fill="#4f4f4f" filter="url(#a)" opacity=".75"/>
+</svg>

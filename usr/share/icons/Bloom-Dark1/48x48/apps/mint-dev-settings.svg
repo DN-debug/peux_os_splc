@@ -1,0 +1,32 @@
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient869" x1="25" x2="25" y1="44" y2="4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46a926" offset="0"/>
+<stop stop-color="#7ec242" offset="1"/>
+</linearGradient>
+<filter id="filter881" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.69"/>
+</filter>
+<filter id="a-3" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g>
+<g fill-rule="evenodd">
+<circle cx="24" cy="24" r="23" fill="#ccc" filter="url(#filter881)" style="paint-order:stroke fill markers"/>
+<circle cx="24" cy="24" r="23" fill="#fff" style="paint-order:stroke fill markers"/>
+<circle cx="24" cy="24" r="20" fill="url(#linearGradient869)" style="paint-order:stroke fill markers"/>
+</g>
+<g transform="matrix(.09189 0 0 .091346 6.3571 5.5)" enable-background="new" fill="#92b372">
+<path d="m80 104v144c0 35.157 28.843 64 64 64h96c35.157 0 64-28.843 64-64v-80c0-26.32-21.68-48-48-48-12.296 0-23.467 4.8602-32 12.586-8.5332-7.7257-19.704-12.586-32-12.586-26.32 0-48 21.68-48 48v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80c0 17.863-14.137 32-32 32h-96c-17.863 0-32-14.137-32-32v-144z" color="#000000" color-rendering="auto" dominant-baseline="auto" enable-background="accumulate" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</g>
+</g>
+<g transform="translate(-.8 -1.2)">
+<circle cx="36" cy="36" r="11" fill="#2196f3" filter="url(#a-3)"/>
+<path d="m34.488 29.998-2e-3 4e-3h2e-3zm0 4e-3 -0.133 1.578a4.757 4.714 0 0 0-1.39 0.797l-1.449-0.678-1.514 2.6 1.316 0.904a4.757 4.714 0 0 0-0.074 0.797 4.757 4.714 0 0 0 0.07 0.797l-1.314 0.904 1.514 2.598 1.445-0.674a4.757 4.714 0 0 0 1.393 0.791l0.134 1.584h3.026l0.134-1.58a4.757 4.714 0 0 0 1.389-0.797l1.451 0.676 1.512-2.598-1.314-0.906a4.757 4.714 0 0 0 0.072-0.795 4.757 4.714 0 0 0-0.07-0.799l1.314-0.9-1.514-2.598-1.447 0.674a4.757 4.714 0 0 0-1.393-0.791l-0.132-1.584zm1.512 3.998a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z" fill="#fff" filter="url(#a-3)"/>
+</g>
+</svg>

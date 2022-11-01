@@ -1,0 +1,30 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-deepinclone-dim-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0391387195   0 0 0 0 0.388542822   0 0 0 0 1  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-deepinclone-dim-c" x1="93.467" x2="93.467" y2="186.93" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#327DFF" offset="0"/>
+   <stop stop-color="#1066FF" offset="1"/>
+  </linearGradient>
+  <filter id="application-x-deepinclone-dim-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="application-x-deepinclone-dim-f" x1="142" x2="120.16" y1="26" y2="46.224" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(44,28)" fill-rule="evenodd">
+  <path d="m168 190c0 9.9411-8.0589 18-18 18h-132c-9.9411 0-18-8.0589-18-18v-172c0-9.9411 8.0589-18 18-18h98l52 52z" filter="url(#application-x-deepinclone-dim-a)"/>
+  <path d="m168 190c0 9.9411-8.0589 18-18 18h-132c-9.9411 0-18-8.0589-18-18v-172c0-9.9411 8.0589-18 18-18h98l52 52z" fill="url(#application-x-deepinclone-dim-c)"/>
+  <path d="m116 0 52 52h-34c-9.9411 0-18-8.0589-18-18z" filter="url(#application-x-deepinclone-dim-d)"/>
+  <path d="m116 0 52 52h-34c-9.9411 0-18-8.0589-18-18z" fill="url(#application-x-deepinclone-dim-f)"/>
+ </g>
+ <path d="m104 152h-12v12h-12v4h12v12h12v12h4v-12h12v-12h56v-4h-56v-12h-12v-57h-4zm12 4v20h-20v-20z" fill="#fff" fill-rule="evenodd"/>
+</svg>

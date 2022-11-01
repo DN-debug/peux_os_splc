@@ -1,0 +1,24 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-show-desktop-a" x="-13.8%" y="-15.1%" width="127.6%" height="130.2%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<radialGradient id="radialGradient863" cx="64" cy="6.0857" r="74.008" gradientTransform="matrix(1.5663 0 0 1.4405 -36.241 1.2332)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#46a926" offset="1"/>
+</radialGradient>
+</defs>
+<rect x="6" y="11" width="116" height="106" rx="12" fill="url(#radialGradient863)" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="14" y="93" width="100" height="16" rx="4" fill="#ccff42" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".75"/>
+<rect x="20" y="30" width="16" height="16" rx="2.5" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="20" y="58" width="16" height="16" rx="2.5" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="20" y="29" width="16" height="16" rx="2.5" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="20" y="57" width="16" height="16" rx="2.5" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+</svg>

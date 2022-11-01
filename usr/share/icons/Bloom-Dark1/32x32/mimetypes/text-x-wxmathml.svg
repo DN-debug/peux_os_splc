@@ -1,0 +1,30 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-7zip-a" x="-.159" y="-.096" width="1.318" height="1.269">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-7zip-c" x1="11.958" x2="11.958" y2="23.917" gradientTransform="matrix(.91987 0 0 1.0871 6 3)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="application-x-7zip-d" x="-.286" y="-.143" width="1.571" height="1.571">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="application-x-7zip-f" x1="18.5" x2="15.734" y1="3.5" y2="6.3836" gradientTransform="translate(6,3)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-1)" fill-rule="evenodd">
+  <path d="m21 3 7 7v15c0 2.2091-1.7909 4-4 4h-14c-2.2091 0-4-1.7909-4-4v-18c0-2.2091 1.7909-4 4-4z" filter="url(#application-x-7zip-a)"/>
+  <path d="m21 3 7 7v15c0 2.2091-1.7909 4-4 4h-14c-2.2091 0-4-1.7909-4-4v-18c0-2.2091 1.7909-4 4-4z" fill="url(#application-x-7zip-c)"/>
+  <path d="m21 3 7 7h-4.75c-1.2426 0-2.25-1.0074-2.25-2.25z" filter="url(#application-x-7zip-d)"/>
+  <path d="m21 3 7 7h-4.75c-1.2426 0-2.25-1.0074-2.25-2.25z" fill="url(#application-x-7zip-f)"/>
+ </g>
+ <path d="m19.601 11 0.30768 2.8572h-0.50087c-0.2099-0.51776-0.50803-0.9999-0.89441-1.4464-0.38639-0.45126-0.63615-0.66008-0.95574-0.72659-0.14311-0.02849-4.4866 0-4.4866 0l4.1687 5.301v0.19238l-4.5138 5.454h5.5219c0.69024 0 1.0836-0.30479 1.2458-0.4948 0.17172-0.19951 0.32436-0.42277 0.45794-0.66978 0.13356-0.24701 0.24327-0.47502 0.32914-0.68402l0.4794 0.14963-0.80855 3.0674h-8.9512v-0.28854l4.9801-5.9781-4.9801-6.3913v-0.3421z" fill="#fff" fill-rule="evenodd"/>
+</svg>

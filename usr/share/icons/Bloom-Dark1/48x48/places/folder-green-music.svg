@@ -1,0 +1,74 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-music-48px-a" x="-15.5%" y="-18.1%" width="131%" height="136.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-music-48px-l" x1="12.458" x2="12.458" y1="2.0798" y2="23" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="folder-music-48px-k" d="m12 23c-6.0751 0-11-4.9249-11-11s4.9249-11 11-11 11 4.9249 11 11-4.9249 11-11 11zm0-3c4.4183 0 8-3.5817 8-8s-3.5817-8-8-8-8 3.5817-8 8 3.5817 8 8 8z"/>
+<filter id="folder-music-48px-j" x="-9.1%" y="-9.1%" width="127.3%" height="127.3%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-music-48px-m" x1="10.008" x2="7.6278" y1="5" y2="19" gradientTransform="translate(12,18)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00b160" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient910" cx="16.837" cy=".46771" r="39.606" gradientTransform="matrix(1.2472 0 0 .80178 3 16.625)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient1031" x1="19.442" x2="19.442" y1="-3.5496e-14" y2="14.764" gradientTransform="matrix(1.0801 0 0 .92582 3.0006 8)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-documents-48px-a" x="-.155" y="-.181" width="1.31" height="1.361">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter1343" x="-.034105" y="-.081" width="1.0682" height="1.162" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.54"/>
+</filter>
+<filter id="folder-48px-a" x="-.155" y="-.181" width="1.31" height="1.361">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="linearGradient950" x1="13.627" x2="13.627" y1="10.918" y2="13.827" gradientTransform="matrix(1.5411 0 0 .64889 -47 8)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#CEF5FF" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m27.001 10.5c0.60397 1.5099 2.0664 2.5 3.6926 2.5h9.1362c2.856 0 5.1712 2.3152 5.1712 5.1712v20.658c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712v-25.658c0-2.856 2.3152-5.1712 5.1712-5.1712h15.136c1.6262 0 3.0886 0.99009 3.6926 2.5z" fill="url(#linearGradient1031)" fill-rule="evenodd" filter="url(#folder-documents-48px-a)"/>
+<g transform="translate(50)" fill-rule="evenodd">
+<rect x="-45" y="15" width="38" height="16" rx="3.3498" ry="3.3498" fill-opacity=".2" filter="url(#filter1343)" style="paint-order:stroke fill markers"/>
+<path d="m-41.676 15.084h31.351c1.836 0 3.3243 1.4884 3.3243 3.3243v9.3514c0 1.836-1.4884 3.3243-3.3243 3.3243h-31.351c-1.836 0-3.3243-1.4884-3.3243-3.3243v-9.3514c0-1.836 1.4884-3.3243 3.3243-3.3243z" fill="url(#linearGradient950)" filter="url(#folder-48px-a)"/>
+<path d="m-41.676 15.084c-1.8606 0-3.3594 1.4713-3.3594 3.2988v1c0-1.8275 1.4987-3.2988 3.3594-3.2988h31.281c1.8606 0 3.3594 1.4713 3.3594 3.2988v-1c0-1.8275-1.4987-3.2988-3.3594-3.2988z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m3 17h42v21.829c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712z" fill="url(#radialGradient910)" fill-rule="evenodd" filter="url(#folder-music-48px-a)"/>
+<use transform="translate(12,18)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-music-48px-j)" xlink:href="#folder-music-48px-k"/>
+<use transform="translate(12,18)" width="100%" height="100%" fill="url(#folder-music-48px-l)" fill-rule="evenodd" xlink:href="#folder-music-48px-k"/>
+<circle cx="24" cy="30" r="7" fill="url(#folder-music-48px-m)" fill-rule="evenodd"/>
+<path d="m26 30.085v-2.3681c0-0.17817-0.14443-0.3226-0.3226-0.3226-0.02586 0-0.05162 0.0031-0.07674 0.0093l-2.3548 0.57668c-0.14434 0.035309-0.24586 0.16469-0.24586 0.3133v4.0897h-0.0044c0.002901 0.038389 0.0044 0.077183 0.0044 0.11633 0 0.82843-0.67157 1.5-1.5 1.5s-1.5-0.67157-1.5-1.5 0.67157-1.5 1.5-1.5c0.17532 0 0.34361 0.03008 0.5 0.08535v-3.4724c0-0.46276 0.3276-0.86078 0.78173-0.94975l3.0644-0.60037c0.52453-0.10276 1.0331 0.23914 1.1358 0.76368 0.012009 0.061296 0.018056 0.12361 0.018056 0.18607v4.3466h-0.0065c0.004293 0.046359 0.0065 0.09333 0.0065 0.14082 0 0.82843-0.67157 1.5-1.5 1.5s-1.5-0.67157-1.5-1.5 0.67157-1.5 1.5-1.5c0.17532 0 0.34361 0.03008 0.5 0.08535z" fill="#fff" fill-rule="evenodd"/>
+</svg>

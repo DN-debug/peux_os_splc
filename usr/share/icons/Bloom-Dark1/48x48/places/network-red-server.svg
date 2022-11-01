@@ -1,0 +1,52 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-48px-a" x="-15.5%" y="-18.1%" width="131%" height="136.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-48px-c" x1="19.442" x2="19.442" y1="-3.5496e-14" y2="14.764" gradientTransform="scale(1.0801 .92582)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ba5638" offset="0"/>
+<stop stop-color="#870b3d" offset="1"/>
+</linearGradient>
+<path id="folder-48px-b" d="m24 2.5c0.60397 1.5099 2.0664 2.5 3.6926 2.5h9.1362c2.856 0 5.1712 2.3152 5.1712 5.1712v20.658c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712l-1.7764e-15 -25.658c-3.4975e-16 -2.856 2.3152-5.1712 5.1712-5.1712l15.136 1.7764e-15c1.6262-2.9873e-16 3.0886 0.99009 3.6926 2.5z"/>
+<path id="folder-48px-f" d="m5.3243 7.0845h31.351c1.836 0 3.3243 1.4884 3.3243 3.3243v9.3514c0 1.836-1.4884 3.3243-3.3243 3.3243h-31.351c-1.836 0-3.3243-1.4884-3.3243-3.3243v-9.3514c0-1.836 1.4884-3.3243 3.3243-3.3243z"/>
+<radialGradient id="radialGradient883" cx="16.837" cy=".46771" r="39.606" gradientTransform="matrix(1.2472 0 0 .80178 3 16.625)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ff774d" offset="0"/>
+<stop stop-color="#ba0e55" offset="1"/>
+</radialGradient>
+<filter id="filter1343" x="-.034105" y="-.081" width="1.0682" height="1.162" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.54"/>
+</filter>
+<linearGradient id="folder-48px-g-3" x1="13.627" x2="13.627" y1="10.918" y2="13.827" gradientTransform="scale(1.5411 .64889)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#fff8a3" offset="1"/>
+</linearGradient>
+<filter id="folder-48px-a-5" x="-.155" y="-.181" width="1.31" height="1.361">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<use transform="translate(3,8)" width="100%" height="100%" fill="url(#folder-48px-c)" fill-rule="evenodd" filter="url(#folder-48px-a)" xlink:href="#folder-48px-b"/>
+<rect x="5" y="15.001" width="38" height="16" rx="3.3498" ry="3.3498" fill-opacity=".2" fill-rule="evenodd" filter="url(#filter1343)" style="paint-order:stroke fill markers"/>
+<use transform="translate(3 8.0005)" width="100%" height="100%" fill="url(#folder-48px-g-3)" fill-rule="evenodd" filter="url(#folder-48px-a-5)" xlink:href="#folder-48px-f"/>
+<path d="m8.3243 15.085c-1.8606 0-3.3594 1.4713-3.3594 3.2988v1c0-1.8275 1.4987-3.2988 3.3594-3.2988h31.281c1.8606 0 3.3594 1.4713 3.3594 3.2988v-1c0-1.8275-1.4987-3.2988-3.3594-3.2988z" fill-rule="evenodd" opacity=".5" style="paint-order:stroke fill markers"/>
+<path d="m3 17h42v21.829c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712z" fill="url(#radialGradient883)" fill-rule="evenodd" filter="url(#folder-48px-a)"/>
+<g transform="translate(.028 .028)">
+<path d="m32.472 28.972c0 4.694-3.806 8.5-8.5 8.5s-8.5-3.806-8.5-8.5 3.806-8.5 8.5-8.5 8.5 3.806 8.5 8.5zm-0.2756 2.1501c-10.025 1.842-14.525-4.521-15.605-6.373m0.2186 8.7995c0.411-2.153 2.474-9.411 11.811-11.692m-0.0855 14.286c0.788-9.721-5.936-13.935-7.944-14.97m7.7163 10.275s-4.476 2.332-6.925 5.621" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m25.453 23.663c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5" fill="#fff" fill-rule="evenodd"/>
+<path d="m20.793 27.856c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5" fill="#fff" fill-rule="evenodd"/>
+<path d="m29.808 31.453c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5 0.672-1.5 1.5-1.5 1.5 0.672 1.5 1.5" fill="#fff" fill-rule="evenodd"/>
+</g>
+</svg>

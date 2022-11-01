@@ -1,0 +1,46 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="folder-home-256px-a" x="-12.2%" y="-14.1%" width="124.3%" height="128.1%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-home-256px-b" x1="103.23" x2="103.23" y1="-3.0562e-14" y2="78.387" gradientTransform="matrix(1.0753 0 0 .92998 17 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-home-256px-g" cx="90.017" cy="0" r="211.7" gradientTransform="matrix(1.2331 0 0 .81096 17 91)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient933" x1="32" x2="32" y1="30" y2="51" gradientTransform="matrix(3.8749,0,0,3.8749,3.8931,5.1272)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<filter id="filter939" x="-.119" y="-.089251" width="1.238" height="1.1785" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.0741252"/>
+</filter>
+<filter id="filter934" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.5625"/>
+</filter>
+<linearGradient id="linearGradient916" x1="-105" x2="-105" y1="174" y2="187" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m141 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#folder-home-256px-b)" fill-rule="evenodd" filter="url(#folder-home-256px-a)"/>
+<g transform="translate(238,-98)" fill-rule="evenodd">
+<rect x="-211" y="175" width="202" height="83" rx="17.995" ry="17.995" fill-opacity=".2" filter="url(#filter934)" style="paint-order:stroke fill markers"/>
+<rect x="-211" y="173" width="202" height="83" rx="17.995" ry="17.995" fill="url(#linearGradient916)" style="paint-order:stroke fill markers"/>
+<path d="m-193 173c-9.9694 0-17.996 8.0267-17.996 17.996v2c0-9.9694 8.0267-17.996 17.996-17.996h166.01c9.9694 0 17.996 8.0267 17.996 17.996v-2c0-9.9694-8.0267-17.996-17.996-17.996z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m17 91h222v118c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28z" fill="url(#folder-home-256px-g)" fill-rule="evenodd" filter="url(#folder-home-256px-a)"/>
+<path d="m160 191h72v2.5c0 1.3807-1.1165 2.5-2.4993 2.5h-67.001c-1.3803 0-2.4993-1.1097-2.4993-2.5z" fill="#32a2fb" fill-opacity=".5" fill-rule="evenodd"/>
+<path d="m127.89 122.59c11.414 0 20.666 9.2526 20.666 20.666v10.333c5.7065 0 10.333 4.626 10.333 10.333v30.999c0 5.7068-4.6264 10.333-10.333 10.333h-41.334c-5.7066 0-10.333-4.626-10.333-10.333v-30.999c0-5.7068 4.6262-10.333 10.333-10.333v-10.333c0-11.414 9.2527-20.666 20.666-20.666zm0 10.333c-5.7068 0-10.333 4.626-10.333 10.333v10.333h20.666v-10.333c0-5.7068-4.6263-10.333-10.333-10.333z" fill-opacity=".49412" fill-rule="evenodd" filter="url(#filter939)"/>
+<path d="m127.89 122.59c11.414 0 20.666 9.2526 20.666 20.666v10.333c5.7065 0 10.333 4.626 10.333 10.333v30.999c0 5.7068-4.6264 10.333-10.333 10.333h-41.334c-5.7066 0-10.333-4.626-10.333-10.333v-30.999c0-5.7068 4.6262-10.333 10.333-10.333v-10.333c0-11.414 9.2527-20.666 20.666-20.666zm0 10.333c-5.7068 0-10.333 4.626-10.333 10.333v10.333h20.666v-10.333c0-5.7068-4.6263-10.333-10.333-10.333z" fill="url(#linearGradient933)" fill-rule="evenodd"/>
+</svg>

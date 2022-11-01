@@ -1,0 +1,34 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="image-gif-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="14"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.262745098   0 0 0 0 0.71372549   0 0 0 0 0.607843137  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="image-gif-c" x1="186.93" x2="186.93" y2="373.87" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#28DCB1" offset="0"/>
+   <stop stop-color="#00AF9D" offset="1"/>
+  </linearGradient>
+  <filter id="image-gif-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="image-gif-f" x1="284" x2="240.31" y1="52" y2="92.449" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(88,56)" fill-rule="evenodd">
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" filter="url(#image-gif-a)"/>
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" fill="url(#image-gif-c)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" filter="url(#image-gif-d)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" fill="url(#image-gif-f)"/>
+ </g>
+ <path d="m304.4 416h-106.4s5.578-6.4854 10.421-13.495c13.871-20.077 19.047-41.435 16.888-63.376-1.7007-17.286-7.827-34.027-16.962-49.733-3.7923-6.5201-7.8544-12.421-11.922-17.606 0 0.20948 127.57 0.20948 127.57 0.20948 2.2091 0 4-1.7909 4-4s-1.7909-4-4-4h-136c-3.5144 0-5.3205 4.2071-2.9 6.755 0.22512 0.23697 0.68127 0.73739 1.3354 1.4882 1.1104 1.2746 2.3531 2.7739 3.6951 4.4848 3.8495 4.9076 7.7041 10.507 11.301 16.691 8.5997 14.785 14.34 30.47 15.916 46.494 1.9774 20.098-2.7393 39.564-15.508 58.045-2.9456 4.2633-6.3125 8.459-10.114 12.583-0.5832-1.4872-2.0313-2.5403-3.7253-2.5403h-24c-2.2091 0-4 1.7909-4 4v24c0 2.2091 1.7909 4 4 4h24c2.2091 0 4-1.7909 4-4v-12h112.4c1.8531 9.129 9.9241 16 19.6 16 11.046 0 20-8.9543 20-20s-8.9543-20-20-20c-9.6758 0-17.747 6.871-19.6 16zm19.6 16c-6.6274 0-12-5.3726-12-12s5.3726-12 12-12 12 5.3726 12 12-5.3726 12-12 12zm-140 0h-16v-16h16z" fill="#fff" fill-rule="evenodd"/>
+ <g transform="translate(88,164)" fill-rule="evenodd">
+  <path d="m144 52h40v-24h-40v-12h48v48h-48zm-24-36v48h-120v-48zm96 0h120v48h-120z" fill="#fff8f8" fill-opacity=".5"/>
+  <path d="m136 0h64c4.4183 0 8 3.5817 8 8v64c0 4.4183-3.5817 8-8 8h-64c-4.4183 0-8-3.5817-8-8v-64c0-4.4183 3.5817-8 8-8zm0 8v64h64v-64zm0 28h36v8h-36z" fill="#f4f4f4"/>
+ </g>
+</svg>

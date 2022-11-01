@@ -1,0 +1,18 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".7"/>
+<feOffset dx="0" dy=".7" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient901" x1="16.07" x2="16.38" y1="28.845" y2="3.0423" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46a926" offset="0"/>
+<stop stop-color="#7ec242" offset="1"/>
+</linearGradient>
+</defs>
+<circle cx="16" cy="16" r="15" fill="#fff" fill-rule="evenodd" filter="url(#a)" style="paint-order:stroke fill markers"/>
+<circle transform="matrix(.96154 0 0 .96154 .61538 .61538)" cx="16" cy="16" r="13" fill="url(#linearGradient901)" fill-rule="evenodd" filter="url(#a)" stroke-width="1.04" style="paint-order:stroke fill markers"/>
+<path transform="matrix(.0625 0 0 .0625 4 3.5)" d="m80 104v144c0 35.157 28.843 64 64 64h96c35.157 0 64-28.843 64-64v-80c0-26.32-21.68-48-48-48-12.296 0-23.467 4.8602-32 12.586-8.5332-7.7257-19.704-12.586-32-12.586-26.32 0-48 21.68-48 48v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80h32v-80c0-9.0261 6.9739-16 16-16s16 6.9739 16 16v80c0 17.863-14.137 32-32 32h-96c-17.863 0-32-14.137-32-32v-144z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" filter="url(#a)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</svg>

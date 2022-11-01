@@ -1,0 +1,48 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="network-server-256px-a" x="-12.2%" y="-14.1%" width="124.3%" height="128.1%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="network-server-256px-b" x1="103.23" x2="103.23" y1="-3.0562e-14" y2="78.387" gradientTransform="matrix(1.0753 0 0 .92998 17 45)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<radialGradient id="network-server-256px-g" cx="90.017" cy="0" r="211.7" gradientTransform="matrix(1.2331 0 0 .81096 17 91)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<linearGradient id="network-server-256px-j" x1="45.834" x2="45.834" y1="4.319" y2="88" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="network-server-256px-i" d="m8.8322 29.58c-1.8256 4.4467-2.8322 9.3161-2.8322 14.42 0 4.484 0.77688 8.7867 2.2034 12.781 1.4814-4.6029 3.5731-9.3532 6.3853-14.067-0.60093-1.0512-0.94444-2.2683-0.94444-3.5651 0-0.94241 0.18141-1.8427 0.5112-2.6678-1.9894-2.2545-3.7609-4.5702-5.3233-6.9013zm2.6966-5.3275c1.7098 2.8321 3.7568 5.6752 6.1558 8.4273 0.95353-0.46661 2.0252-0.72859 3.1577-0.72859 0.50517 0 0.99825 0.052128 1.4741 0.15129 3.9604-4.5034 8.5354-8.5457 13.759-12.059-0.046969-0.33197-0.071263-0.6712-0.071263-1.0161 0-0.87971 0.15808-1.7227 0.44736-2.5022-3.2357-2.511-6.5416-4.6188-9.7955-6.3442-6.2458 3.21-11.487 8.0994-15.127 14.071zm21.271-16.574c2.3885 1.4534 4.7779 3.0965 7.1295 4.9376 0.98212-0.5027 2.0947-0.78635 3.2731-0.78635 1.7732 0 3.3973 0.64226 4.6523 1.7067 3.6302-1.6262 7.4956-3.0508 11.603-4.2597-4.7224-2.1057-9.9534-3.2762-15.457-3.2762-3.8984 0-7.6598 0.58722-11.201 1.678zm32.945 5.1553c-5.5839 1.3436-10.716 3.0749-15.418 5.1606 0.048582 0.33747 0.073725 0.68247 0.073725 1.0333 0 1.0208-0.21286 1.9922-0.59658 2.8722 1.1772 1.3254 2.3265 2.7131 3.4418 4.1645 5.2882 6.8822 9.302 14.611 11.82 23.213 2.5568 0.34232 4.69 2.0285 5.6652 4.3241 3.311-0.23887 6.7304-0.68648 10.26-1.3527 0.038537-0.0072732 0.077031-0.013615 0.11546-0.01904 0.5852-2.6499 0.89372-5.4037 0.89372-8.2294 0-12.898-6.4283-24.297-16.256-31.167zm13.656 45.006c-2.9075 0.47391-5.7474 0.80493-8.5202 0.99804-0.58161 1.6235-1.7302 2.9779-3.2069 3.824 0.35978 3.4541 0.50606 7.0262 0.42809 10.718 4.9848-4.0944 8.9093-9.4325 11.299-15.54zm-16.695 19.245c0.30387-4.7637 0.22422-9.3136-0.21459-13.656-1.0771-0.24662-2.0624-0.73513-2.8955-1.4052-0.15458 0.095613-0.31027 0.19236-0.46706 0.29022-4.6761 2.9188-9.3518 6.2233-13.705 9.8389-3.5395 2.9398-6.6997 5.9515-9.3953 9.0104 2.5707 0.54894 5.2377 0.83784 7.9721 0.83784 6.7999 0 13.183-1.7866 18.705-4.916zm-32.173 2.4601c3.2159-3.9235 7.1109-7.7359 11.546-11.419 4.2713-3.5476 8.8188-6.7939 13.383-9.6895-10.258-1.3245-19.413-4.7853-27.496-10.045-1.3723-0.89295-2.6905-1.8203-3.9553-2.7771-0.9561 0.46977-2.0314 0.73364-3.168 0.73364-0.75737 0-1.4875-0.11717-2.1734-0.33435-3.5316 6.1122-5.7728 12.267-6.9943 17.972 4.3727 7.0571 10.992 12.576 18.858 15.559zm57.467-35.544c0 24.298-19.702 44-44 44s-44-19.702-44-44 19.702-44 44-44 44 19.702 44 44zm-30.444 9.4149c0.53616-1.1686 1.3761-2.1691 2.4185-2.9004-2.3403-7.8939-6.0362-14.972-10.888-21.287-0.96502-1.2559-1.9581-2.461-2.9742-3.616-0.89003 0.39426-1.8747 0.61331-2.9103 0.61331-1.7678 0-3.3875-0.63837-4.6408-1.697-4.477 3.0699-8.4252 6.5582-11.877 10.416 0.85343 1.1832 1.3564 2.6356 1.3564 4.2048 0 0.92843-0.17607 1.816-0.49662 2.6311 1.0135 0.75093 2.0631 1.4813 3.1492 2.1881 7.8286 5.0939 16.754 8.3672 26.863 9.4468z"/>
+<filter id="network-server-256px-h" x="-14.8%" y="-12.5%" width="129.5%" height="129.5%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<filter id="filter934" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="3.5625"/>
+</filter>
+<linearGradient id="linearGradient916" x1="-105" x2="-105" y1="174" y2="187" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m141 56.5c3.0361 6.9831 9.9253 11.5 17.54 11.5h52.46c15.464 0 28 12.536 28 28v113c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28v-136c0-15.464 12.536-28 28-28h78.46c7.6146 0 14.504 4.5169 17.54 11.5z" fill="url(#network-server-256px-b)" fill-rule="evenodd" filter="url(#network-server-256px-a)"/>
+<g transform="translate(238,-96)" fill-rule="evenodd">
+<rect x="-211" y="175" width="202" height="83" rx="17.995" ry="17.995" fill-opacity=".2" filter="url(#filter934)" style="paint-order:stroke fill markers"/>
+<rect x="-211" y="173" width="202" height="83" rx="17.995" ry="17.995" fill="url(#linearGradient916)" style="paint-order:stroke fill markers"/>
+<path d="m-193 173c-9.9694 0-17.996 8.0267-17.996 17.996v2c0-9.9694 8.0267-17.996 17.996-17.996h166.01c9.9694 0 17.996 8.0267 17.996 17.996v-2c0-9.9694-8.0267-17.996-17.996-17.996z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m17 91h222v118c0 15.464-12.536 28-28 28h-166c-15.464 0-28-12.536-28-28z" fill="url(#network-server-256px-g)" fill-rule="evenodd" filter="url(#network-server-256px-a)"/>
+<use transform="translate(84,119)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#network-server-256px-h)" xlink:href="#network-server-256px-i"/>
+<use transform="translate(84,119)" width="100%" height="100%" fill="url(#network-server-256px-j)" fill-rule="evenodd" xlink:href="#network-server-256px-i"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="deepin-show-desktop-a" x="-14.3%" y="-16.7%" width="128.6%" height="133.3%">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+   <feMerge>
+    <feMergeNode in="shadowMatrixOuter1"/>
+    <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <radialGradient id="radialGradient1482" cx="48" cy="7.4449" r="54.012" gradientTransform="matrix(1.6003 0 0 1.5141 -28.815 .69165)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ff774d" offset="0"/>
+   <stop stop-color="#ba0e55" offset="1"/>
+  </radialGradient>
+ </defs>
+ <path d="m82.003 12c4.4167 0 7.9972 3.5828 7.9972 7.9977v56.005c0 4.417-3.5825 7.9977-7.9972 7.9977h-68.006c-4.4167 0-7.9972-3.5828-7.9972-7.9977v-56.005c0-4.417 3.5825-7.9977 7.9972-7.9977z" fill="url(#radialGradient1482)" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+ <path d="m10 71.996c0-2.2068 1.7852-3.9958 4.0057-3.9958h67.989c2.2123 0 4.0057 1.7965 4.0057 3.9958v4.0083c0 2.2068-1.7852 3.9958-4.0057 3.9958h-67.989c-2.2123 0-4.0057-1.7965-4.0057-3.9958z" fill="#a4ffcc" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".7"/>
+ <rect x="16" y="22" width="12" height="12" rx="2" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+ <rect x="16" y="42" width="12" height="12" rx="2" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+</svg>

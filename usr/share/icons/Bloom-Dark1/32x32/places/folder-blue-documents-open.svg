@@ -1,0 +1,120 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-documents-a" x="-14.3%" y="-16.7%" width="128.6%" height="133.3%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-documents-c" x1="12.961" x2="12.961" y1="-3.0699e-14" y2="9.8424" gradientTransform="scale(1.0801 .92582)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<path id="folder-documents-b" d="m15.5 1.5c0.2986 0.89579 1.1369 1.5 2.0811 1.5h6.9189c1.933 0 3.5 1.567 3.5 3.5v14c0 1.933-1.567 3.5-3.5 3.5h-21c-1.933 0-3.5-1.567-3.5-3.5v-17c-2.3672e-16 -1.933 1.567-3.5 3.5-3.5l9.9189 1.7764e-15c0.94424-1.0121e-15 1.7825 0.60421 2.0811 1.5z"/>
+<linearGradient id="folder-documents-l" x1="6.4807" x2="6.4807" y1=".87666" y2="13.838" gradientTransform="scale(.92582 1.0801)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<path id="folder-documents-k" d="m1 0.9469h10c0.55228 0 1 0.44772 1 1v12c0 0.55228-0.44772 1-1 1h-10c-0.55228 0-1-0.44772-1-1v-12c-6.7635e-17 -0.55228 0.44772-1 1-1zm7 2v1h3v-1h-3zm0 2v1h3v-1h-3zm0 2v1h3v-1h-3zm-7 2v1h10v-1h-10zm0 2v1h4v-1h-4zm0 2v1h10v-1h-10z"/>
+<filter id="folder-documents-j" x="-29.2%" y="-17.9%" width="158.3%" height="150%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+</filter>
+<radialGradient id="folder-documents-m" cx="5.2923" cy="7.1627" r="5.4772" gradientTransform="scale(1.0954 .91287)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FA9361" offset="0"/>
+<stop stop-color="#5F1CF7" offset="1"/>
+</radialGradient>
+<linearGradient id="folder-documents-n" x1="2.7195" x2="2.7195" y1="7.1569" y2="10.228" gradientTransform="matrix(1.287 0 0 .77699 8 12.053)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-o" x1="2.3452" x2="2.3452" y1="1.7056" y2="6.396" gradientTransform="scale(.4264 2.3452)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#242424" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-p" x1=".41572" x2="1.4142" y1="22.07" y2="22.07" gradientTransform="matrix(1.4142 0 0 .70711 21 11)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F6F6F6" offset="0"/>
+<stop stop-color="#939393" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-q" x1=".46177" x2="1.4142" y1="23.219" y2="23.275" gradientTransform="scale(1.4142 .70711)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCAFD2" offset="0"/>
+<stop stop-color="#FF4B8D" offset="1"/>
+</linearGradient>
+<path id="folder-documents-r" d="m0 16h2v0.5c0 0.27614-0.22386 0.5-0.5 0.5h-1c-0.27614 0-0.5-0.22386-0.5-0.5v-0.5z"/>
+<filter id="folder-documents-s" x="-50%" y="-100%" width="200%" height="300%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.376992985   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-documents-t" x1="1.7299" x2="1.6446" y1="2.7094" y2="3.198" gradientTransform="scale(.30151 3.3166)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#463417" offset="0"/>
+<stop stop-color="#281212" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-u" x1="4.9749" x2="4.9749" y1="1.206" y2="4.5227" gradientTransform="scale(.30151 3.3166)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#080808" offset="0"/>
+<stop stop-color="#481D1D" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-v" x1=".28853" x2="1.8704" y1="2.7577" y2="2.7577" gradientTransform="matrix(.8165 0 0 1.2247 21 11)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6A6A6A" offset="0"/>
+<stop stop-color="#0A0A0A" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient883" cx="9.5394" cy=".3669" r="22.534" gradientTransform="matrix(1.4676 0 0 .68139 2 15.75)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<filter id="folder-open-a" x="-.143" y="-.167" width="1.286" height="1.333">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter968-2" x="-.041538" y="-.108" width="1.0831" height="1.216" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.45"/>
+</filter>
+<linearGradient id="linearGradient967" x1="8.6824" x2="8.6824" y1="6.4498" y2="8.3519" gradientTransform="matrix(1.6125 0 0 .62017 -18 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#CEF5FF" offset="1"/>
+</linearGradient>
+<filter id="folder-32-a-3" x="-.143" y="-.167" width="1.286" height="1.333">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<use transform="translate(2,5)" width="100%" height="100%" fill="url(#folder-documents-c)" fill-rule="evenodd" filter="url(#folder-documents-a)" xlink:href="#folder-documents-b"/>
+<g transform="translate(20)" fill-rule="evenodd">
+<rect x="-17" y="9" width="26" height="10" rx="2.2386" ry="2.2386" fill-opacity=".2" filter="url(#filter968-2)" style="paint-order:stroke fill markers"/>
+<rect x="-17" y="9" width="26" height="10" rx="2.25" ry="2.25" fill="url(#linearGradient967)" filter="url(#folder-32-a-3)"/>
+<path d="m-14.762 9c-1.2402 0-2.2383 0.99809-2.2383 2.2383v1c0-1.2402 0.99809-2.2383 2.2383-2.2383h21.523c1.2402 0 2.2383 0.99809 2.2383 2.2383v-1c0-1.2402-0.99809-2.2383-2.2383-2.2383z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m2 16h28v9.5c0 1.933-1.567 3.5-3.5 3.5h-21c-1.933 0-3.5-1.567-3.5-3.5z" fill="url(#radialGradient883)" fill-rule="evenodd" filter="url(#folder-open-a)"/>
+<use transform="translate(8,12.053)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-documents-j)" xlink:href="#folder-documents-k"/>
+<use transform="translate(8,12.053)" width="100%" height="100%" fill="url(#folder-documents-l)" fill-rule="evenodd" xlink:href="#folder-documents-k"/>
+<polygon transform="translate(8,12.053)" points="1 2.947 7 2.947 7 7.947 1 7.947" fill="url(#folder-documents-m)" fill-rule="evenodd"/>
+<path d="m13.991 18.21c0.36784 0 0.66603-0.30433 0.66603-0.67974s-0.29819-0.67974-0.66603-0.67974-0.66603 0.30433-0.66603 0.67974 0.29819 0.67974 0.66603 0.67974z" fill="#ff5151" fill-rule="evenodd"/>
+<path d="m9 20h5l-1.1712-1.9272c-0.07171-0.11799-0.22549-0.15551-0.34348-0.08381-0.01906 0.01158-0.03648 0.02566-0.0518 0.04186l-0.55877 0.59084c-0.09487 0.10032-0.2531 0.10473-0.35342 0.0099-0.02445-0.02312-0.04398-0.05094-0.05742-0.08179l-0.61776-1.4181c-0.05514-0.12658-0.20246-0.18449-0.32904-0.12935-0.05477 0.02386-0.09919 0.06655-0.1252 0.12033z" fill="url(#folder-documents-n)" fill-rule="evenodd"/>
+<polygon transform="translate(21,11)" points="0 4 2 4 2 15 0 15" fill="url(#folder-documents-o)" fill-rule="evenodd"/>
+<rect x="21" y="26" width="2" height="1" fill="url(#folder-documents-p)" fill-rule="evenodd"/>
+<use transform="translate(21,11)" width="100%" height="100%" fill="url(#folder-documents-q)" fill-rule="evenodd" xlink:href="#folder-documents-r"/>
+<use transform="translate(21,11)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-documents-s)" xlink:href="#folder-documents-r"/>
+<polygon transform="translate(21,11)" points="0 4 1 4 1 15 0 15" fill="url(#folder-documents-t)" fill-rule="evenodd"/>
+<polygon transform="translate(21,11)" points="1 4 2 4 2 15 1 15" fill="url(#folder-documents-u)" fill-rule="evenodd"/>
+<polygon transform="translate(21,11)" points="0 4 1 1 2 4" fill="#ffdcac" fill-rule="evenodd"/>
+<polygon transform="translate(21,11)" points="1 4 1 1 2 4" fill="#965600" fill-rule="evenodd"/>
+<path d="m22.333 13h-0.66667l0.33333-1zm0.66667 2h-2z" fill="url(#folder-documents-v)" fill-rule="evenodd"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="computer-a" x1="4.9497" x2="4.9497" y1="16.971" y2="14.142" gradientTransform="scale(1.4142 .70711)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CFDAFC" offset="0"/>
+<stop stop-color="#CDCFD2" offset="1"/>
+</linearGradient>
+<polygon id="computer-b" points="5 10 9 10 9 12 5 12"/>
+<filter id="computer-c" x="-25%" y="-50%" width="150%" height="200%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.305544245   0 0 0 0 0.316030326   0 0 0 0 0.533769248  0 0 0 0.178130463 0"/>
+</filter>
+<linearGradient id="computer-d" x1="2.8577" x2="2.8577" y1="26.944" y2="28.907" gradientTransform="matrix(2.4495 0 0 .40825 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#EBF4FF" offset="1"/>
+</linearGradient>
+<linearGradient id="computer-e" x1="4.6854" x2="8.9099" y1="2.8977" y2="8.9345" gradientTransform="matrix(1.1832 0 0 .84515 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7E4FF" offset="0"/>
+<stop stop-color="#F4F9FF" offset="1"/>
+</linearGradient>
+<linearGradient id="computer-g" x1="4.9962" x2="4.9962" y1=".66773" y2="10.377" gradientTransform="scale(1.2247 .8165)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4F5D73" offset="0"/>
+<stop stop-color="#313A46" offset="1"/>
+</linearGradient>
+<rect id="computer-f" x=".5" y=".5" width="12" height="8" rx="1.125"/>
+<linearGradient id="computer-i" x1=".125" x2="6.125" y1="3.5" y2="3.5" gradientTransform="matrix(2 0 0 .5 1.75 7.75)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A09AD3" offset="0"/>
+<stop stop-color="#988DD9" offset=".49618"/>
+<stop stop-color="#1654D2" offset="1"/>
+</linearGradient>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(1,2)" width="100%" height="100%" fill="url(#computer-a)" xlink:href="#computer-b"/>
+<use transform="translate(1,2)" width="100%" height="100%" fill="#000000" filter="url(#computer-c)" xlink:href="#computer-b"/>
+<path d="m5.5 13h5c0.27614 0 0.5 0.22386 0.5 0.5s-0.22386 0.5-0.5 0.5h-5c-0.27614 0-0.5-0.22386-0.5-0.5s0.22386-0.5 0.5-0.5z" fill="url(#computer-d)"/>
+<rect x="1" y="2" width="14" height="10" rx="1.563" fill="url(#computer-e)"/>
+<use transform="translate(1.5,2.5)" width="100%" height="100%" fill="url(#computer-g)" xlink:href="#computer-f"/>
+<path d="m11.09 3c-0.86771 2.1148-1.2336 3.3632-1.0312 3.6309 0.35488 0.46945 0.22612 1.6592-0.25781 2.3164-0.48393 0.65723-2.0008 1.0949-2.1621 1.627-0.046677 0.15395-0.45204 0.29272-0.96875 0.42578h6.2168c0.61642 0 1.1133-0.48708 1.1133-1.0918v-5.8164c0-0.60472-0.49686-1.0918-1.1133-1.0918h-1.7969z" fill="#1c4186"/>
+<path d="m3.7441 3-0.47461 0.50195c-0.26511 3.7447-0.36817 6.1444-0.34375 7.4609 0.063353 0.010912 0.12086 0.037109 0.1875 0.037109h4.3594c0.72975-0.8873 1.4964-2.0248 1.7363-2.4316 0.38733-0.65673 0.77429-1.5958 2.0977-4.0977 0.32669-0.61761 0.51752-1.0818 0.64062-1.4707h-8.2031z" fill="#e080a9"/>
+<path d="m3.1133 3c-0.61642 0-1.1133 0.48708-1.1133 1.0918v5.8164c0 0.60472 0.49686 1.0918 1.1133 1.0918h1.4336c0.10145-0.31069 0.14426-0.63801 0.0625-0.96875-0.35536-1.4375 1.3561-3.4375 1.0977-5.3438-0.085726-0.6323-0.099243-1.1944-0.041016-1.6875h-2.5527z" fill="#101852"/>
+<path d="m11.75 3c-0.18088 0.53177-0.51187 0.99991-0.9668 1.334-0.72834 0.53486-1.0937 1.1322-1.0937 1.791 0 1.2812-0.64374 2.7188-1.707 3.0625-1.0633 0.34375-2.1582 0.25-2.416 1.25-0.24787 0.96162-0.97071 0.25751-1.3984 0.5625h6.082c0.37856-1.2391 0.98609-2.156 1.8242-2.75 1.6755-1.1875-1.5144-1.5312-0.19336-2.5625 0.69204-0.54023 0.8697-1.4398 0.54883-2.6875h-0.67969z" fill="#7a6c9f"/>
+<rect x="2" y="8" width="12" height="3" rx=".313" fill="url(#computer-i)"/>
+<rect x="5" y="9" width="1" height="1" rx=".156" fill="#00c98f"/>
+<rect x="7" y="9" width="1" height="1" rx=".156" fill="#ff7d52"/>
+<rect x="9" y="9" width="1" height="1" rx=".156" fill="#ffb656"/>
+<rect x="12" y="9" width="1" height="1" rx=".156" fill-opacity=".3"/>
+<circle cx="3.5" cy="9.5" r="1" fill="#326cff"/>
+</g>
+</svg>

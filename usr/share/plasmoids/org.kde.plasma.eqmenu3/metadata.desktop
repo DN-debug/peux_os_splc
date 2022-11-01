@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=EQ Application Launcher (Favorites in a Grid)
+Comment=EQ Launcher to start applications
+
+Icon=start-here-kde
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/Kickoff.qml
+X-Plasma-Provides=org.kde.plasma.launchermenu
+
+X-Plasma-RequiredExtensions=LaunchApp
+
+X-KDE-PluginInfo-Author=eQuilibrium (orginal: cupnoodles)
+X-KDE-PluginInfo-Email=apps@equilibriumos.com
+X-KDE-PluginInfo-Name=org.kde.plasma.eqmenu3
+X-KDE-PluginInfo-Version=1.3
+X-KDE-PluginInfo-Website=https://gitlab.com/cupnoodles14/plasma-kickoff-grid
+X-KDE-PluginInfo-Category=Application Launchers
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL-2.0+
+X-KDE-PluginInfo-EnabledByDefault=true

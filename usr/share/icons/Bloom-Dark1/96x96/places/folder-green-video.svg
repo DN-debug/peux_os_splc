@@ -1,0 +1,61 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="folder-videos-96px-l" x1="19" x2="19" y2="38" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<circle id="folder-videos-96px-k" cx="19" cy="19" r="19"/>
+<filter id="folder-videos-96px-j" x="-13.2%" y="-10.5%" width="126.3%" height="126.3%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+</filter>
+<path id="folder-videos-96px-m" d="m4.1312 20.435c-1.8177 1.0439-3.2912 0.18817-3.2912-1.9159v-15.281c0-2.102 1.4818-2.955 3.2912-1.9159l13.349 7.6662c1.8177 1.0439 1.8094 2.7412 0 3.7803l-13.349 7.6662z"/>
+<linearGradient id="linearGradient919" x1="38.151" x2="38.151" y1="-2.959e-14" y2="28.97" gradientTransform="matrix(1.0747 0 0 .93051 7 18)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9c3" offset="0"/>
+<stop stop-color="#28851e" offset="1"/>
+</linearGradient>
+<filter id="folder-96px-a" x="-.146" y="-.169" width="1.293" height="1.338">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter973" x="-.034054" y="-.08129" width="1.0681" height="1.1626" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.05"/>
+</filter>
+<linearGradient id="linearGradient955" x1="-85" x2="-85" y1="73.782" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient923" cx="33.268" cy="0" r="78.239" gradientTransform="matrix(1.2324 0 0 .81142 7 35.01)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccff42" offset="0"/>
+<stop stop-color="#50a100" offset="1"/>
+</radialGradient>
+</defs>
+<g fill-rule="evenodd">
+<path d="m53 22.5c1.2162 2.7365 3.9299 4.5 6.9244 4.5h18.733c5.7119 0 10.342 4.6304 10.342 10.342v41.315c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342v-50.315c0-5.7119 4.6304-10.342 10.342-10.342h28.733c2.9946 0 5.7082 1.7635 6.9244 4.5z" fill="url(#linearGradient919)" filter="url(#folder-96px-a)"/>
+<g transform="translate(134,-44)">
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill-opacity=".2" filter="url(#filter973)" style="paint-order:stroke fill markers"/>
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill="url(#linearGradient955)" style="paint-order:stroke fill markers"/>
+<path d="m-116.38 74c-3.6658 0-6.6172 2.9514-6.6172 6.6172v1c0-3.6658 2.9514-6.6172 6.6172-6.6172h60.766c3.6658 0 6.6172 2.9514 6.6172 6.6172v-1c0-3.6658-2.9514-6.6172-6.6172-6.6172z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m7 35.01h82v43.647c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342z" fill="url(#radialGradient923)" filter="url(#folder-96px-a)"/>
+</g>
+<g transform="translate(29,42)" fill="none" fill-rule="evenodd">
+<use width="100%" height="100%" fill="#000000" filter="url(#folder-videos-96px-j)" xlink:href="#folder-videos-96px-k"/>
+<use width="100%" height="100%" fill="url(#folder-videos-96px-l)" xlink:href="#folder-videos-96px-k"/>
+<g transform="translate(11.16,8.12)">
+<mask id="folder-videos-96px-n" fill="#fff">
+<use width="100%" height="100%" xlink:href="#folder-videos-96px-m"/>
+</mask>
+<use width="100%" height="100%" fill="#ff006b" xlink:href="#folder-videos-96px-m"/>
+<rect x=".84" width="6" height="22" fill="#1473ff" mask="url(#folder-videos-96px-n)"/>
+<rect x="6.84" y="-.12" width="6" height="22" fill="#ffb600" mask="url(#folder-videos-96px-n)"/>
+</g>
+</g>
+</svg>

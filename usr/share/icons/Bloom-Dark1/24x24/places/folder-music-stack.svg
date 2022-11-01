@@ -1,0 +1,56 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-music-stack-a" x="-20.5%" y="-13.9%" width="140.9%" height="127.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="linearGradient919" x1="9.9499" x2="9.9499" y1="-3.6331e-14" y2="17.689" gradientTransform="matrix(1.1055 0 0 .90453 1 3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#c80017" offset="0"/>
+<stop stop-color="#b105ff" offset="1"/>
+</linearGradient>
+<filter id="folder-24-a" x="-.114" y="-.139" width="1.227" height="1.278">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="filter1010" x="-.0588" y="-.147" width="1.1176" height="1.294" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.49"/>
+</filter>
+<linearGradient id="linearGradient968" x1="-13" x2="-13" y1="16" y2="17" gradientTransform="translate(0,-6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient923" cx="8.4558" cy=".89436" r="19.907" gradientTransform="matrix(1.3009 0 0 .76871 1 7.313)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f87136" offset="0"/>
+<stop stop-color="#d22e18" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient1008" x1="5" x2="5" y1="-3" y2="13" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E91F95" offset="0"/>
+<stop stop-color="#930DCE" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(2e-4,1)" fill-rule="evenodd">
+<path d="m14 4c0.30643 0.61287 0.93283 1 1.618 1h4.7964c1.428 0 2.5856 1.1576 2.5856 2.5856v10.829c0 1.428-1.1576 2.5856-2.5856 2.5856h-16.829c-1.428 0-2.5856-1.1576-2.5856-2.5856v-12.829c0-1.428 1.1576-2.5856 2.5856-2.5856h8.7964c0.68521 0 1.3116 0.38713 1.618 1z" fill="url(#linearGradient919)" filter="url(#folder-24-a)"/>
+<g transform="translate(26,-4)">
+<rect x="-24" y="10" width="20" height="8" rx="1.6573" ry="1.6573" fill-opacity=".2" filter="url(#filter1010)" style="paint-order:stroke fill markers"/>
+<rect x="-24" y="10" width="20" height="8" rx="1.6573" ry="1.6573" fill="url(#linearGradient968)" style="paint-order:stroke fill markers"/>
+<path d="m-22.342 10c-0.91812 0-1.6582 0.74008-1.6582 1.6582v1c0-0.91812 0.74008-1.6582 1.6582-1.6582h16.684c0.91812 0 1.6582 0.74008 1.6582 1.6582v-1c0-0.91812-0.74008-1.6582-1.6582-1.6582z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m1 8.0005h22v10.414c0 1.428-1.1576 2.5856-2.5856 2.5856h-16.829c-1.428 0-2.5856-1.1576-2.5856-2.5856z" fill="url(#radialGradient923)" filter="url(#folder-24-a)"/>
+</g>
+<g transform="translate(7,12)" fill-rule="evenodd" filter="url(#folder-music-stack-a)">
+<circle cx="5" cy="5" r="6.5" fill="url(#linearGradient1008)" stroke="#222" stroke-width="3"/>
+<polygon points="3 8 3 2 8 5" fill="#fff"/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <filter id="application-x-deepinclone-dim-a" x="-.219" y="-.125" width="1.438" height="1.35">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0391387195   0 0 0 0 0.388542822   0 0 0 0 1  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-deepinclone-dim-c" x1="8.9443" x2="8.9443" y2="17.889" gradientTransform="matrix(.89443 0 0 1.118 4 2)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#327DFF" offset="0"/>
+   <stop stop-color="#1066FF" offset="1"/>
+  </linearGradient>
+  <filter id="application-x-deepinclone-dim-d" x="-.364" y="-.177" width="1.727" height="1.709">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="linearGradient1606" x1="13.419" x2="11.418" y1="2.785" y2="4.9302" gradientTransform="matrix(.98742 0 0 1.0127 4 2)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g fill-rule="evenodd">
+  <path d="m20 19.75c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c0-1.2426 1.0074-2.25 2.25-2.25h8.25l5.5 5.5z" filter="url(#application-x-deepinclone-dim-a)"/>
+  <path d="m20 19.75c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c0-1.2426 1.0074-2.25 2.25-2.25h8.25l5.5 5.5z" fill="url(#application-x-deepinclone-dim-c)"/>
+  <path d="m14.5 2 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25z" filter="url(#application-x-deepinclone-dim-d)"/>
+  <path d="m14.5 2 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25z" fill="url(#linearGradient1606)"/>
+ </g>
+ <path d="m9 13h-2v2h-2v1h2v2h2v1.3333h1v-1.3333h2v-2h7v-1h-7v-2h-2v-7h-1zm-1 1h3v3h-3z" fill="#fff" fill-rule="evenodd"/>
+</svg>

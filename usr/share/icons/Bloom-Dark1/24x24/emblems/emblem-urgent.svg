@@ -1,0 +1,13 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="emblem-unreadable-b" d="m18 9c0 4.971-4.029 9-9 9s-9-4.029-9-9 4.029-9 9-9 9 4.029 9 9"/>
+<filter id="emblem-unreadable-a" x="-19.4%" y="-13.9%" width="138.9%" height="138.9%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+</filter>
+</defs>
+<use transform="translate(3,3)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#emblem-unreadable-a)" xlink:href="#emblem-unreadable-b"/>
+<use transform="translate(3,3)" width="100%" height="100%" fill="#ffffff" fill-rule="evenodd" xlink:href="#emblem-unreadable-b"/>
+<path d="m11.986 5.9718a1.0001 1.0001 0 0 0-0.98633 1.0137v6a1.0001 1.0001 0 0 0 0.29297 0.70703l3 3a1.0001 1.0001 0 1 0 1.4141-1.4141l-2.707-2.707v-5.5859a1.0001 1.0001 0 0 0-1.0137-1.0137z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#ff4f00" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</svg>

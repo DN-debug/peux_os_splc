@@ -1,0 +1,10 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="m4 0.5h8c1.3807 0 2.5 1.1193 2.5 2.5v10c0 1.3807-1.1193 2.5-2.5 2.5h-8c-1.3807 0-2.5-1.1193-2.5-2.5v-10c0-1.3807 1.1193-2.5 2.5-2.5z" fill="#fff" fill-rule="evenodd" stroke="#dfdfdf"/>
+<g fill="#808080" fill-opacity=".98429" fill-rule="evenodd">
+<path d="m3 3h10v1h-10z" style="paint-order:stroke fill markers"/>
+<path d="m3 6h10v1h-10z" style="paint-order:stroke fill markers"/>
+<path d="m3 9h10v1h-10z" style="paint-order:stroke fill markers"/>
+<path d="m3 12h10v1h-10z" style="paint-order:stroke fill markers"/>
+<rect transform="rotate(-90)" x="-14" y="4" width="12" height="1" rx="0" ry="0" style="paint-order:stroke fill markers"/>
+</g>
+</svg>

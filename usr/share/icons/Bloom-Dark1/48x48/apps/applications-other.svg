@@ -1,0 +1,32 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-movie-a" x="-15.5%" y="-15.5%" width="131%" height="131%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-movie-b" x1="21" x2="21" y1=".9975" y2="42" gradientTransform="translate(3,3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3E3E3E" offset="0"/>
+<stop stop-color="#0F0F0F" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-movie-c" x1="17.123" x2="21" y2="42" gradientTransform="translate(3,3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B0FAFF" offset="0"/>
+<stop stop-color="#0D96C2" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient890" x1="24.056" x2="23.775" y1="3.3806" y2="44.957" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+<linearGradient id="linearGradient892" x1="17.123" x2="21" y2="42" gradientTransform="translate(3,3)" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+<linearGradient id="linearGradient2397" x1="24.056" x2="23.775" y1="3.3806" y2="44.957" gradientTransform="translate(12)" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+<linearGradient id="linearGradient2401" x1="24.056" x2="23.775" y1="3.3806" y2="44.957" gradientTransform="translate(-12)" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+</defs>
+<g fill-rule="evenodd">
+<circle cx="24" cy="24" r="20" fill="url(#deepin-movie-b)" filter="url(#deepin-movie-a)" stroke="url(#linearGradient892)" stroke-width="2"/>
+<circle cx="24" cy="24" r="4" fill="url(#linearGradient890)" style="paint-order:stroke fill markers"/>
+<circle cx="36" cy="24" r="4" fill="url(#linearGradient2397)" style="paint-order:stroke fill markers"/>
+<circle cx="12" cy="24" r="4" fill="url(#linearGradient2401)" style="paint-order:stroke fill markers"/>
+</g>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-13.8%" y="-15.1%" width="127.6%" height="130.2%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-show-desktop-b" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-color="#908B78" flood-opacity=".498" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1.5"/>
+<feOffset dx="0" dy="1.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g transform="translate(6 11)" fill="none" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)">
+<rect width="116" height="106" rx="12" fill="url(#deepin-show-desktop-b)"/>
+<g transform="translate(8 18)">
+<rect y="64" width="100" height="16" rx="4" fill="#A4FFCC" opacity=".7"/>
+<rect x="6" y="1" width="16" height="16" rx="2.5" fill="#000" opacity=".1"/>
+<rect x="6" y="29" width="16" height="16" rx="2.5" fill="#000" opacity=".1"/>
+<rect x="6" width="16" height="16" rx="2.5" fill="#FFF"/>
+<rect x="6" y="28" width="16" height="16" rx="2.5" fill="#FFF"/>
+</g>
+</g>
+<path transform="matrix(1.8168,0,0,1.8168,18.664,-9.0536)" d="m20 27v10.668c0 0.738 0.668 1.332 1.5 1.332h21c0.832 0 1.5-0.594 1.5-1.332v-10.668z" fill="#fff" filter="url(#a)"/>
+<path transform="matrix(1.8168,0,0,1.8168,18.664,-9.0536)" d="m21.5 23h21c0.832 0 1.5 0.594 1.5 1.334v2.666h-24v-2.667c0-0.738 0.669-1.333 1.5-1.333z" fill="#4f4f4f" filter="url(#a)" opacity=".584"/>
+</svg>

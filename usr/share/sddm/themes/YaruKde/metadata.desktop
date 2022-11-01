@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=YaruKde
+Description=YaruKde Theme
+Author=adhe
+Copyright=
+License=
+Type=sddm-theme
+Version=0.1
+Website=adhec[dot]github
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=adhemarks@gmail.com
+Theme-Id=YaruKde
+Theme-API=2.0

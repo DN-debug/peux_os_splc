@@ -1,0 +1,21 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter900" x="-.032538" y="-.040286" width="1.0651" height="1.0806" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.3525"/>
+</filter>
+<filter id="filter922" x="-.045156" y="-.051226" width="1.0903" height="1.1025" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.54366436"/>
+</filter>
+</defs>
+<title>深度截图-32px</title>
+<g fill-rule="evenodd">
+<g>
+<rect transform="rotate(16.037)" x="6.9356" y=".93772" width="26" height="21" rx="4" ry="4" fill="#b3b3b3" filter="url(#filter922)"/>
+<rect transform="rotate(16.037)" x="6.9356" y=".93772" width="26" height="21" rx="4" ry="4" fill="#a6dbff"/>
+<rect x="3" y="6" width="26" height="21" rx="4" ry="4" fill="#999" filter="url(#filter900)"/>
+<rect x="3" y="6" width="26" height="21" rx="4" ry="4" fill="#ea004e"/>
+</g>
+<path d="m7 6c-2.1825 0-3.9375 1.733-3.9902 3.9023v8.7656c6.667 4.333 12.88-1.3435 14.215-4.3145 1.504 1.006 5.0037 0.44906 6.5117-1.4609 0.9264 2.4657 3.4731 4.1979 5.2637 4.1074v-7c0-2.216-1.784-4-4-4z" fill="#ff0056"/>
+<path d="m21 19v-6.5s0-0.5-0.5-0.5h-8.495v-2.5s0-0.5-0.505-0.5-0.5 0.5-0.5 0.5v2.5h-2.5s-0.5 0-0.5 0.5 0.5 0.5 0.5 0.5h2.5v6.5c0 0.5 0.5 0.5 0.5 0.5h8.5v2.5s0 0.5 0.5 0.5 0.5-0.5 0.5-0.5v-2.5h2.5s0.5 0 0.5-0.5-0.5-0.5-0.5-0.5zm-9-6h8v6h-8z" fill="#fff"/>
+</g>
+</svg>

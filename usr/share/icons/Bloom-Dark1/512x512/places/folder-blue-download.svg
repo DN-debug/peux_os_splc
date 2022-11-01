@@ -1,0 +1,55 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-downloads-a" x="-12.2%" y="-14.1%" width="124.3%" height="128.1%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-downloads-b" x1="206.46" x2="206.46" y1="-3.0562e-14" y2="156.77" gradientTransform="matrix(1.0753 0 0 .92998 34 90)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-downloads-g" cx="180.03" cy="0" r="423.4" gradientTransform="matrix(1.2331 0 0 .81096 34 182)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<linearGradient id="folder-downloads-j" x1="100" x2="100" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<circle id="folder-downloads-i" cx="100" cy="100" r="100"/>
+<filter id="folder-downloads-h" x="-13%" y="-11%" width="126%" height="126%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-downloads-k" x1="111.45" x2="111.45" y1="38.438" y2="152.98" gradientTransform="matrix(.91518 0 0 1.0927 156 220)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF3D3D" offset="0"/>
+<stop stop-color="#E3FF00" offset=".19361"/>
+<stop stop-color="#00A2EF" offset=".48269"/>
+<stop stop-color="#790EED" offset="1"/>
+</linearGradient>
+<filter id="filter992" x="-.042327" y="-.10301" width="1.0847" height="1.206" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="7.125"/>
+</filter>
+<linearGradient id="linearGradient966" x1="-260" x2="-260" y1="372" y2="392" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m282 113c6.0723 13.966 19.851 23 35.08 23h104.92c30.928 0 56 25.072 56 56v226c0 30.928-25.072 56-56 56h-332c-30.928 0-56-25.072-56-56v-272c0-30.928 25.072-56 56-56h156.92c15.229 0 29.008 9.0338 35.08 23z" fill="url(#folder-downloads-b)" fill-rule="evenodd" filter="url(#folder-downloads-a)"/>
+<g transform="translate(532,-212)" fill-rule="evenodd">
+<rect x="-478" y="368" width="404" height="166" rx="36" ry="36" fill-opacity=".2" filter="url(#filter992)" style="paint-order:stroke fill markers"/>
+<rect x="-478" y="366" width="404" height="166" rx="36" ry="36" fill="url(#linearGradient966)" style="paint-order:stroke fill markers"/>
+<path d="m-442 366c-19.944 0-36 16.056-36 36v4c0-19.944 16.056-36 36-36h332c19.944 0 36 16.056 36 36v-4c0-19.944-16.056-36-36-36z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m34 182h444v236c0 30.928-25.072 56-56 56h-332c-30.928 0-56-25.072-56-56z" fill="url(#folder-downloads-g)" fill-rule="evenodd" filter="url(#folder-downloads-a)"/>
+<use transform="translate(156,220)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-downloads-h)" xlink:href="#folder-downloads-i"/>
+<use transform="translate(156,220)" width="100%" height="100%" fill="url(#folder-downloads-j)" fill-rule="evenodd" xlink:href="#folder-downloads-i"/>
+<path d="m284 268c0 2.2091-2.3589 4-4.3333 4h-43.333c-1.9744 0-4.3333-1.7909-4.3333-4s2.3589-4 4.3333-4h43.333c1.9744 0 4.3333 1.7909 4.3333 4zm-52 21.6v-3.2c0-3.2 2.8889-6.4 5.7778-6.4h40.444c2.8889 0 5.7778 3.2 5.7778 6.4v3.2c0 3.2-2.8889 6.4-5.7778 6.4h-40.444c-2.8889 0-5.7778-3.2-5.7778-6.4zm0.98177 25.132v-4.8652c0-2.9333 2.8629-5.8667 5.7258-5.8667h40.075c2.8629 0 5.7258 2.9333 5.7258 5.8667v4.8652c0 8.8328 7.1632 15.998 16 15.998h-0.50742c8.8339 0 11.077 5.2 5.0049 11.614l-36.011 38.041c-6.0746 6.4171-15.917 6.4145-21.989 0l-36.011-38.041c-6.0746-6.4171-3.8277-11.614 5.0132-11.614h0.96614c8.8513 0 16.008-7.1626 16.008-15.998z" fill="#fff" fill-rule="evenodd" stroke="url(#folder-downloads-k)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

@@ -13,7 +13,7 @@
     sleep 1
 
 # apply wallpaper and enable color
-    plasma-apply-wallpaperimage /usr/share/wallpapers/tyler-smith-fishpool02.jpg
+    plasma-apply-wallpaperimage /usr/share/backgrounds/tyler-smith-fishpool02.jpg
     plasma-apply-colorscheme ReversalDark &
 
 # enable icons

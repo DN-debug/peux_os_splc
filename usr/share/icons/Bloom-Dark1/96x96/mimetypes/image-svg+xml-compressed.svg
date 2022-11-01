@@ -1,0 +1,34 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="image-bmp-a" x="-.156" y="-.103" width="1.312" height="1.256">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.262745098   0 0 0 0 0.71372549   0 0 0 0 0.607843137  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="image-bmp-c" x1="35.327" x2="35.327" y2="70.654" gradientTransform="scale(.90582 1.104)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#28DCB1" offset="0"/>
+   <stop stop-color="#00AF9D" offset="1"/>
+  </linearGradient>
+  <filter id="image-bmp-d" x="-.25" y="-.159" width="1.5" height="1.5">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="image-bmp-f" x1="53" x2="44.528" y1="11" y2="19.51" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(16,10)" fill-rule="evenodd">
+  <path d="m42 0 22 22v47c0 4.9706-4.0294 9-9 9h-46c-4.9706 0-9-4.0294-9-9v-60c0-4.9706 4.0294-9 9-9z" filter="url(#image-bmp-a)"/>
+  <path d="m42 0 22 22v47c0 4.9706-4.0294 9-9 9h-46c-4.9706 0-9-4.0294-9-9v-60c0-4.9706 4.0294-9 9-9z" fill="url(#image-bmp-c)"/>
+  <path d="m42 0 22 22h-13c-4.9706 0-9-4.0294-9-9z" filter="url(#image-bmp-d)"/>
+  <path d="m42 0 22 22h-13c-4.9706 0-9-4.0294-9-9z" fill="url(#image-bmp-f)"/>
+ </g>
+ <path d="m36 76.583c8.2287-8.7481 7.4927-16.355 1.2554-22.87-1.0452-1.0917-2.1675-2.0516-3.289-2.8693-0.3913-0.2853-1.3987-0.93937-1.4625-0.97583-0.89035-0.50877-0.52932-1.8682 0.49614-1.8682h28c0.55228 0 1 0.44772 1 1s-0.44772 1-1 1h-25c0.82576 0.67138 1.923 1.5187 2.7 2.3302 6.9527 7.2621 7.7594 16.082-1.3136 25.696-0.04138 0.04385 16.774-0.01232 20.783-0.02437 0.41122-1.1663 1.523-2.0022 2.8301-2.0022 1.6569 0 3 1.3431 3 3s-1.3431 3-3 3c-1.3062 0-2.4175-0.83481-2.8293-2h-22.121s-0.02357-0.6451-0.05-1.3683v4.3683h-7v-7h7zm24 2.4166c0 0.55228 0.44772 1 1 1s1-0.44772 1-1-0.44772-1-1-1-1 0.44772-1 1zm-26 2v-3h-3v3z" fill="#fff" fill-rule="evenodd"/>
+ <g transform="translate(0,-10)" fill-rule="evenodd">
+  <path d="m43 50h6v-4h-6v-3h10v10h-10zm-4-7v10h-23v-10zm18 0h23v10h-23z" fill="#fff8f8" fill-opacity=".5"/>
+  <path d="m41.5 40h13c0.82843 0 1.5 0.67157 1.5 1.5v13c0 0.82843-0.67157 1.5-1.5 1.5h-13c-0.82843 0-1.5-0.67157-1.5-1.5v-13c0-0.82843 0.67157-1.5 1.5-1.5zm0.5 2v12h12v-12zm0 5h6v2h-6z" fill="#f4f4f4"/>
+ </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-11.7%" y="-12.9%" width="123.5%" height="125.7%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-show-desktop-b" x1="109.89" x2="109.89" y2="219.77" gradientTransform="matrix(1.0465 0 0 .95553 13 23)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+</defs>
+<g fill-rule="evenodd">
+<rect x="13" y="23" width="230" height="210" rx="24" fill="url(#deepin-show-desktop-b)" filter="url(#deepin-show-desktop-a)"/>
+<rect x="40" y="60" width="32" height="32" rx="5" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="40" y="116" width="32" height="32" rx="5" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="40" y="58" width="32" height="32" rx="5" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+<rect x="40" y="114" width="32" height="32" rx="5" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+<rect x="96" y="60" width="32" height="32" rx="5" ry="5" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="96" y="116" width="32" height="32" rx="5" ry="5" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="96" y="58" width="32" height="32" rx="5" ry="5" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+<rect x="96" y="114" width="32" height="32" rx="5" ry="5" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+<rect x="40" y="172" width="32" height="32" rx="5" ry="5" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="40" y="170" width="32" height="32" rx="5" ry="5" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+</g>
+</svg>

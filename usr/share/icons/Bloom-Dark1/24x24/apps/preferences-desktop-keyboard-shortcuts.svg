@@ -1,0 +1,41 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-virtualkeyboard-a" x="-11.4%" y="-12.5%" width="122.7%" height="125%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-virtualkeyboard-b" x1="10.488" x2="10.488" y2="20.586" gradientTransform="matrix(1.0488 0 0 .95346 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#EDEDED" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-virtualkeyboard-c" x1="8.3152" x2="8.3152" y1="7.9373" y2="18.52" gradientTransform="matrix(1.3229 0 0 .75593 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4A4A4A" offset="0"/>
+<stop stop-color="#363636" offset=".97645"/>
+</linearGradient>
+</defs>
+<rect x="1" y="2" width="22" height="20" rx="3.786" fill="url(#deepin-virtualkeyboard-b)" fill-rule="evenodd" filter="url(#deepin-virtualkeyboard-a)"/>
+<g fill="url(#deepin-virtualkeyboard-c)">
+<path d="m16 14v2h-8v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m7 14v2h-2v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m19 14v2h-2v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m15 11v2h-2v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+</g>
+<path d="m12 11v2h-2v-2z" fill="#f22c42" filter="url(#deepin-virtualkeyboard-a)"/>
+<g fill="url(#deepin-virtualkeyboard-c)">
+<path d="m9 11v2h-4v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m19 11v2h-3v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m16 8v2h-2v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m19 8v2h-2v-2z" filter="url(#deepin-virtualkeyboard-a)"/>
+</g>
+<g>
+<path d="m13 8v2h-2v-2z" fill="#f22c42" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m10 8v2h-2v-2z" fill="#f22c42" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m7 8v2h-2v-2z" fill="url(#deepin-virtualkeyboard-c)" filter="url(#deepin-virtualkeyboard-a)"/>
+</g>
+</svg>

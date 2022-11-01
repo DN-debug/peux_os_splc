@@ -1,0 +1,50 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="network-workgroup-48px-a" x="-15.5%" y="-18.1%" width="131%" height="136.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="network-workgroup-48px-c" x1="19.442" x2="19.442" y1="-3.5496e-14" y2="14.764" gradientTransform="scale(1.0801 .92582)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<path id="network-workgroup-48px-b" d="m24 2.5c0.60397 1.5099 2.0664 2.5 3.6926 2.5h9.1362c2.856 0 5.1712 2.3152 5.1712 5.1712v20.658c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712l-1.7764e-15 -25.658c-3.4975e-16 -2.856 2.3152-5.1712 5.1712-5.1712l15.136 1.7764e-15c1.6262-2.9873e-16 3.0886 0.99009 3.6926 2.5z"/>
+<radialGradient id="radialGradient890" cx="16.837" cy=".46771" r="39.606" gradientTransform="matrix(1.2472 0 0 .80178 3 16.625)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<filter id="filter1343" x="-.034105" y="-.081" width="1.0682" height="1.162" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.54"/>
+</filter>
+<linearGradient id="folder-48px-g" x1="13.627" x2="13.627" y1="10.918" y2="13.827" gradientTransform="matrix(1.5411 0 0 .64889 3 8)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#CEF5FF" offset="1"/>
+</linearGradient>
+<filter id="folder-48px-a" x="-.155" y="-.181" width="1.31" height="1.361">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<use transform="translate(3,8)" width="100%" height="100%" fill="url(#network-workgroup-48px-c)" fill-rule="evenodd" filter="url(#network-workgroup-48px-a)" xlink:href="#network-workgroup-48px-b"/>
+<g transform="translate(2.432e-5,5.0704e-4)" fill-rule="evenodd">
+<rect x="5" y="15" width="38" height="16" rx="3.3498" ry="3.3498" fill-opacity=".2" filter="url(#filter1343)" style="paint-order:stroke fill markers"/>
+<path d="m8.3243 15.084h31.351c1.836 0 3.3243 1.4884 3.3243 3.3243v9.3514c0 1.836-1.4884 3.3243-3.3243 3.3243h-31.351c-1.836 0-3.3243-1.4884-3.3243-3.3243v-9.3514c0-1.836 1.4884-3.3243 3.3243-3.3243z" fill="url(#folder-48px-g)" filter="url(#folder-48px-a)"/>
+<path d="m8.3243 15.084c-1.8606 0-3.3594 1.4713-3.3594 3.2988v1c0-1.8275 1.4987-3.2988 3.3594-3.2988h31.281c1.8606 0 3.3594 1.4713 3.3594 3.2988v-1c0-1.8275-1.4987-3.2988-3.3594-3.2988z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m3 17h42v21.829c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712z" fill="url(#radialGradient890)" fill-rule="evenodd" filter="url(#network-workgroup-48px-a)"/>
+<path d="m24 31.5c5.2467 0 9.5-1.567 9.5-3.5s-4.2533-3.5-9.5-3.5-9.5 1.567-9.5 3.5 4.2533 3.5 9.5 3.5z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m28.552 36.289c-1.704 1.0343-5.1236-1.8385-7.6378-6.4165-2.5142-4.578-3.171-9.1277-1.467-10.162 1.704-1.0343 5.1236 1.8385 7.6378 6.4165 2.5142 4.578 3.171 9.1277 1.467 10.162z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m27.085 29.873c2.5142-4.578 3.171-9.1277 1.467-10.162-1.704-1.0343-5.1236 1.8385-7.6378 6.4165-2.5142 4.578-3.171 9.1277-1.467 10.162 1.704 1.0343 5.1236-1.8385 7.6378-6.4165z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

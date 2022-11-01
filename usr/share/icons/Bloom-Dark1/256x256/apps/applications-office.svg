@@ -1,0 +1,16 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="voice-note-a" x="-13.5%" y="-12.1%" width="127%" height="124.1%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<path d="m52 16h152c13.255 0 24 10.745 24 24v176c0 13.255-10.745 24-24 24h-152c-13.255 0-24-10.745-24-24v-176c0-13.255 10.745-24 24-24z" fill="#fff" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+<path d="m58 16v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v12h150v2h-150v10h-2v-10h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12h-12v-2h12v-12z" fill="#808080" fill-opacity=".94764" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+</svg>

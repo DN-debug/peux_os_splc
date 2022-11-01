@@ -1,0 +1,84 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-picker-a" x="-11.4%" y="-11.4%" width="122.9%" height="122.9%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-picker-c" x1="236" x2="236" y2="453.93" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E2E2E" offset="0"/>
+<stop stop-color="#121212" offset="1"/>
+</linearGradient>
+<circle id="deepin-picker-b" cx="236" cy="236" r="236"/>
+<linearGradient id="deepin-picker-e" x1="113.2" x2="49.359" y1="46.241" y2="120.55" gradientTransform="scale(.99773 1.0023)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FB563F" offset="0"/>
+<stop stop-color="#DA377B" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-f" x1="188.68" x2="101.33" y1="36.589" y2="59.563" gradientTransform="scale(1.0706 .93405)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EF7640" offset="0"/>
+<stop stop-color="#FB563F" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-g" x1="45.046" x2="31.534" y1="90.304" y2="189.03" gradientTransform="scale(.93122 1.0739)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DA377B" offset="0"/>
+<stop stop-color="#894CEC" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-h" x1="29.904" x2="45.181" y1="186.67" y2="285.64" gradientTransform="scale(.93808 1.066)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8D47FF" offset="0"/>
+<stop stop-color="#6671FF" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-i" x1="61.306" x2="127.92" y1="280.78" y2="351.59" gradientTransform="scale(1.0023 .99773)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7366FF" offset="0"/>
+<stop stop-color="#1696FF" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-j" x1="188.92" x2="90.407" y1="388.32" y2="388.32" gradientTransform="scale(1.0692 .93525)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30CED6" offset="0"/>
+<stop stop-color="#1696FF" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-k" x1="266.79" x2="186.53" y1="372.71" y2="401.4" gradientTransform="scale(1.0692 .93525)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7EE22C" offset="0"/>
+<stop stop-color="#30D6B2" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-l" x1="339.44" x2="283" y1="281.42" y2="361.51" gradientTransform="scale(1.0023 .99773)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C1EA55" offset="0"/>
+<stop stop-color="#74E126" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-m" x1="381.22" x2="371.34" y1="186.67" y2="279.28" gradientTransform="scale(.93808 1.066)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FBEF4D" offset="0"/>
+<stop stop-color="#B9EA56" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-n" x1="377.27" x2="404.49" y1="90.304" y2="189.03" gradientTransform="scale(.93122 1.0739)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD600" offset="0"/>
+<stop stop-color="#FFED58" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-o" x1="273.55" x2="342.4" y1="62.036" y2="122.1" gradientTransform="scale(.99773 1.0023)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFC134" offset="0"/>
+<stop stop-color="#FBE04D" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-picker-p" x1="260.29" x2="184.94" y1="71.022" y2="45.27" gradientTransform="scale(1.0706 .93405)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F5B543" offset="0"/>
+<stop stop-color="#EF7640" offset="1"/>
+</linearGradient>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(20,20)" width="100%" height="100%" fill="url(#deepin-picker-c)" filter="url(#deepin-picker-a)" xlink:href="#deepin-picker-b"/>
+<g stroke="#000" stroke-opacity=".2" stroke-width="4">
+<path transform="rotate(90,200,256)" d="m98.543 25.266 35.003 60.628-1.6789 1.0137c-18.777 11.337-34.497 27.217-45.642 46.108l-1.0067 1.7064-60.628-35.004 1.0181-1.7368c17.282-29.482 41.83-54.196 71.193-71.679z" fill="url(#deepin-picker-e)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m100.29 24.271c29.562-16.81 62.96-25.931 97.684-26.271l2.0196-0.019786v69.995l-1.9707 0.02883c-22.294 0.32618-43.729 6.1913-62.756 16.917l-1.7244 0.97211-35.003-60.627z" fill="url(#deepin-picker-f)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m24.591 99.719 60.628 35.004-0.94475 1.7166c-10.469 19.022-16.111 40.383-16.273 62.565l-0.01451 1.9854h-69.996l0.00984-2.0098c0.16943-34.61 9.0583-67.931 25.601-97.493z" fill="url(#deepin-picker-g)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m-2.0101 200.99h69.997l0.04297 1.9561c0.48475 22.066 6.3994 43.264 17.077 62.084l0.9795 1.7265-60.628 35.004-0.99649-1.745c-16.76-29.35-25.935-62.504-26.442-96.996z" fill="url(#deepin-picker-h)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m25.458 301.76 60.628-35.004 1.0155 1.6715c11.262 18.538 26.959 34.078 45.611 45.15l1.699 1.0086-35.003 60.627-1.7382-1.0232c-29.235-17.21-53.762-41.571-71.171-70.688z" fill="url(#deepin-picker-i)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m99.409 375.21 35.003-60.628 1.7188 0.95205c18.816 10.422 39.94 16.115 61.896 16.437l1.9707 0.0288v69.995l-2.0196-0.0198c-34.377-0.33679-67.456-9.2797-96.805-25.774z" fill="url(#deepin-picker-j)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m200 402v-69.995l1.9707-0.0288c21.956-0.32125 43.08-6.0142 61.896-16.437l1.7187-0.95205 35.003 60.628-1.7638 0.99128c-29.349 16.494-62.428 25.437-96.805 25.774z" fill="url(#deepin-picker-k)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m300.59 375.21-35.003-60.627 1.699-1.0086c18.652-11.073 34.349-26.612 45.611-45.15l1.0155-1.6715 60.628 35.004-1.0421 1.743c-17.409 29.117-41.935 53.478-71.171 70.688z" fill="url(#deepin-picker-l)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m374.54 301.76-60.628-35.004 0.97951-1.7265c10.677-18.82 16.592-40.018 17.077-62.084l0.043-1.9561h69.997l-0.0298 2.0294c-0.50716 34.491-9.6818 67.646-26.442 96.996z" fill="url(#deepin-picker-m)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m402 200.99h-69.996l-0.0145-1.9854c-0.16214-22.183-5.8041-43.543-16.273-62.565l-0.94475-1.7166 60.628-35.004 0.98986 1.7689c16.542 29.561 25.431 62.883 25.601 97.493z" fill="url(#deepin-picker-n)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m375.4 99.719-60.628 35.004-1.0067-1.7064c-11.145-18.892-26.866-34.771-45.642-46.108l-1.6789-1.0137 35.003-60.628 1.7417 1.037c29.363 17.483 53.91 42.197 71.193 71.679z" fill="url(#deepin-picker-o)" filter="url(#deepin-picker-a)"/>
+<path transform="rotate(90,200,256)" d="m301.45 25.266-35.003 60.627-1.7244-0.97211c-19.027-10.726-40.461-16.591-62.756-16.917l-1.9707-0.02883v-69.995l2.0196 0.019786c34.725 0.34019 68.122 9.4617 97.684 26.271z" fill="url(#deepin-picker-p)" filter="url(#deepin-picker-a)"/>
+</g>
+</g>
+</svg>

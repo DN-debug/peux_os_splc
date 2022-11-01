@@ -1,0 +1,30 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="x-media-podcast-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-c" x1="93.467" x2="93.467" y2="186.93" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="x-media-podcast-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-f" x1="142" x2="120.16" y1="26" y2="46.224" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(44,28)" fill-rule="evenodd">
+  <path d="m116 0 52 52v138c0 9.9411-8.0589 18-18 18h-132c-9.9411 0-18-8.0589-18-18v-172c0-9.9411 8.0589-18 18-18z" filter="url(#x-media-podcast-a)"/>
+  <path d="m116 0 52 52v138c0 9.9411-8.0589 18-18 18h-132c-9.9411 0-18-8.0589-18-18v-172c0-9.9411 8.0589-18 18-18z" fill="url(#x-media-podcast-c)"/>
+  <path d="m116 0 52 52h-34c-9.9411 0-18-8.0589-18-18z" filter="url(#x-media-podcast-d)"/>
+  <path d="m116 0 52 52h-34c-9.9411 0-18-8.0589-18-18z" fill="url(#x-media-podcast-f)"/>
+ </g>
+ <polygon points="92 152 168 152 168 96 92 96 92 92 88 92 88 188 92 188" fill="#fff" fill-rule="evenodd"/>
+</svg>

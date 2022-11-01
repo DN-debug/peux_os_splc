@@ -1,0 +1,16 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="system-shutdown-b" d="m2 12c0-5.5138 4.4857-10 10-10 5.5138 0 10 4.4862 10 10s-4.4862 10-10 10c-5.5143 0-10-4.4862-10-10z"/>
+<radialGradient id="radialGradient1029" cx="12" cy="12" r="10" gradientTransform="matrix(1.1952 0 0 .83666 -29.22 -12.514)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0056FF" offset="1"/>
+</radialGradient>
+<filter id="filter1002" x="-.072" y="-.072" width="1.144" height="1.144" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.6"/>
+</filter>
+</defs>
+<use transform="matrix(1.0488 0 0 1.0488 -.5856 -.5856)" width="100%" height="100%" fill="#808080" fill-rule="evenodd" filter="url(#filter1002)" stroke-width=".95347" xlink:href="#system-shutdown-b"/>
+<use transform="matrix(1.1,0,0,1.1,-1.2,-1.2)" width="100%" height="100%" fill="url(#radialGradient1029)" fill-rule="evenodd" stroke-width=".90909" xlink:href="#system-shutdown-b"/>
+<path d="m12 11c-2.2049 0.0012-3.57 0.73076-4.2812 1.6094-0.70995 0.87715-0.71875 1.8496-0.71875 1.8496v1.2246l0.10156 0.20898 0.00195 0.0039s0.34374 0.65514 1.127 1.166c0.77177 0.50337 1.9851 0.93751 3.7695 0.93751s2.9977-0.43416 3.7695-0.9375c0.78327-0.51086 1.127-1.166 1.127-1.166l2e-3 -0.0039 0.10152-0.20899v-1.2246s-0.0069-0.97183-0.7168-1.8496c-0.7112-0.87948-2.0784-1.6101-4.2832-1.6094z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m12 6a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z" fill="#fff" fill-rule="evenodd" opacity=".99" style="paint-order:stroke markers fill"/>
+</svg>

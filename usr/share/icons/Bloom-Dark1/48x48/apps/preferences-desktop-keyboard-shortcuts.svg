@@ -1,0 +1,40 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-virtualkeyboard-a" x="-14.8%" y="-16.2%" width="129.5%" height="132.5%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-virtualkeyboard-b" x1="20.976" x2="20.976" y2="41.172" gradientTransform="matrix(1.0488 0 0 .95346 2 4)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#EDEDED" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-virtualkeyboard-c" x1="16.144" x2="16.144" y1="17.716" y2="36.795" gradientTransform="matrix(1.3628 0 0 .7338 2 4)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4A4A4A" offset="0"/>
+<stop stop-color="#363636" offset=".97645"/>
+</linearGradient>
+<linearGradient id="linearGradient872" x1="16.144" x2="16.144" y1="17.716" y2="36.795" gradientTransform="matrix(1.3628 0 0 .7338 2 4)" gradientUnits="userSpaceOnUse" xlink:href="#deepin-virtualkeyboard-c"/>
+</defs>
+<rect x="2" y="4" width="44" height="40" rx="8" fill="url(#deepin-virtualkeyboard-b)" fill-rule="evenodd" filter="url(#deepin-virtualkeyboard-a)"/>
+<g fill="url(#deepin-virtualkeyboard-c)">
+<path d="m31 27c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-13c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m15 27c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-3c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m36 27c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m28 22c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+</g>
+<path d="m23 22c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" fill="#f22c42" filter="url(#deepin-virtualkeyboard-a)"/>
+<g fill="url(#deepin-virtualkeyboard-c)">
+<path d="m18 22c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-6c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m36 22c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-5c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m36 17c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m31 17c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" filter="url(#deepin-virtualkeyboard-a)"/>
+</g>
+<path d="m26 17c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" fill="#f22c42" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m21 17c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-2c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" fill="#f22c42" filter="url(#deepin-virtualkeyboard-a)"/>
+<path d="m16 17c0.55228 0 1 0.44772 1 1v2c0 0.55228-0.44772 1-1 1h-4c-0.55228 0-1-0.44772-1-1v-2c0-0.55228 0.44772-1 1-1z" fill="url(#linearGradient872)" filter="url(#deepin-virtualkeyboard-a)"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-x-blender-c" x1="8.641" x2="8.641" y1=".92582" y2="13.806" gradientTransform="scale(.92582 1.0801)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFBC2A" offset="0"/>
+   <stop stop-color="#E77B00" offset="1"/>
+  </linearGradient>
+  <path id="application-x-blender-b" d="m4.0085 15c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059h-7.9829z"/>
+  <filter id="application-x-blender-a" x="-16.7%" y="-7.1%" width="133.3%" height="128.6%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.874509804   0 0 0 0 0.498039216   0 0 0 0 0.0588235294  0 0 0 0.5 0"/>
+  </filter>
+ </defs>
+ <g fill-rule="evenodd" opacity=".9">
+  <use width="100%" height="100%" fill="#000000" filter="url(#application-x-blender-a)" xlink:href="#application-x-blender-b"/>
+  <use width="100%" height="100%" fill="url(#application-x-blender-c)" xlink:href="#application-x-blender-b"/>
+ </g>
+ <path d="m3.0135 10.772 4.4865 1.9783v-5.25l-4.5-1.9565z" fill="#fff" fill-rule="evenodd"/>
+ <path d="m8.5 7.5v5.25l4.5-1.75v-5.2565z" fill="#fff" fill-rule="evenodd"/>
+ <path d="m8 3-5 1.6957 5 1.9043 5-1.9043z" fill="#fff" fill-rule="evenodd"/>
+</svg>

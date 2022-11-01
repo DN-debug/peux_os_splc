@@ -1,0 +1,28 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<title>深度截图-24px</title>
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".3"/>
+<feOffset dx="0" dy=".3" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter951" x="-.032672" y="-.037225" width="1.0653" height="1.0744" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.30833619"/>
+</filter>
+<filter id="filter986" x="-.0324" y="-.0405" width="1.0648" height="1.081" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.27"/>
+</filter>
+</defs>
+<g transform="translate(26)" fill-rule="evenodd">
+<rect transform="rotate(15.678 -4 -29.053)" x="-12.534" y="5.1749" width="20" height="16" rx="2" ry="2" fill="#ccc" filter="url(#filter951)"/>
+<rect transform="rotate(15.678)" x="-20.236" y="7.3368" width="20" height="16" rx="2" ry="2" fill="#a6dbff"/>
+</g>
+<g fill-rule="evenodd">
+<rect x="2" y="4" width="20" height="16" rx="2" ry="2" fill="#ccc" filter="url(#filter986)"/>
+<rect x="2" y="4" width="20" height="16" rx="2" ry="2" fill="#ea004e"/>
+<path d="m4 4c-1.108 0-2 0.892-2 2v7.5c5 3.25 9.6592-1.0073 10.66-3.2363 1.128 0.756 3.7557 0.33925 4.8867-1.0938 0.69228 1.8421 3.1057 3.3207 4.4531 3.2656v-6.4355c0-1.108-0.892-2-2-2z" fill="#ff0056" filter="url(#a)"/>
+<path d="m16.012 9.5c0-0.276-0.228-0.532-0.504-0.5h-6.496v-1.5a0.5 0.5 0 0 0-1 0v1.5h-1.504c-0.276-0.033-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h1.504v4.5a0.5 0.5 0 0 0 0.5 0.5h6.5l-4e-3 1.5a0.5 0.5 0 0 0 1 0l4e-3 -1.5h1.496c0.276 0 0.492-0.224 0.492-0.5s-0.216-0.5-0.492-0.5h-1.496zm-7.004 0.5h5.992v4h-5.992z" fill="#fff" filter="url(#a)"/>
+</g>
+</svg>

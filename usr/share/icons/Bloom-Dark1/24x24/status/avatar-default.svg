@@ -1,0 +1,19 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".5"/>
+<feOffset dx="0" dy=".5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient873" x1="12.239" x2="12.239" y1="1.9917" y2="22.168" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00b8ff" offset="0"/>
+<stop stop-color="#2e5dff" offset="1"/>
+</linearGradient>
+</defs>
+<circle cx="12" cy="12" r="10" fill="url(#linearGradient873)" filter="url(#a)"/>
+<g fill="#fff" filter="url(#a)">
+<path d="m12 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 7c-5 3e-3 -5 3.446-5 3.446v1.4s0.923 2.154 5 2.154 5-2.154 5-2.154v-1.4s0-3.448-4.999-3.446z"/>
+</g>
+</svg>

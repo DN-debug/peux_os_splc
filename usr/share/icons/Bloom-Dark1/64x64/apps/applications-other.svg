@@ -1,0 +1,29 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="deepin-movie-a" x="-13.8%" y="-13.8%" width="127.6%" height="127.6%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-movie-b" x1="29" x2="29" y1="1.377" y2="58" gradientTransform="translate(3,3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3E3E3E" offset="0"/>
+<stop stop-color="#0F0F0F" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-movie-c" x1="23.645" x2="29" y1="-.00049984" y2="58" gradientTransform="translate(3,3)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B0FAFF" offset="0"/>
+<stop stop-color="#0D96C2" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient871" x1="32.535" x2="32.592" y1="4" y2="61.521" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+<linearGradient id="linearGradient875" x1="32.535" x2="32.592" y1="4" y2="61.521" gradientTransform="translate(16)" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+<linearGradient id="linearGradient879" x1="32.535" x2="32.592" y1="4" y2="61.521" gradientTransform="translate(-16)" gradientUnits="userSpaceOnUse" xlink:href="#deepin-movie-c"/>
+</defs>
+<circle cx="32" cy="32" r="27.667" fill="url(#deepin-movie-b)" fill-rule="evenodd" filter="url(#deepin-movie-a)" stroke="url(#deepin-movie-c)" stroke-width="2.667"/>
+<circle cx="32" cy="32" r="6" fill="url(#linearGradient871)"/>
+<circle cx="48" cy="32" r="6" fill="url(#linearGradient875)"/>
+<circle cx="16" cy="32" r="6" fill="url(#linearGradient879)"/>
+</svg>

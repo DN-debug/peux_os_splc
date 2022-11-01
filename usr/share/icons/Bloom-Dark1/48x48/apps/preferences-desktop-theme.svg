@@ -1,0 +1,40 @@
+<svg width="48" height="48" enable-background="new" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-14.4%" y="-15.9%" width="128.9%" height="131.7%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="deepin-show-desktop-b" x1="21.924" x2="21.924" y1=".10963" y2="42.062" gradientTransform="matrix(1.0488 0 0 .95346 1.005 3.895)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D479" offset="0"/>
+<stop stop-color="#02A5CB" offset="1"/>
+</linearGradient>
+<filter id="filter1050" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter912" x="-.17115" y="-.2282" width="1.3423" height="1.4564" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.141"/>
+<feBlend in2="BackgroundImage" mode="overlay"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<path d="m1.9995 7.9996c0-2.2092 1.7931-4 4.0018-4h35.996c2.2101 0 4.0018 1.7964 4.0018 4v32c0 2.2092-1.7931 4-4.0018 4h-35.996c-2.2101 0-4.0018-1.7964-4.0018-4z" fill="url(#deepin-show-desktop-b)" filter="url(#deepin-show-desktop-a)"/>
+<path d="m3.9995 37.997c0-1.1034 0.89154-1.9979 1.9973-1.9979h36.005c1.1031 0 1.9973 0.89826 1.9973 1.9979v2.0042c0 1.1034-0.89154 1.9979-1.9973 1.9979h-36.005c-1.1031 0-1.9973-0.89826-1.9973-1.9979z" fill="#a4ffcc" filter="url(#deepin-show-desktop-a)" opacity=".7"/>
+<rect x="7" y="9" width="6" height="6" rx="1" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+<rect x="7" y="21" width="6" height="6" rx="1" fill="#fff" filter="url(#deepin-show-desktop-a)"/>
+</g>
+<g transform="translate(.113 -1.803)">
+<rect x="19.887" y="15.803" width="16" height="12" rx="1" ry="1" filter="url(#filter912)" opacity=".08"/>
+<path d="m19.887 16.803v9c0 0.554 0.446 1 1 1h14c0.554 0 1-0.446 1-1v-9z" fill="#fff" filter="url(#filter1050)"/>
+<path d="m20.887 14.803h14c0.554 0 1 0.446 1 1v1h-16v-1c0-0.554 0.446-1 1-1z" fill="#4f4f4f" filter="url(#filter1050)" opacity=".5"/>
+</g>
+</svg>

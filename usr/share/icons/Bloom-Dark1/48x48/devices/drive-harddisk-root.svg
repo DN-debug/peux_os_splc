@@ -1,0 +1,61 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="drive-harddisk-root-48px-a" x="-19.1%" y="-16.2%" width="138.2%" height="132.5%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="drive-harddisk-root-48px-b" x1="36.372" x2="-.94062" y1="20.459" y2="20.459" gradientTransform="scale(.9586 1.0432)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0067BC" offset="0"/>
+<stop stop-color="#30EA7F" offset=".04571"/>
+<stop stop-color="#00D887" offset=".09931"/>
+<stop stop-color="#00B160" offset=".88945"/>
+<stop stop-color="#00C165" offset=".93793"/>
+<stop stop-color="#008CBD" offset="1"/>
+</linearGradient>
+<linearGradient id="drive-harddisk-root-48px-c" x1="17.493" x2="0" y1="64.293" y2="64.293" gradientTransform="scale(1.9437 .5145)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" stop-opacity=".5" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".9" offset=".09936"/>
+<stop stop-color="#FFF" stop-opacity=".7" offset=".52356"/>
+<stop stop-color="#FFF" stop-opacity=".9" offset=".87648"/>
+<stop stop-color="#FFF" stop-opacity=".5" offset="1"/>
+</linearGradient>
+<path id="drive-harddisk-root-48px-d" d="m0 32c0-2.2091 1.792-3.9999 4.0002-3.9999h26c2.2093 0 4.0002 1.7997 4.0002 3.9999v4.4904c0 0.28148-0.21712 0.50967-0.50701 0.50967h-32.986c-0.28002 0-0.50701-0.22247-0.50701-0.50967v-4.4904z"/>
+<filter id="drive-harddisk-root-48px-e" x="-1.5%" y="-5.6%" width="102.9%" height="111.1%">
+<feMorphology in="SourceAlpha" radius="1" result="shadowSpreadInner1"/>
+<feOffset in="shadowSpreadInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+</filter>
+<radialGradient id="drive-harddisk-root-48px-f" cx="7.442" cy="75.676" r="12.134" gradientTransform="scale(2.2039 .45374)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7CFFFE" offset="0"/>
+<stop stop-color="#D6CDE6" offset="1"/>
+</radialGradient>
+<path id="drive-harddisk-root-48px-g" d="m0 36.5c0-1.933 1.5717-3.5 3.4947-3.5h27.011c1.93 0 3.4947 1.5709 3.4947 3.5 0 1.933-1.5717 3.5-3.4947 3.5h-27.011c-1.93 0-3.4947-1.5709-3.4947-3.5z"/>
+<filter id="drive-harddisk-root-48px-h" x="-1.5%" y="-7.1%" width="102.9%" height="114.3%">
+<feMorphology in="SourceAlpha" radius="1" result="shadowSpreadInner1"/>
+<feOffset in="shadowSpreadInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0.239215686   0 0 0 0 0.611764706  0 0 0 0.2 0"/>
+</filter>
+<linearGradient id="drive-harddisk-root-48px-i" x1="3.1334" x2="3.1334" y2="5.7446" gradientTransform="scale(1.9149 .52223)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0174FF" offset="0"/>
+<stop stop-color="#01C2FF" offset=".5085"/>
+<stop stop-color="#0056FF" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(7,4)" fill-rule="evenodd" filter="url(#drive-harddisk-root-48px-a)">
+<path d="m0 6.0064c0-3.3172 2.6821-6.0064 6.0003-6.0064h21.999c3.3138 0 6.0003 2.6908 6.0003 6.0064v28.991c0 1.1059-0.89194 2.0024-1.9999 2.0024h-30c-1.1045 0-1.9999-0.89628-1.9999-2.0024z" fill="url(#drive-harddisk-root-48px-b)"/>
+<use width="100%" height="100%" fill="url(#drive-harddisk-root-48px-c)" xlink:href="#drive-harddisk-root-48px-d"/>
+<use width="100%" height="100%" fill="#000000" filter="url(#drive-harddisk-root-48px-e)" xlink:href="#drive-harddisk-root-48px-d"/>
+<use width="100%" height="100%" fill="url(#drive-harddisk-root-48px-f)" xlink:href="#drive-harddisk-root-48px-g"/>
+<use width="100%" height="100%" fill="#000000" filter="url(#drive-harddisk-root-48px-h)" xlink:href="#drive-harddisk-root-48px-g"/>
+<path transform="translate(19.5,35)" d="m11 0c0.27614 0 0.5 0.21575 0.5 0.49539v2.0092c0 0.2432-0.18326 0.44546-0.41225 0.48741l-0.087749 0.0079814c-0.27614 0-0.5-0.21575-0.5-0.49539v-2.0092c0-0.2432 0.18326-0.44546 0.41225-0.48741zm-2 0c0.27614 0 0.5 0.21575 0.5 0.49539v2.0092c0 0.2432-0.18326 0.44546-0.41225 0.48741l-0.087749 0.0079814c-0.27614 0-0.5-0.21575-0.5-0.49539v-2.0092c0-0.2432 0.18326-0.44546 0.41225-0.48741zm-2 0c0.27614 0 0.5 0.21575 0.5 0.49539v2.0092c0 0.2432-0.18326 0.44546-0.41225 0.48741l-0.087749 0.0079814c-0.27614 0-0.5-0.21575-0.5-0.49539v-2.0092c0-0.2432 0.18326-0.44546 0.41225-0.48741zm-2 0c0.27614 0 0.5 0.21575 0.5 0.49539v2.0092c0 0.2432-0.18326 0.44546-0.41225 0.48741l-0.087749 0.0079814c-0.27614 0-0.5-0.21575-0.5-0.49539v-2.0092c0-0.2432 0.18326-0.44546 0.41225-0.48741zm-2 0c0.27614 0 0.5 0.21575 0.5 0.49539v2.0092c0 0.2432-0.18326 0.44546-0.41225 0.48741l-0.087749 0.0079814c-0.27614 0-0.5-0.21575-0.5-0.49539v-2.0092c0-0.2432 0.18326-0.44546 0.41225-0.48741zm-2 0c0.27614 0 0.5 0.21575 0.5 0.49539v2.0092c0 0.2432-0.18326 0.44546-0.41225 0.48741l-0.087749 0.0079814c-0.27614 0-0.5-0.21575-0.5-0.49539v-2.0092c0-0.2432 0.18326-0.44546 0.41225-0.48741z" fill="url(#drive-harddisk-root-48px-i)"/>
+<path d="m4 37.5c0.55228 0 1-0.44772 1-1s-0.44772-1-1-1-1 0.44772-1 1 0.44772 1 1 1z" fill="#a5f532" stroke="#54d800"/>
+</g>
+</svg>

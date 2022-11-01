@@ -1,0 +1,88 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-video-stack-a" x="-15.5%" y="-18.1%" width="131%" height="138.9%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-video-stack-b" x1="19.442" x2="19.442" y2="17.346" gradientTransform="matrix(1.0801 0 0 .92582 3 8)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+<stop stop-opacity="0" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-video-stack-g" x1="16.837" x2="16.837" y1=".46771" y2="33.199" gradientTransform="scale(1.2472 .80178)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#414141" offset="0"/>
+<stop stop-color="#2B2B2B" offset="1"/>
+</linearGradient>
+<path id="folder-video-stack-f" d="m0 0.375h42v21.829c0 2.856-2.3152 5.1712-5.1712 5.1712h-31.658c-2.856 0-5.1712-2.3152-5.1712-5.1712v-21.829z"/>
+<filter id="folder-video-stack-h" x="-1.2%" y="-1.9%" width="102.4%" height="103.7%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.1 0"/>
+</filter>
+<path id="folder-video-stack-k" d="m4 18.964v4h-4v-4h4zm0-6v4h-4v-4h4zm0-6v4h-4v-4h4zm0-6v4h-4v-4h4z"/>
+<filter id="folder-video-stack-j" x="-12.5%" y="-2.3%" width="125%" height="109.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0"/>
+</filter>
+<filter id="folder-video-stack-l" x="-12.5%" y="-2.3%" width="125%" height="109.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<path id="folder-video-stack-n" d="m36 18.964v4h-4v-4h4zm0-6v4h-4v-4h4zm0-6v4h-4v-4h4zm0-6v4h-4v-4h4z"/>
+<filter id="folder-video-stack-m" x="-12.5%" y="-2.3%" width="125%" height="109.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0"/>
+</filter>
+<filter id="folder-video-stack-o" x="-12.5%" y="-2.3%" width="125%" height="109.1%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<linearGradient id="folder-video-stack-p" x1="18.588" x2="20.125" y1="8.0498" y2="16.994" gradientTransform="scale(.89443 1.118)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE00B" offset="0"/>
+<stop stop-color="#D38700" offset="1"/>
+</linearGradient>
+<filter id="filter1343" x="-.034105" y="-.081" width="1.0682" height="1.162" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.54"/>
+</filter>
+<linearGradient id="folder-48px-g" x1="13.627" x2="13.627" y1="10.918" y2="13.827" gradientTransform="matrix(1.5411 0 0 .64889 -55 8)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#797979" offset="0"/>
+<stop stop-color="#8f6823" offset="1"/>
+</linearGradient>
+<filter id="folder-48px-a" x="-.155" y="-.181" width="1.31" height="1.361">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<path d="m26.536 10.686c-0.52803-1.3201-1.8066-2.1857-3.2283-2.1857h-15.136c-2.5798 0-4.6712 2.0914-4.6712 4.6712v25.658c0 2.5798 2.0914 4.6712 4.6712 4.6712h31.658c2.5798 0 4.6712-2.0914 4.6712-4.6712v-20.658c0-2.5798-2.0914-4.6712-4.6712-4.6712h-9.1362c-1.8307 0-3.4769-1.1146-4.1568-2.8143z" fill="#262626" fill-rule="evenodd" filter="url(#folder-video-stack-a)" stroke="url(#folder-video-stack-b)"/>
+<g transform="translate(58)" fill-rule="evenodd">
+<rect x="-53" y="15" width="38" height="16" rx="3.3498" ry="3.3498" fill-opacity=".2" filter="url(#filter1343)" style="paint-order:stroke fill markers"/>
+<path d="m-49.676 15.085h31.351c1.836 0 3.3243 1.4884 3.3243 3.3243v9.3514c0 1.836-1.4884 3.3243-3.3243 3.3243h-31.351c-1.836 0-3.3243-1.4884-3.3243-3.3243v-9.3514c0-1.836 1.4884-3.3243 3.3243-3.3243z" fill="url(#folder-48px-g)" filter="url(#folder-48px-a)"/>
+<path d="m-49.676 15.085c-1.8606 0-3.3594 1.4713-3.3594 3.2988v1c0-1.8275 1.4987-3.2988 3.3594-3.2988h31.281c1.8606 0 3.3594 1.4713 3.3594 3.2988v-1c0-1.8275-1.4987-3.2988-3.3594-3.2988z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<use transform="translate(3,16.625)" width="100%" height="100%" fill="url(#folder-video-stack-g)" fill-rule="evenodd" filter="url(#folder-video-stack-a)" xlink:href="#folder-video-stack-f"/>
+<use transform="translate(3,16.625)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-video-stack-h)" xlink:href="#folder-video-stack-f"/>
+<use transform="translate(6,18.036)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-video-stack-j)" xlink:href="#folder-video-stack-k"/>
+<use transform="translate(6,18.036)" width="100%" height="100%" fill="#1b1b1b" fill-rule="evenodd" filter="url(#folder-video-stack-a)" xlink:href="#folder-video-stack-k"/>
+<use transform="translate(6,18.036)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-video-stack-l)" xlink:href="#folder-video-stack-k"/>
+<use transform="translate(6,18.036)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-video-stack-m)" xlink:href="#folder-video-stack-n"/>
+<use transform="translate(6,18.036)" width="100%" height="100%" fill="#1b1b1b" fill-rule="evenodd" filter="url(#folder-video-stack-a)" xlink:href="#folder-video-stack-n"/>
+<use transform="translate(6,18.036)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-video-stack-o)" xlink:href="#folder-video-stack-n"/>
+<rect x="13" y="16" width="22" height="4" fill-opacity=".2" fill-rule="evenodd" filter="url(#folder-video-stack-a)"/>
+<rect x="13" y="21" width="22" height="18" fill-opacity=".2" fill-rule="evenodd" filter="url(#folder-video-stack-a)"/>
+<rect x="13" y="40" width="22" height="4" fill-opacity=".2" fill-rule="evenodd" filter="url(#folder-video-stack-a)"/>
+<polygon transform="translate(6,16)" points="14 9 22 14 14 19" fill="url(#folder-video-stack-p)" fill-rule="evenodd" filter="url(#folder-video-stack-a)"/>
+<path d="m21 26.804v6.3915l5.1132-3.1958zm7 3.1958-8 5v-10z" fill="#fff000" fill-opacity=".4" filter="url(#folder-video-stack-a)"/>
+</svg>

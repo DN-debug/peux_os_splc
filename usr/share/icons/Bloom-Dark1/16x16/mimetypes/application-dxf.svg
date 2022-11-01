@@ -1,0 +1,18 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="application-x-flash-video-a" x="-.167" y="-.071" width="1.333" height="1.286">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.6622226   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-x-flash-video-c" x1="6.4807" x2="6.4807" y1="2.7527e-16" y2="12.961" gradientTransform="scale(.92582 1.0801)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FF6464" offset="0"/>
+   <stop stop-color="#E02222" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(2 1)" fill-rule="evenodd">
+  <path d="m2.0085 14c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059z" filter="url(#application-x-flash-video-a)"/>
+  <path d="m2.0085 14c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059h7.9829c1.1093 0 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059z" fill="url(#application-x-flash-video-c)"/>
+ </g>
+ <path d="m6 8h-1v1h-2v1h2v1h1v2h1v-2h1v-1h4v-1h-4v-1h-1v-4h-1zm0 1h1v1h-1z" fill="#fff" fill-rule="evenodd"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="computer-a" x1="4.9497" x2="4.9497" y1="16.971" y2="14.142" gradientTransform="scale(1.4142 .70711)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CFDAFC" offset="0"/>
+<stop stop-color="#CDCFD2" offset="1"/>
+</linearGradient>
+<polygon id="computer-b" points="5 10 9 10 9 12 5 12"/>
+<filter id="computer-c" x="-25%" y="-50%" width="150%" height="200%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.305544245   0 0 0 0 0.316030326   0 0 0 0 0.533769248  0 0 0 0.178130463 0"/>
+</filter>
+<linearGradient id="computer-d" x1="2.8577" x2="2.8577" y1="26.944" y2="28.907" gradientTransform="matrix(2.4495 0 0 .40825 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#EBF4FF" offset="1"/>
+</linearGradient>
+<linearGradient id="computer-e" x1="4.6854" x2="8.9099" y1="2.8977" y2="8.9345" gradientTransform="matrix(1.1832 0 0 .84515 1 2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7E4FF" offset="0"/>
+<stop stop-color="#F4F9FF" offset="1"/>
+</linearGradient>
+<linearGradient id="computer-g" x1="4.9962" x2="4.9962" y1=".66773" y2="10.377" gradientTransform="scale(1.2247 .8165)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4F5D73" offset="0"/>
+<stop stop-color="#313A46" offset="1"/>
+</linearGradient>
+<rect id="computer-f" x=".5" y=".5" width="12" height="8" rx="1.125"/>
+</defs>
+<g fill-rule="evenodd">
+<use transform="translate(1,2)" width="100%" height="100%" fill="url(#computer-a)" xlink:href="#computer-b"/>
+<use transform="translate(1,2)" width="100%" height="100%" fill="#000000" filter="url(#computer-c)" xlink:href="#computer-b"/>
+<path d="m5.5 13h5c0.27614 0 0.5 0.22386 0.5 0.5s-0.22386 0.5-0.5 0.5h-5c-0.27614 0-0.5-0.22386-0.5-0.5s0.22386-0.5 0.5-0.5z" fill="url(#computer-d)"/>
+<rect x="1" y="2" width="14" height="10" rx="1.563" fill="url(#computer-e)"/>
+<use transform="translate(1.5,2.5)" width="100%" height="100%" fill="url(#computer-g)" xlink:href="#computer-f"/>
+</g>
+<path d="M 8,4 C 6.523,4 6,4 6,5.322 V 6 H 5.666 C 5.297,6 5,6.484 5,6.8 V 9.43 C 5,9.746 5.298,10 5.668,10 h 4.666 C 10.703,10 11,9.746 11,9.43 V 6.8 C 11,6.484 10.738,6 10.334,6 H 10 V 5.322 C 10,4 9.477,4 8,4 Z M 8,5 C 8.739,5 9,5.038 9,5.49 V 6 H 7 V 5.49 C 7,5.038 7.261,5 8,5 Z" fill="#f6fcff"/>
+</svg>

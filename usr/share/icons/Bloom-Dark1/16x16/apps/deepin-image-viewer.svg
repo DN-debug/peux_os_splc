@@ -1,0 +1,54 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="deepin-image-viewer-a" x1="6.2962" x2="6.2962" y2="12.592" gradientTransform="matrix(1.0745 0 0 .93064 -.43873 3.1242)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#D6D9ED" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-image-viewer-c" x1="5.1156" x2="5.1156" y1="10.209" y2=".22502" gradientTransform="scale(1.2064 .8289)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4B7BCF" offset="0"/>
+<stop stop-color="#3A2EC8" offset="1"/>
+</linearGradient>
+<rect id="deepin-image-viewer-b" x=".031" y=".024" width="12.281" height="8.438" rx="1"/>
+<linearGradient id="deepin-image-viewer-e" x1="4.0105" x2="3.2869" y1="6.067" y2="8.8757" gradientTransform="scale(1.332 .75074)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#40E2E8" offset="0"/>
+<stop stop-color="#2A7ECA" offset=".47667"/>
+<stop stop-color="#332075" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-image-viewer-f" x1="6.4119" x2="6.4119" y1="5.6404" y2="12.301" gradientTransform="scale(1.3196 .7578)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#67CEFF" stop-opacity=".8" offset="0"/>
+<stop stop-color="#00CDFF" offset="1"/>
+</linearGradient>
+<circle id="deepin-image-viewer-g" cx="3.128" cy="3.125" r="3.125"/>
+<radialGradient id="deepin-image-viewer-s" cx="4.063" cy="4.094" r="3.4817" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01001F" stop-opacity=".036" offset="0"/>
+<stop stop-color="#000636" stop-opacity=".219" offset=".81152"/>
+<stop stop-color="#01003C" stop-opacity=".688" offset="1"/>
+</radialGradient>
+<circle id="deepin-image-viewer-r" cx="4.063" cy="4.094" r="3.125"/>
+<filter id="deepin-image-viewer-q" x="-24%" y="-24%" width="148%" height="148%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.279134909   0 0 0 0 0.446591113   0 0 0 0 1  0 0 0 1 0"/>
+</filter>
+<radialGradient id="deepin-image-viewer-t" cx="2.756" cy="5.2886" r="3.3225" gradientTransform="matrix(-1.0293 .21878 -.19759 -.92956 9.412 13.044)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C0A8FF" stop-opacity=".515" offset=".00037"/>
+<stop stop-color="#B385FF" stop-opacity="0" offset="1"/>
+</radialGradient>
+<mask id="deepin-image-viewer-d" fill="#fff">
+<use width="100%" height="100%" xlink:href="#deepin-image-viewer-b"/>
+</mask>
+</defs>
+<g fill-rule="evenodd">
+<rect transform="rotate(-8)" x="-.43873" y="3.1242" width="13.531" height="11.719" rx="1.5" fill="url(#deepin-image-viewer-a)"/>
+<use transform="rotate(-8 26.559 -2.9728)" width="100%" height="100%" fill="url(#deepin-image-viewer-c)" xlink:href="#deepin-image-viewer-b"/>
+<circle transform="rotate(-8 26.559 -2.9728)" cx="9.968" cy="1.484" r="1" fill="#fff5d0" mask="url(#deepin-image-viewer-d)"/>
+<path transform="rotate(-8 26.559 -2.9728)" d="m-0.31283 8.6582 4.8879-5.999c0.43597-0.53508 1.1445-0.53298 1.5788 0l4.8879 5.999z" fill="url(#deepin-image-viewer-e)" mask="url(#deepin-image-viewer-d)"/>
+<path transform="rotate(-8 26.559 -2.9728)" d="m3.472 9.3218 4.2096-5.3192c0.43053-0.54402 1.1225-0.55173 1.5591 0l4.2096 5.3192z" fill="url(#deepin-image-viewer-f)" fill-opacity=".65" mask="url(#deepin-image-viewer-d)" style="mix-blend-mode:soft-light"/>
+<circle cx="4.313" cy="11.062" r="3.969" fill="#fff"/>
+<use transform="translate(1.188,8)" width="100%" height="100%" fill="#ffffff" fill-opacity=".188" xlink:href="#deepin-image-viewer-g"/>
+<use transform="translate(.25 7.031)" width="100%" height="100%" fill="#000000" filter="url(#deepin-image-viewer-q)" xlink:href="#deepin-image-viewer-r"/>
+<use transform="translate(.25 7.031)" width="100%" height="100%" fill="url(#deepin-image-viewer-s)" xlink:href="#deepin-image-viewer-r"/>
+<path d="m6.763 12.18c0.043219 0.04667 0.00609-0.01867 0.029743-0.07749 0.52348-1.3019-0.087658-2.7478-1.3455-3.3642-1.2578-0.61635-2.7672-0.1431-3.4791 1.0488 0.59223 0.040539 1.1654 0.15955 1.7123 0.347 1.1706 0.40119 2.2214 1.1159 3.0825 2.0458z" fill="url(#deepin-image-viewer-t)" style="mix-blend-mode:lighten"/>
+</g>
+</svg>

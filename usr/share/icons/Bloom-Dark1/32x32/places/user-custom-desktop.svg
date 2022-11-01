@@ -1,0 +1,34 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-14.3%" y="-15.4%" width="128.6%" height="130.8%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<radialGradient id="radialGradient873" cx="16" cy="2.2454" r="18.004" gradientTransform="matrix(1.6418 0 0 1.4816 -10.268 -.31753)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#value_light" offset="0"/>
+<stop stop-color="#value_dark" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient873-3" cx="16" cy="2.2454" r="18.004" gradientTransform="matrix(1.6418 0 0 1.4816 -10.268 -.31753)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" stop-opacity=".4" offset="0"/>
+<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+</radialGradient>
+<filter id="filter918" x="-1.0414e-5" y="-1.1215e-5" width="1" height="1" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="0.00012149955"/>
+<feOffset dx="-50" dy="-50" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<path d="m27.004 3c1.6549 0 2.9965 1.3431 2.9965 3.0079v19.984c0 1.6612-1.3505 3.0079-2.9965 3.0079h-22.007c-1.6549 0-2.9965-1.3431-2.9965-3.0079v-19.984c0-1.6612 1.3505-3.0079 2.9965-3.0079z" fill="url(#radialGradient873)" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<path d="m27.004 3c1.6549 0 2.9965 1.3431 2.9965 3.0079v19.984c0 1.6612-1.3505 3.0079-2.9965 3.0079h-22.007c-1.6549 0-2.9965-1.3431-2.9965-3.0079v-19.984c0-1.6612 1.3505-3.0079 2.9965-3.0079z" fill="url(#radialGradient873-3)" fill-rule="evenodd" filter="url(#filter918)" style="mix-blend-mode:normal"/>
+<rect x="3" y="24" width="26" height="4" rx="2" fill="#a4ffcc" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".7"/>
+<rect x="6" y="8" width="4" height="4" rx=".5" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="6" y="15" width="4" height="4" rx=".5" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+</svg>

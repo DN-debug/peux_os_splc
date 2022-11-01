@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "adhemarks@gmail.com",
+                "Name": "adhe"
+            }
+        ],
+        "Category": "",
+        "Description": "Yaru theme for plasma",
+        "Id": "YaruKdeDark",
+        "License": "GPLv2+",
+        "Name": "YaruKdeDark",
+        
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.0",
+        "Website": "http://www.kde.org"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}

@@ -1,0 +1,30 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="x-media-podcast-a" x="-.137" y="-.091" width="1.274" height="1.221">
+   <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="14"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-c" x1="186.93" x2="186.93" y2="373.87" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="x-media-podcast-d" x="-.135" y="-.096" width="1.269" height="1.269">
+   <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-f" x1="284" x2="240.31" y1="52" y2="92.449" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(88,56)" fill-rule="evenodd">
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" filter="url(#x-media-podcast-a)"/>
+  <path d="m232 0 104 104v276c0 19.882-16.118 36-36 36h-264c-19.882 0-36-16.118-36-36v-344c0-19.882 16.118-36 36-36z" fill="url(#x-media-podcast-c)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" filter="url(#x-media-podcast-d)"/>
+  <path d="m232 0 104 104h-68c-19.882 0-36-16.118-36-36z" fill="url(#x-media-podcast-f)"/>
+ </g>
+ <polygon points="184 304 336 304 336 192 184 192 184 184 176 184 176 376 184 376" fill="#fff" fill-rule="evenodd"/>
+</svg>

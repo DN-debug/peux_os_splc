@@ -1,0 +1,32 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-vnd.nokia.xml.qt.resource-c" x1="8.9443" x2="8.9443" y2="17.62" gradientTransform="scale(.89443 1.118)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#7FCB10" offset="0"/>
+   <stop stop-color="#50A100" offset="1"/>
+  </linearGradient>
+  <path id="application-vnd.nokia.xml.qt.resource-b" d="m10.5 0 5.5 5.5v12.25c0 1.2426-1.0074 2.25-2.25 2.25h-11.5c-1.2426 0-2.25-1.0074-2.25-2.25v-15.5c-1.5218e-16 -1.2426 1.0074-2.25 2.25-2.25h8.25z"/>
+  <filter id="application-vnd.nokia.xml.qt.resource-a" x="-21.9%" y="-12.5%" width="143.8%" height="135%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.46370117   0 0 0 0 0.679376132   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="application-vnd.nokia.xml.qt.resource-f" x1="13.419" x2="11.418" y1="2.785" y2="4.9302" gradientTransform="scale(.98742 1.0127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="application-vnd.nokia.xml.qt.resource-e" d="m10.5 0 5.5 5.641h-3.25c-1.2426 0-2.25-1.0074-2.25-2.25v-3.391z"/>
+  <filter id="application-vnd.nokia.xml.qt.resource-d" x="-36.4%" y="-17.7%" width="172.7%" height="170.9%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <g transform="translate(4,2)" fill-rule="evenodd">
+  <use width="100%" height="100%" fill="#000000" filter="url(#application-vnd.nokia.xml.qt.resource-a)" xlink:href="#application-vnd.nokia.xml.qt.resource-b"/>
+  <use width="100%" height="100%" fill="url(#application-vnd.nokia.xml.qt.resource-c)" xlink:href="#application-vnd.nokia.xml.qt.resource-b"/>
+  <use width="100%" height="100%" fill="#000000" filter="url(#application-vnd.nokia.xml.qt.resource-d)" xlink:href="#application-vnd.nokia.xml.qt.resource-e"/>
+  <use width="100%" height="100%" fill="url(#application-vnd.nokia.xml.qt.resource-f)" xlink:href="#application-vnd.nokia.xml.qt.resource-e"/>
+ </g>
+ <path d="m12 8.9996c-0.55988 7.78e-4 -1.0727 0.31331-1.3301 0.81055-0.1364-0.03998-0.27779-0.06036-0.41992-0.06055-0.82843 0-1.5 0.67157-1.5 1.5 1.85e-4 0.14214 0.02057 0.28352 0.06055 0.41992-0.49724 0.25734-0.80977 0.77019-0.81055 1.3301 7.78e-4 0.55988 0.31331 1.0727 0.81055 1.3301-0.03998 0.1364-0.06036 0.27779-0.06055 0.41992 2.46e-4 0.73176 0.52847 1.3566 1.25 1.4785v2.2715c8.46e-5 0.39929 0.44507 0.63744 0.77734 0.41602l1.2227-0.81445 1.2227 0.81445c0.33228 0.22142 0.77726-0.01672 0.77734-0.41602v-2.25c0.82843 0 1.5-0.67157 1.5-1.5 1.57e-4 -0.18781-0.03496-0.37398-0.10352-0.54883 0.37936-0.28279 0.60306-0.728 0.60352-1.2012-7.78e-4 -0.55988-0.31331-1.0727-0.81055-1.3301 0.03998-0.1364 0.06036-0.27779 0.06055-0.41992 0-0.82843-0.67157-1.5-1.5-1.5-0.14214 1.85e-4 -0.28352 0.02057-0.41992 0.06055-0.25734-0.49724-0.77019-0.80977-1.3301-0.81055zm0 1.5c1.3807 0 2.5 1.1193 2.5 2.5s-1.1193 2.5-2.5 2.5-2.5-1.1193-2.5-2.5 1.1193-2.5 2.5-2.5zm0 0.5a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z" fill="#fff"/>
+</svg>

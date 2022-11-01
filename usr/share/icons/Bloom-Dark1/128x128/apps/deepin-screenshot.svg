@@ -1,0 +1,29 @@
+<svg width="128" height="128" enable-background="new" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="2"/>
+<feOffset dx="0" dy="2" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1191" x="-.028304" y="-.031913" width="1.0566" height="1.0638" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.3663769"/>
+<feBlend in2="BackgroundImage" mode="overlay"/>
+</filter>
+<filter id="filter1327" x="-.036162" y="-.043761" width="1.0723" height="1.0875" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.5670016"/>
+<feBlend in2="BackgroundImage" mode="overlay"/>
+</filter>
+</defs>
+<title>深度截图-128px</title>
+<g fill-rule="evenodd">
+<rect transform="rotate(14.135)" x="26.417" y="6.3428" width="104" height="85.94" rx="14" ry="14" fill="#b3b3b3" filter="url(#filter1191)"/>
+<rect x="12" y="24" width="104" height="85.94" rx="14" ry="14" fill="#ccc" filter="url(#filter1327)"/>
+<rect transform="rotate(14.135)" x="26.417" y="6.3428" width="104" height="85.94" rx="14" ry="14" fill="#a6dbff"/>
+<rect x="12" y="24" width="104" height="85.94" rx="14" ry="14" fill="#ea004e"/>
+<path d="m26 24c-7.756 0-14 6.244-14 14v36.668c26.667 17.333 51.519-5.3718 56.859-17.258 6.015 4.027 20.019 1.8032 26.051-5.8398 3.7117 9.8821 13.927 16.815 21.09 16.43v-30c0-7.756-6.244-14-14-14z" fill="#ff0056"/>
+</g>
+<path d="m84 78v-24c0-1.472-1.525-3.173-3-3h-32v-8c0-1.472-1.028-2.5-2.5-2.5s-2.5 1.028-2.5 2.5v8h-8c-1.472-0.173-2.5 1.028-2.5 2.5s1.028 2.5 2.5 2.5h8v24c0 1.472 1.55 3 3.021 3h31.98v8c0 1.472 1.027 2.5 2.5 2.5s2.499-1.028 2.499-2.5v-8h9c1.471 0 2.5-1.028 2.5-2.5s-1.029-2.5-2.5-2.5zm-35 0v-22h30v22z" fill="#fff9f9" fill-rule="evenodd" filter="url(#a)"/>
+<path d="m49.2 51h31.8c1.35 0 2.1 1 2.1 1h-34.1zm-5.2 0h-8.2c-1.2 0-1.89 1-1.89 1h10.09zm40 27h9c1.52 0 2 1 2 1h-11zm-35 0h30v1h-33z" fill="#fff" fill-rule="evenodd" filter="url(#a)"/>
+</svg>

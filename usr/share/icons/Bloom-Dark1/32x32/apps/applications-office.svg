@@ -1,0 +1,16 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="voice-note-a" x="-15.4%" y="-14.3%" width="130.8%" height="128.6%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<rect id="voice-note-b" width="26" height="28" rx="4"/>
+</defs>
+<use transform="translate(3,2)" width="100%" height="100%" fill="#ffffff" fill-rule="evenodd" filter="url(#voice-note-a)" xlink:href="#voice-note-b"/>
+<path transform="translate(3,2)" d="m5 0v3h18v1h-18v4h18v1h-18v4h18v1h-18v4h18v1h-18v4h18v1h-18v3.5h-1v-3.5h-1.5v-1h1.5v-4h-1.5v-1h1.5v-4h-1.5v-1h1.5v-4h-1.5v-1h1.5v-4h-1.5v-1h1.5v-3z" fill="#808080" fill-opacity=".94241" fill-rule="evenodd" filter="url(#voice-note-a)"/>
+</svg>

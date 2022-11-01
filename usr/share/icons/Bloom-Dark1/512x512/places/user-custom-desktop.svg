@@ -1,0 +1,36 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="deepin-show-desktop-a" x="-11.7%" y="-12.9%" width="123.5%" height="125.7%">
+<feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<radialGradient id="radialGradient887" cx="256.23" cy="29.815" r="284.05" gradientTransform="matrix(1.6168 0 0 1.5186 -158.05 .51204)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#value_light" offset="0"/>
+<stop stop-color="#value_dark" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient887-3" cx="256.23" cy="29.815" r="284.05" gradientTransform="matrix(1.6168 0 0 1.5186 -158.05 .51204)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" stop-opacity=".4" offset="0"/>
+<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+</radialGradient>
+<filter id="filter906" x="-5.6243e-5" y="-6.16e-5" width="1.0001" height="1.0001" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="0.01078"/>
+<feOffset dx="0" dy="0" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<rect x="26" y="46" width="460" height="420" rx="48" fill="url(#radialGradient887)" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="26" y="46" width="460" height="420" rx="48" fill="url(#radialGradient887-3)" fill-rule="evenodd" filter="url(#filter906)" style="mix-blend-mode:normal"/>
+<rect x="56" y="372" width="400" height="64" rx="18" fill="#a4ffcc" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".7"/>
+<rect x="80" y="120" width="64" height="64" rx="10" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="80" y="232" width="64" height="64" rx="10" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)" opacity=".1"/>
+<rect x="80" y="116" width="64" height="64" rx="10" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+<rect x="80" y="228" width="64" height="64" rx="10" fill="#fff" fill-rule="evenodd" filter="url(#deepin-show-desktop-a)"/>
+</svg>

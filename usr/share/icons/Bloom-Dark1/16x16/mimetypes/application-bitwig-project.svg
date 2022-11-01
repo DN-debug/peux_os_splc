@@ -1,0 +1,34 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="application-vnd.oasis.opendocument.chart-c" x1="6.4807" x2="6.4807" y1="2.7527e-16" y2="12.88" gradientTransform="scale(.92582 1.0801)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFBC2A" offset="0"/>
+   <stop stop-color="#E77B00" offset="1"/>
+  </linearGradient>
+  <path id="application-vnd.oasis.opendocument.chart-b" d="m2.0085 14c-1.1093 0-2.0085-0.89706-2.0085-2.0059v-9.9883c0-1.1078 0.90195-2.0059 2.0085-2.0059l7.9829-1.1817e-15c1.1093-1.6421e-16 2.0085 0.89706 2.0085 2.0059v9.9883c0 1.1078-0.90195 2.0059-2.0085 2.0059h-7.9829z"/>
+  <filter id="application-vnd.oasis.opendocument.chart-a" x="-16.7%" y="-7.1%" width="133.3%" height="128.6%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.874509804   0 0 0 0 0.498039216   0 0 0 0 0.0588235294  0 0 0 0.5 0"/>
+  </filter>
+ </defs>
+ <g transform="translate(2,1)" fill-rule="evenodd">
+  <use width="100%" height="100%" fill="#000000" filter="url(#application-vnd.oasis.opendocument.chart-a)" xlink:href="#application-vnd.oasis.opendocument.chart-b"/>
+  <use width="100%" height="100%" fill="url(#application-vnd.oasis.opendocument.chart-c)" xlink:href="#application-vnd.oasis.opendocument.chart-b"/>
+ </g>
+ <g transform="translate(0 .75)" fill="#fff">
+  <circle cx="3.75" cy="8" r=".75"/>
+  <circle cx="5.45" cy="8" r=".75"/>
+  <circle cx="7.15" cy="8" r=".75"/>
+  <circle cx="8.85" cy="8" r=".75"/>
+  <circle cx="10.55" cy="8" r=".75"/>
+  <circle cx="12.25" cy="8" r=".75"/>
+  <circle cx="5.45" cy="6" r=".75"/>
+  <circle cx="7.15" cy="6" r=".75"/>
+  <circle cx="8.85" cy="6" r=".75"/>
+  <circle cx="10.55" cy="6" r=".75"/>
+  <circle cx="3.75" cy="10" r=".75"/>
+  <circle cx="5.45" cy="10" r=".75"/>
+  <circle cx="10.55" cy="10" r=".75"/>
+  <circle cx="12.25" cy="10" r=".75"/>
+ </g>
+</svg>

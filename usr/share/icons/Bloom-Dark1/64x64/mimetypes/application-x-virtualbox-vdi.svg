@@ -1,0 +1,32 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="vcalendar-c" x1="23.367" x2="23.367" y2="46.559" gradientTransform="scale(.89872 1.1127)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#EC5959" offset="0"/>
+   <stop stop-color="#D13F3F" offset="1"/>
+  </linearGradient>
+  <path id="vcalendar-b" d="m29 0 13 13v34.5c0 2.4853-2.0147 4.5-4.5 4.5h-33c-2.4853 0-4.5-2.0147-4.5-4.5v-43c-3.0436e-16 -2.4853 2.0147-4.5 4.5-4.5h24.5z"/>
+  <filter id="vcalendar-a" x="-15.5%" y="-10.6%" width="131%" height="125%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.6622226   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="vcalendar-f" x1="35.5" x2="30.364" y1="6.5" y2="11.855" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+  <path id="vcalendar-e" d="m29 0 13 13h-8.5c-2.4853 0-4.5-2.0147-4.5-4.5v-8.5z"/>
+  <filter id="vcalendar-d" x="-26.9%" y="-19.2%" width="153.8%" height="153.8%">
+   <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+ </defs>
+ <g transform="translate(11,7)" fill-rule="evenodd">
+  <use width="100%" height="100%" fill="#000000" filter="url(#vcalendar-a)" xlink:href="#vcalendar-b"/>
+  <use width="100%" height="100%" fill="url(#vcalendar-c)" xlink:href="#vcalendar-b"/>
+  <use width="100%" height="100%" fill="#000000" filter="url(#vcalendar-d)" xlink:href="#vcalendar-e"/>
+  <use width="100%" height="100%" fill="url(#vcalendar-f)" xlink:href="#vcalendar-e"/>
+ </g>
+ <path d="m31 25-6 19.5-3.848-11.5h-10.152v4h7.828l6.172 17 6-19 4 12 5-12 3.75 12h9.25v-4h-7l-6-16-5 11z" fill="#fff"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-bookmark-96px-a" x="-14.6%" y="-16.9%" width="129.3%" height="133.8%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-bookmark-96px-c" x1="38.151" x2="38.151" y1="-2.959e-14" y2="28.97" gradientTransform="scale(1.0747 .93051)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00B8FF" offset="0"/>
+<stop stop-color="#2E5DFF" offset="1"/>
+</linearGradient>
+<path id="folder-bookmark-96px-b" d="m46 4.5c1.2162 2.7365 3.9299 4.5 6.9244 4.5h18.733c5.7119 0 10.342 4.6304 10.342 10.342v41.315c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342l1.7764e-15 -50.315c-6.9951e-16 -5.7119 4.6304-10.342 10.342-10.342l28.733-2.6645e-15c2.9946-5.5009e-16 5.7082 1.7635 6.9244 4.5z"/>
+<linearGradient id="folder-bookmark-96px-l" x1="52.084%" x2="52.084%" y1="4.908%" y2="100%">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".6" offset="1"/>
+</linearGradient>
+<polygon id="folder-bookmark-96px-k" points="0 1 17 1 17 37 8.5 29.44 0 37"/>
+<filter id="folder-bookmark-96px-j" x="-76.5%" y="-30.6%" width="252.9%" height="172.2%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<polygon id="folder-bookmark-96px-n" points="0 0 17 0 17 36 8.5 28.44 0 36"/>
+<filter id="folder-bookmark-96px-m" x="-76.5%" y="-30.6%" width="252.9%" height="172.2%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42745098   0 0 0 0 0.968627451  0 0 0 0.5 0"/>
+</filter>
+<radialGradient id="radialGradient913" cx="33.268" cy="0" r="78.239" gradientTransform="matrix(1.2324 0 0 .81142 7 35.01)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#48D5FF" offset="0"/>
+<stop stop-color="#0083F6" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient917" x1="12.885" x2="12.885" y1="1.9014" y2="25.426" gradientTransform="scale(.68718 1.4552)" gradientUnits="userSpaceOnUse" xlink:href="#folder-bookmark-96px-l"/>
+<linearGradient id="linearGradient919" x1="12.885" x2="12.885" y1="1.2142" y2="24.739" gradientTransform="scale(.68718 1.4552)" gradientUnits="userSpaceOnUse" xlink:href="#folder-bookmark-96px-l"/>
+<filter id="filter973" x="-.034054" y="-.08129" width="1.0681" height="1.1626" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.05"/>
+</filter>
+<linearGradient id="linearGradient955" x1="-85" x2="-85" y1="73.782" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#cef5ff" offset="1"/>
+</linearGradient>
+</defs>
+<use transform="translate(7,18)" width="100%" height="100%" fill="url(#folder-bookmark-96px-c)" fill-rule="evenodd" filter="url(#folder-bookmark-96px-a)" xlink:href="#folder-bookmark-96px-b"/>
+<g transform="translate(134,-44)" fill-rule="evenodd">
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill-opacity=".2" filter="url(#filter973)" style="paint-order:stroke fill markers"/>
+<rect x="-123" y="74" width="74" height="31" rx="6.617" ry="6.617" fill="url(#linearGradient955)" style="paint-order:stroke fill markers"/>
+<path d="m-116.38 74c-3.6658 0-6.6172 2.9514-6.6172 6.6172v1c0-3.6658 2.9514-6.6172 6.6172-6.6172h60.766c3.6658 0 6.6172 2.9514 6.6172 6.6172v-1c0-3.6658-2.9514-6.6172-6.6172-6.6172z" opacity=".5" style="paint-order:stroke fill markers"/>
+</g>
+<path d="m7 35.01h82v43.647c0 5.7119-4.6304 10.342-10.342 10.342h-61.315c-5.7119 0-10.342-4.6304-10.342-10.342z" fill="url(#radialGradient913)" fill-rule="evenodd" filter="url(#folder-bookmark-96px-a)"/>
+<use transform="translate(24,35)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-bookmark-96px-j)" xlink:href="#folder-bookmark-96px-k"/>
+<use transform="translate(24,35)" width="100%" height="100%" fill="url(#linearGradient917)" fill-rule="evenodd" xlink:href="#folder-bookmark-96px-k"/>
+<use transform="translate(24,35)" width="100%" height="100%" fill="#000000" fill-rule="evenodd" filter="url(#folder-bookmark-96px-m)" xlink:href="#folder-bookmark-96px-n"/>
+<use transform="translate(24,35)" width="100%" height="100%" fill="url(#linearGradient919)" fill-rule="evenodd" xlink:href="#folder-bookmark-96px-n"/>
+</svg>

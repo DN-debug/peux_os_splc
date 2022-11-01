@@ -1,0 +1,30 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="x-media-podcast-a" x="-.156" y="-.103" width="1.312" height="1.256">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.241013895   0 0 0 0 0   0 0 0 0 0.621603261  0 0 0 0.5 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-c" x1="35.327" x2="35.327" y2="70.654" gradientTransform="scale(.90582 1.104)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C42B1" offset="0"/>
+   <stop stop-color="#3E1888" offset=".99345"/>
+  </linearGradient>
+  <filter id="x-media-podcast-d" x="-.25" y="-.159" width="1.5" height="1.5">
+   <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+   <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+   <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+   <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="x-media-podcast-f" x1="53" x2="44.528" y1="11" y2="19.51" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity=".3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(16,10)" fill-rule="evenodd">
+  <path d="m42 0 22 22v47c0 4.9706-4.0294 9-9 9h-46c-4.9706 0-9-4.0294-9-9v-60c0-4.9706 4.0294-9 9-9z" filter="url(#x-media-podcast-a)"/>
+  <path d="m42 0 22 22v47c0 4.9706-4.0294 9-9 9h-46c-4.9706 0-9-4.0294-9-9v-60c0-4.9706 4.0294-9 9-9z" fill="url(#x-media-podcast-c)"/>
+  <path d="m42 0 22 22h-13c-4.9706 0-9-4.0294-9-9z" filter="url(#x-media-podcast-d)"/>
+  <path d="m42 0 22 22h-13c-4.9706 0-9-4.0294-9-9z" fill="url(#x-media-podcast-f)"/>
+ </g>
+ <polygon points="34 70 34 56 64 56 64 36 34 36 34 34 32 34 32 70" fill="#fff" fill-rule="evenodd"/>
+</svg>
